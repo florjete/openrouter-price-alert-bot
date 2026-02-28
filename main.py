@@ -1,4 +1,5 @@
 import json
+import os
 import requests
 from datetime import datetime
 
@@ -24,6 +25,20 @@ def extract_prices(models):
         }
         for model in models
     ]
+
+
+def send_discord_alert(message):
+    webhook_url = os.getenv("DISCORD_WEBHOOK")
+    if not webhook_url:
+        print("WARNING: DISCORD_WEBHOOK not set, skipping Discord alert")
+        return
+
+    try:
+        response = requests.post(webhook_url, json={"content": message}, timeout=10)
+        if response.status_code != 204:
+            print(f"WARNING: Discord webhook returned {response.status_code}")
+    except requests.RequestException as e:
+        print(f"WARNING: Failed to send Discord alert: {e}")
 
 
 def load_snapshot():
@@ -75,6 +90,7 @@ def main():
             print(f"Found {len(changes)} price changes:")
             for c in changes:
                 print(f"  {c['model']} ({c['type']}): {c['old']} -> {c['new']}")
+            send_discord_alert(f"🚨 {len(changes)} price change(s) detected")
         else:
             print("No price changes detected")
     else:
