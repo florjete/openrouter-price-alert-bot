@@ -44,7 +44,10 @@ def send_discord_alert(message):
 def load_snapshot():
     try:
         with open(SNAPSHOT_FILE, "r") as f:
-            return json.load(f)
+            content = f.read().strip()
+            if not content:
+                return []
+            return json.loads(content)
     except FileNotFoundError:
         return []
 
