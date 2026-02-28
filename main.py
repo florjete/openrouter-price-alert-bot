@@ -84,7 +84,7 @@ def find_price_changes(current, previous):
 
 
 def get_free_models(models):
-    sorted_models = sorted(models, key=lambda m: float(m["price_per_1k_input"]) + float(m["price_per_1k_output"]))
+    free = [m for m in models if m["price_per_1k_input"] == "0" or m["price_per_1k_output"] == "0"]
     return [
         {
             "id": m["id"],
@@ -93,8 +93,8 @@ def get_free_models(models):
             "price_input": round(float(m["price_per_1k_input"]), 4),
             "price_output": round(float(m["price_per_1k_output"]), 4),
         }
-        for m in sorted_models[:10]
-    ]
+        for m in free
+    ][:10]
 
 
 def send_free_models_to_discord(free_models):
