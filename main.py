@@ -90,10 +90,10 @@ def get_free_models(models):
             "id": m["id"],
             "name": m["name"],
             "provider": m["provider"],
-            "price_input": float(m["price_per_1k_input"]),
-            "price_output": float(m["price_per_1k_output"]),
+            "price_input": round(float(m["price_per_1k_input"]), 4),
+            "price_output": round(float(m["price_per_1k_output"]), 4),
         }
-        for m in sorted_models[:30]
+        for m in sorted_models[:10]
     ]
 
 
