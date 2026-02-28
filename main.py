@@ -101,8 +101,8 @@ def send_free_models_to_discord(free_models):
     if not free_models:
         print("No free models found")
         return
-    message = "💰 **Cheapest Models:**\n" + "\n".join(
-        f"- {m['name']} (in:${m['price_input']:.4f}/out:${m['price_output']:.4f})"
+    message = "💰 **Free Models:**\n" + "\n".join(
+        f"- {m['name']} (in:${m['price_input']}/out:${m['price_output']})"
         for m in free_models
     )
     print(f"Sending {len(free_models)} cheapest models to Discord")
