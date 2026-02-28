@@ -77,6 +77,29 @@ def find_price_changes(current, previous):
     return changes
 
 
+def get_free_models(models):
+    return [
+        {
+            "id": m["id"],
+            "name": m["name"],
+            "provider": m["provider"],
+        }
+        for m in models
+        if m["price_per_1k_input"] == 0 and m["price_per_1k_output"] == 0
+    ]
+
+
+def send_free_models_to_discord(free_models):
+    if not free_models:
+        return
+    message = "🆓 **Free Models:**\n" + "\n".join(
+        f"- {m['name']} ({m['provider']})" for m in free_models[:50]
+    )
+    if len(free_models) > 50:
+        message += f"\n... and {len(free_models) - 50} more"
+    send_discord_alert(message)
+
+
 def main():
     print(f"[{datetime.now().isoformat()}] Fetching models...")
     models = fetch_models()
@@ -98,6 +121,10 @@ def main():
 
     save_snapshot(prices)
     print("Snapshot saved")
+
+    free_models = get_free_models(prices)
+    print(f"Found {len(free_models)} free models")
+    send_free_models_to_discord(free_models)
 
 
 if __name__ == "__main__":
