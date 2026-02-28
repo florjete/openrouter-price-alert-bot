@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 9 * * *"
   workflow_dispatch:
+    inputs:
+      test:
+        description: 'Test Discord webhook'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -26,6 +31,7 @@ jobs:
       - name: Run bot
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TEST_DISCORD: ${{ github.inputs.test }}
         run: python main.py
 
       - name: Commit updated snapshot

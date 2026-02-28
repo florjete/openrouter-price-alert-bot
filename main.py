@@ -97,6 +97,11 @@ def main():
     prices = extract_prices(models)
     print(f"Fetched {len(prices)} models")
 
+    if os.getenv("TEST_DISCORD"):
+        send_discord_alert("🧪 **Test Message:** Discord webhook is working!")
+        print("Test message sent")
+        return
+
     snapshot = load_snapshot()
     if snapshot:
         alerts = find_changes(prices, snapshot)
