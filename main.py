@@ -93,11 +93,7 @@ def find_changes(current, previous):
 
 def get_free_models(models):
     return [
-        {
-            "name": m["name"],
-            "price_input": round(float(m["price_per_1k_input"]), 4),
-            "price_output": round(float(m["price_per_1k_output"]), 4),
-        }
+        m["name"]
         for m in models
         if m["price_per_1k_input"] == "0" and m["price_per_1k_output"] == "0"
     ][:10]
@@ -109,7 +105,7 @@ def send_free_models_alert(models):
         print("No free models found")
         return
     message = "💰 **Free Models:**\n" + "\n".join(
-        f"- {m['name']} (in:${m['price_input']}/out:${m['price_output']})"
+        f"- {m} (free)"
         for m in free
     )
     send_discord_alert(message)
