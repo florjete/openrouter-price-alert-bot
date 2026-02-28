@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 API_URL = "https://openrouter.ai/api/v1/models"
-SNAPSHOT_FILE = "snapshot.json"
+SNAPSHOT_FILE = "models_snapshot.json"
 
 
 def fetch_models():
