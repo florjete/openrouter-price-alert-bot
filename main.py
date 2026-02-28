@@ -109,7 +109,7 @@ def send_free_models_alert(models):
         print("No free models found")
         return
     message = "💰 **Free Models:**\n" + "\n".join(
-        f"- {m['name']} (free) - {m['context']:,} ctx" if m['context'] else f"- {m['name']} (free)"
+        f"- {m['name']} - {m['context']:,} tokens" if m['context'] else f"- {m['name']}"
         for m in free
     )
     send_discord_alert(message)
