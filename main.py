@@ -60,53 +60,35 @@ def save_snapshot(data):
         json.dump(data, f, indent=2)
 
 
-def find_price_changes(current, previous):
-    changes = []
+def find_changes(current, previous):
+    alerts = []
     prev_by_id = {m["id"]: m for m in previous}
+    current_ids = set(m["id"] for m in current)
+    prev_ids = set(prev_by_id.keys())
+    
+    new_models = current_ids - prev_ids
+    for model_id in new_models:
+        model = next(m for m in current if m["id"] == model_id)
+        alerts.append(f"🆕 **{model['name']}** added")
+    
     for model in current:
         prev = prev_by_id.get(model["id"])
-        if prev:
-            if model["price_per_1k_input"] != prev["price_per_1k_input"]:
-                changes.append({
-                    "model": model["id"],
-                    "type": "input",
-                    "old": prev["price_per_1k_input"],
-                    "new": model["price_per_1k_input"],
-                })
-            if model["price_per_1k_output"] != prev["price_per_1k_output"]:
-                changes.append({
-                    "model": model["id"],
-                    "type": "output",
-                    "old": prev["price_per_1k_output"],
-                    "new": model["price_per_1k_output"],
-                })
-    return changes
-
-
-def get_free_models(models):
-    free = [m for m in models if m["price_per_1k_input"] == "0" or m["price_per_1k_output"] == "0"]
-    return [
-        {
-            "id": m["id"],
-            "name": m["name"],
-            "provider": m["provider"],
-            "price_input": round(float(m["price_per_1k_input"]), 4),
-            "price_output": round(float(m["price_per_1k_output"]), 4),
-        }
-        for m in free
-    ][:10]
-
-
-def send_free_models_to_discord(free_models):
-    if not free_models:
-        print("No free models found")
-        return
-    message = "💰 **Free Models:**\n" + "\n".join(
-        f"- {m['name']} (in:${m['price_input']}/out:${m['price_output']})"
-        for m in free_models
-    )
-    print(f"Sending {len(free_models)} cheapest models to Discord")
-    send_discord_alert(message)
+        if not prev:
+            continue
+        
+        was_free = prev["price_per_1k_input"] == "0" and prev["price_per_1k_output"] == "0"
+        is_free = model["price_per_1k_input"] == "0" and model["price_per_1k_output"] == "0"
+        
+        if not was_free and is_free:
+            alerts.append(f"🎉 **{model['name']}** went free!")
+        
+        old_total = float(prev["price_per_1k_input"]) + float(prev["price_per_1k_output"])
+        new_total = float(model["price_per_1k_input"]) + float(model["price_per_1k_output"])
+        
+        if old_total > new_total:
+            alerts.append(f"💸 **{model['name']}** price dropped (${old_total:.4f} → ${new_total:.4f})")
+    
+    return alerts
 
 
 def main():
@@ -117,23 +99,19 @@ def main():
 
     snapshot = load_snapshot()
     if snapshot:
-        changes = find_price_changes(prices, snapshot)
-        if changes:
-            print(f"Found {len(changes)} price changes:")
-            for c in changes:
-                print(f"  {c['model']} ({c['type']}): {c['old']} -> {c['new']}")
-            send_discord_alert(f"🚨 {len(changes)} price change(s) detected")
+        alerts = find_changes(prices, snapshot)
+        if alerts:
+            print(f"Found {len(alerts)} changes:")
+            for a in alerts:
+                print(f"  {a}")
+            send_discord_alert("🔔 **OpenRouter Updates:**\n" + "\n".join(alerts))
         else:
-            print("No price changes detected")
+            print("No changes detected")
     else:
         print("No previous snapshot found")
 
     save_snapshot(prices)
     print("Snapshot saved")
-
-    free_models = get_free_models(prices)
-    print(f"Found {len(free_models)} free models")
-    send_free_models_to_discord(free_models)
 
 
 if __name__ == "__main__":
