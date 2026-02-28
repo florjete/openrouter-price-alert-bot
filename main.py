@@ -84,6 +84,7 @@ def find_price_changes(current, previous):
 
 
 def get_free_models(models):
+    sorted_models = sorted(models, key=lambda m: m["price_per_1k_input"] + m["price_per_1k_output"])
     return [
         {
             "id": m["id"],
@@ -92,8 +93,7 @@ def get_free_models(models):
             "price_input": m["price_per_1k_input"],
             "price_output": m["price_per_1k_output"],
         }
-        for m in models
-        if m["price_per_1k_input"] == 0 or m["price_per_1k_output"] == 0
+        for m in sorted_models[:30]
     ]
 
 
@@ -101,13 +101,11 @@ def send_free_models_to_discord(free_models):
     if not free_models:
         print("No free models found")
         return
-    message = "🆓 **Free/Cheapest Models:**\n" + "\n".join(
+    message = "💰 **Cheapest Models:**\n" + "\n".join(
         f"- {m['name']} (in:${m['price_input']:.4f}/out:${m['price_output']:.4f})"
-        for m in free_models[:30]
+        for m in free_models
     )
-    if len(free_models) > 30:
-        message += f"\n... and {len(free_models) - 30} more"
-    print(f"Sending {len(free_models)} free models to Discord")
+    print(f"Sending {len(free_models)} cheapest models to Discord")
     send_discord_alert(message)
 
 
