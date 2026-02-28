@@ -35,7 +35,7 @@ def send_discord_alert(message):
 
     try:
         response = requests.post(webhook_url, json={"content": message}, timeout=10)
-        if response.status_code != 204:
+        if response.status_code not in (200, 204):
             print(f"WARNING: Discord webhook returned {response.status_code}")
     except requests.RequestException as e:
         print(f"WARNING: Failed to send Discord alert: {e}")
@@ -86,20 +86,23 @@ def get_free_models(models):
             "id": m["id"],
             "name": m["name"],
             "provider": m["provider"],
+            "price_input": m["price_per_1k_input"],
+            "price_output": m["price_per_1k_output"],
         }
         for m in models
-        if m["price_per_1k_input"] == 0 and m["price_per_1k_output"] == 0
+        if m["price_per_1k_input"] == 0 or m["price_per_1k_output"] == 0
     ]
 
 
 def send_free_models_to_discord(free_models):
     if not free_models:
         return
-    message = "🆓 **Free Models:**\n" + "\n".join(
-        f"- {m['name']} ({m['provider']})" for m in free_models[:50]
+    message = "🆓 **Free/Cheapest Models:**\n" + "\n".join(
+        f"- {m['name']} ({m['provider']}) - ${m['price_input']:.4f}/${m['price_output']:.4f}"
+        for m in free_models[:30]
     )
-    if len(free_models) > 50:
-        message += f"\n... and {len(free_models) - 50} more"
+    if len(free_models) > 30:
+        message += f"\n... and {len(free_models) - 30} more"
     send_discord_alert(message)
 
 
