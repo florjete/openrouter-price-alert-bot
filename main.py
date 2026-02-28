@@ -21,6 +21,7 @@ def extract_prices(models):
             "provider": model["id"].split("/")[0] if "/" in model["id"] else "unknown",
             "price_per_1k_input": model.get("pricing", {}).get("prompt", 0),
             "price_per_1k_output": model.get("pricing", {}).get("completion", 0),
+            "context_length": model.get("context_length") or model.get("max_tokens"),
             "updated_at": model.get("updated_at", ""),
         }
         for model in models
@@ -93,7 +94,10 @@ def find_changes(current, previous):
 
 def get_free_models(models):
     return [
-        m["name"]
+        {
+            "name": m["name"],
+            "context": m.get("context_length"),
+        }
         for m in models
         if m["price_per_1k_input"] == "0" and m["price_per_1k_output"] == "0"
     ][:10]
@@ -105,7 +109,7 @@ def send_free_models_alert(models):
         print("No free models found")
         return
     message = "💰 **Free Models:**\n" + "\n".join(
-        f"- {m} (free)"
+        f"- {m['name']} (free) - {m['context']:,} ctx" if m['context'] else f"- {m['name']} (free)"
         for m in free
     )
     send_discord_alert(message)
