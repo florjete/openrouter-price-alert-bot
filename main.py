@@ -84,14 +84,14 @@ def find_price_changes(current, previous):
 
 
 def get_free_models(models):
-    sorted_models = sorted(models, key=lambda m: m["price_per_1k_input"] + m["price_per_1k_output"])
+    sorted_models = sorted(models, key=lambda m: float(m["price_per_1k_input"]) + float(m["price_per_1k_output"]))
     return [
         {
             "id": m["id"],
             "name": m["name"],
             "provider": m["provider"],
-            "price_input": m["price_per_1k_input"],
-            "price_output": m["price_per_1k_output"],
+            "price_input": float(m["price_per_1k_input"]),
+            "price_output": float(m["price_per_1k_output"]),
         }
         for m in sorted_models[:30]
     ]
