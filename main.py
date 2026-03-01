@@ -142,8 +142,6 @@ def main():
     save_snapshot(prices)
     print("Snapshot saved")
 
-    send_free_models_alert(prices)
-
 
 if __name__ == "__main__":
     main()
