@@ -8,16 +8,6 @@ Monitor OpenRouter model pricing and get alerts in Discord when something change
 - **Free models** - Lists all free models with context length
 - **Price drops** - Notifies when model prices decrease
 
-## Setup
-
-1. **Create Discord webhook:**
-   - Server Settings → Integrations → Webhooks
-   - Create new webhook, copy URL
-
-2. **Add secret to GitHub:**
-   - Repository Settings → Secrets and variables → Actions
-   - Add `DISCORD_WEBHOOK` with your webhook URL
-
 ## Running Locally
 
 ```bash
