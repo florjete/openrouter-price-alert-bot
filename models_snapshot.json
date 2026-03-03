@@ -22,7 +22,7 @@
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
     "price_per_1k_input": "0.00000025",
-    "price_per_1k_output": "0.000002",
+    "price_per_1k_output": "0.000001",
     "context_length": 262144,
     "updated_at": ""
   },
@@ -138,9 +138,9 @@
     "id": "z-ai/glm-5",
     "name": "Z.ai: GLM 5",
     "provider": "z-ai",
-    "price_per_1k_input": "0.00000095",
-    "price_per_1k_output": "0.00000255",
-    "context_length": 204800,
+    "price_per_1k_input": "0.0000008",
+    "price_per_1k_output": "0.00000256",
+    "context_length": 202752,
     "updated_at": ""
   },
   {
@@ -216,11 +216,11 @@
     "updated_at": ""
   },
   {
-    "id": "upstage/solar-pro-3:free",
-    "name": "Upstage: Solar Pro 3 (free)",
+    "id": "upstage/solar-pro-3",
+    "name": "Upstage: Solar Pro 3",
     "provider": "upstage",
-    "price_per_1k_input": "0",
-    "price_per_1k_output": "0",
+    "price_per_1k_input": "0.00000015",
+    "price_per_1k_output": "0.0000006",
     "context_length": 128000,
     "updated_at": ""
   },
@@ -366,6 +366,15 @@
     "price_per_1k_input": "0.0000001",
     "price_per_1k_output": "0.0000003",
     "context_length": 32768,
+    "updated_at": ""
+  },
+  {
+    "id": "allenai/olmo-3.1-32b-think",
+    "name": "AllenAI: Olmo 3.1 32B Think",
+    "provider": "allenai",
+    "price_per_1k_input": "0.00000015",
+    "price_per_1k_output": "0.0000005",
+    "context_length": 65536,
     "updated_at": ""
   },
   {
@@ -536,15 +545,6 @@
     "provider": "arcee-ai",
     "price_per_1k_input": "0",
     "price_per_1k_output": "0",
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
-    "id": "arcee-ai/trinity-mini",
-    "name": "Arcee AI: Trinity Mini",
-    "provider": "arcee-ai",
-    "price_per_1k_input": "0.000000045",
-    "price_per_1k_output": "0.00000015",
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2595,9 +2595,9 @@
     "id": "meta-llama/llama-3.2-3b-instruct",
     "name": "Meta: Llama 3.2 3B Instruct",
     "provider": "meta-llama",
-    "price_per_1k_input": "0.00000002",
-    "price_per_1k_output": "0.00000002",
-    "context_length": 131072,
+    "price_per_1k_input": "0.000000051",
+    "price_per_1k_output": "0.00000034",
+    "context_length": 80000,
     "updated_at": ""
   },
   {
