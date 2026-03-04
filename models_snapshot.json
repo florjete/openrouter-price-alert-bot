@@ -1,5 +1,23 @@
 [
   {
+    "id": "openai/gpt-5.3-chat",
+    "name": "OpenAI: GPT-5.3 Chat",
+    "provider": "openai",
+    "price_per_1k_input": "0.00000175",
+    "price_per_1k_output": "0.000014",
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "google/gemini-3.1-flash-lite-preview",
+    "name": "Google: Gemini 3.1 Flash Lite Preview",
+    "provider": "google",
+    "price_per_1k_input": "0.00000025",
+    "price_per_1k_output": "0.0000015",
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "bytedance-seed/seed-2.0-mini",
     "name": "ByteDance Seed: Seed-2.0-Mini",
     "provider": "bytedance-seed",
@@ -12,8 +30,8 @@
     "id": "google/gemini-3.1-flash-image-preview",
     "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
     "provider": "google",
-    "price_per_1k_input": "0.00000025",
-    "price_per_1k_output": "0.0000015",
+    "price_per_1k_input": "0.0000005",
+    "price_per_1k_output": "0.000003",
     "context_length": 65536,
     "updated_at": ""
   },
@@ -21,8 +39,8 @@
     "id": "qwen/qwen3.5-35b-a3b",
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
-    "price_per_1k_input": "0.00000025",
-    "price_per_1k_output": "0.000001",
+    "price_per_1k_input": "0.0000001625",
+    "price_per_1k_output": "0.0000013",
     "context_length": 262144,
     "updated_at": ""
   },
@@ -30,8 +48,8 @@
     "id": "qwen/qwen3.5-27b",
     "name": "Qwen: Qwen3.5-27B",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000003",
-    "price_per_1k_output": "0.0000024",
+    "price_per_1k_input": "0.000000195",
+    "price_per_1k_output": "0.00000156",
     "context_length": 262144,
     "updated_at": ""
   },
@@ -39,8 +57,8 @@
     "id": "qwen/qwen3.5-122b-a10b",
     "name": "Qwen: Qwen3.5-122B-A10B",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000004",
-    "price_per_1k_output": "0.0000032",
+    "price_per_1k_input": "0.00000026",
+    "price_per_1k_output": "0.00000208",
     "context_length": 262144,
     "updated_at": ""
   },
@@ -111,8 +129,8 @@
     "id": "qwen/qwen3.5-plus-02-15",
     "name": "Qwen: Qwen3.5 Plus 2026-02-15",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000004",
-    "price_per_1k_output": "0.0000024",
+    "price_per_1k_input": "0.00000026",
+    "price_per_1k_output": "0.00000156",
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -120,8 +138,8 @@
     "id": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",
     "provider": "qwen",
-    "price_per_1k_input": "0.00000055",
-    "price_per_1k_output": "0.0000035",
+    "price_per_1k_input": "0.00000039",
+    "price_per_1k_output": "0.00000234",
     "context_length": 262144,
     "updated_at": ""
   },
@@ -147,8 +165,8 @@
     "id": "qwen/qwen3-max-thinking",
     "name": "Qwen: Qwen3 Max Thinking",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000012",
-    "price_per_1k_output": "0.000006",
+    "price_per_1k_input": "0.00000078",
+    "price_per_1k_output": "0.0000039",
     "context_length": 262144,
     "updated_at": ""
   },
@@ -545,6 +563,15 @@
     "provider": "arcee-ai",
     "price_per_1k_input": "0",
     "price_per_1k_output": "0",
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "arcee-ai/trinity-mini",
+    "name": "Arcee AI: Trinity Mini",
+    "provider": "arcee-ai",
+    "price_per_1k_input": "0.000000045",
+    "price_per_1k_output": "0.00000015",
     "context_length": 131072,
     "updated_at": ""
   },
@@ -1011,8 +1038,8 @@
     "id": "qwen/qwen3-coder-plus",
     "name": "Qwen: Qwen3 Coder Plus",
     "provider": "qwen",
-    "price_per_1k_input": "0.000001",
-    "price_per_1k_output": "0.000005",
+    "price_per_1k_input": "0.00000065",
+    "price_per_1k_output": "0.00000325",
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1065,8 +1092,8 @@
     "id": "qwen/qwen3-coder-flash",
     "name": "Qwen: Qwen3 Coder Flash",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000003",
-    "price_per_1k_output": "0.0000015",
+    "price_per_1k_input": "0.000000195",
+    "price_per_1k_output": "0.000000975",
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1110,8 +1137,8 @@
     "id": "qwen/qwen-plus-2025-07-28:thinking",
     "name": "Qwen: Qwen Plus 0728 (thinking)",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000004",
-    "price_per_1k_output": "0.0000012",
+    "price_per_1k_input": "0.00000026",
+    "price_per_1k_output": "0.00000078",
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1119,8 +1146,8 @@
     "id": "qwen/qwen-plus-2025-07-28",
     "name": "Qwen: Qwen Plus 0728",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000004",
-    "price_per_1k_output": "0.0000012",
+    "price_per_1k_input": "0.00000026",
+    "price_per_1k_output": "0.00000078",
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1597,7 +1624,7 @@
     "name": "Inception: Mercury",
     "provider": "inception",
     "price_per_1k_input": "0.00000025",
-    "price_per_1k_output": "0.000001",
+    "price_per_1k_output": "0.00000075",
     "context_length": 128000,
     "updated_at": ""
   },
@@ -1777,7 +1804,7 @@
     "name": "Inception: Mercury Coder",
     "provider": "inception",
     "price_per_1k_input": "0.00000025",
-    "price_per_1k_output": "0.000001",
+    "price_per_1k_output": "0.00000075",
     "context_length": 128000,
     "updated_at": ""
   },
@@ -2208,8 +2235,8 @@
     "id": "qwen/qwen-vl-plus",
     "name": "Qwen: Qwen VL Plus",
     "provider": "qwen",
-    "price_per_1k_input": "0.00000021",
-    "price_per_1k_output": "0.00000063",
+    "price_per_1k_input": "0.0000001365",
+    "price_per_1k_output": "0.0000004095",
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2253,8 +2280,8 @@
     "id": "qwen/qwen-turbo",
     "name": "Qwen: Qwen-Turbo",
     "provider": "qwen",
-    "price_per_1k_input": "0.00000005",
-    "price_per_1k_output": "0.0000002",
+    "price_per_1k_input": "0.0000000325",
+    "price_per_1k_output": "0.00000013",
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2280,8 +2307,8 @@
     "id": "qwen/qwen-max",
     "name": "Qwen: Qwen-Max ",
     "provider": "qwen",
-    "price_per_1k_input": "0.0000016",
-    "price_per_1k_output": "0.0000064",
+    "price_per_1k_input": "0.00000104",
+    "price_per_1k_output": "0.00000416",
     "context_length": 32768,
     "updated_at": ""
   },
@@ -2814,24 +2841,6 @@
     "price_per_1k_input": "0.00000014",
     "price_per_1k_output": "0.00000014",
     "context_length": 8192,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/mistral-7b-instruct",
-    "name": "Mistral: Mistral 7B Instruct",
-    "provider": "mistralai",
-    "price_per_1k_input": "0.0000002",
-    "price_per_1k_output": "0.0000002",
-    "context_length": 32768,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/mistral-7b-instruct-v0.3",
-    "name": "Mistral: Mistral 7B Instruct v0.3",
-    "provider": "mistralai",
-    "price_per_1k_input": "0.0000002",
-    "price_per_1k_output": "0.0000002",
-    "context_length": 32768,
     "updated_at": ""
   },
   {
