@@ -948,9 +948,9 @@
     "id": "z-ai/glm-4.6",
     "name": "Z.ai: GLM 4.6",
     "provider": "z-ai",
-    "price_per_1k_input": "0.00000035",
-    "price_per_1k_output": "0.00000171",
-    "context_length": 202752,
+    "price_per_1k_input": "0.00000039",
+    "price_per_1k_output": "0.0000019",
+    "context_length": 204800,
     "updated_at": ""
   },
   {
@@ -1407,9 +1407,9 @@
     "id": "z-ai/glm-4.5",
     "name": "Z.ai: GLM 4.5",
     "provider": "z-ai",
-    "price_per_1k_input": "0.00000055",
-    "price_per_1k_output": "0.000002",
-    "context_length": 131000,
+    "price_per_1k_input": "0.0000006",
+    "price_per_1k_output": "0.0000022",
+    "context_length": 131072,
     "updated_at": ""
   },
   {
