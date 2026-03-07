@@ -1461,9 +1461,9 @@
     "id": "qwen/qwen3-235b-a22b-thinking-2507",
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "provider": "qwen",
-    "price_per_1k_input": "0",
-    "price_per_1k_output": "0",
-    "context_length": 131072,
+    "price_per_1k_input": "0.00000011",
+    "price_per_1k_output": "0.0000006",
+    "context_length": 262144,
     "updated_at": ""
   },
   {
