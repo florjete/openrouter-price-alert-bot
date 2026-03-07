@@ -86,7 +86,7 @@ def find_changes(current, previous):
         old_total = float(prev["price_per_1k_input"]) + float(prev["price_per_1k_output"])
         new_total = float(model["price_per_1k_input"]) + float(model["price_per_1k_output"])
         
-        if old_total > new_total:
+        if old_total > 0 and old_total > new_total:
             alerts.append(f"💸 **{model['name']}** price dropped (${old_total:.4f} → ${new_total:.4f})")
     
     return alerts
