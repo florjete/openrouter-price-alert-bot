@@ -2145,8 +2145,8 @@
     "id": "google/gemma-3-27b-it",
     "name": "Google: Gemma 3 27B",
     "provider": "google",
-    "price_per_1k_input": "0.00000004",
-    "price_per_1k_output": "0.00000015",
+    "price_per_1k_input": "0.00000003",
+    "price_per_1k_output": "0.00000011",
     "context_length": 128000,
     "updated_at": ""
   },
