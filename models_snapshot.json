@@ -1148,7 +1148,7 @@
     "provider": "qwen",
     "price_per_1k_input": "0.00000009",
     "price_per_1k_output": "0.0000011",
-    "context_length": 262144,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
