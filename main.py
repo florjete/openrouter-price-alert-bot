@@ -19,8 +19,8 @@ def extract_prices(models):
             "id": model["id"],
             "name": model.get("name", ""),
             "provider": model["id"].split("/")[0] if "/" in model["id"] else "unknown",
-            "price_per_1k_input": model.get("pricing", {}).get("prompt", 0),
-            "price_per_1k_output": model.get("pricing", {}).get("completion", 0),
+            "price_per_1k_input": float(model.get("pricing", {}).get("prompt", 0) or 0),
+            "price_per_1k_output": float(model.get("pricing", {}).get("completion", 0) or 0),
             "context_length": model.get("context_length") or model.get("max_tokens"),
             "updated_at": model.get("updated_at", ""),
         }
@@ -77,8 +77,8 @@ def find_changes(current, previous):
         if not prev:
             continue
         
-        was_free = prev["price_per_1k_input"] == "0" and prev["price_per_1k_output"] == "0"
-        is_free = model["price_per_1k_input"] == "0" and model["price_per_1k_output"] == "0"
+        was_free = prev["price_per_1k_input"] == 0 and prev["price_per_1k_output"] == 0
+        is_free = model["price_per_1k_input"] == 0 and model["price_per_1k_output"] == 0
         
         if not was_free and is_free:
             alerts.append(f"🎉 **{model['name']}** went free!")
@@ -99,7 +99,7 @@ def get_free_models(models):
             "context": m.get("context_length"),
         }
         for m in models
-        if m["price_per_1k_input"] == "0" and m["price_per_1k_output"] == "0"
+        if m["price_per_1k_input"] == 0 and m["price_per_1k_output"] == 0
     ][:10]
 
 
