@@ -102,7 +102,14 @@ def get_free_models(models):
         if m["price_per_1k_input"] == 0 and m["price_per_1k_output"] == 0
     ][:10]
 
+def group_models_by_provider(models):
+    grouped = {}
 
+    for m in models:
+        provider = m["provider"]
+        grouped.setdefault(provider, []).append(m)
+
+    return grouped
 def send_free_models_alert(models):
     free = get_free_models(models)
     if not free:
