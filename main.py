@@ -34,7 +34,7 @@ def send_discord_alert(message):
         print("WARNING: DISCORD_WEBHOOK not set, skipping Discord alert")
         return
 
-    print(f"Discord webhook configured, sending message...")
+    print("Discord webhook configured, sending message...")
     try:
         response = requests.post(webhook_url, json={"content": message}, timeout=10)
         print(f"Discord response status: {response.status_code}")
@@ -66,77 +66,62 @@ def find_changes(current, previous):
     prev_by_id = {m["id"]: m for m in previous}
     current_ids = set(m["id"] for m in current)
     prev_ids = set(prev_by_id.keys())
-    
+
+    # New models
     new_models = current_ids - prev_ids
     for model_id in new_models:
         model = next(m for m in current if m["id"] == model_id)
-        alerts.append(f"🆕 **{model['name']}** added")
-    
+        alerts.append(f"🆕 {model['provider'].capitalize()}: {model['name']} added")
+
+    # Price changes
     for model in current:
         prev = prev_by_id.get(model["id"])
         if not prev:
             continue
-        
+
         was_free = prev["price_per_1k_input"] == 0 and prev["price_per_1k_output"] == 0
         is_free = model["price_per_1k_input"] == 0 and model["price_per_1k_output"] == 0
-        
+
         if not was_free and is_free:
-            alerts.append(f"🎉 **{model['name']}** went free!")
-        
+            alerts.append(f"🎉 {model['provider'].capitalize()}: {model['name']} went free!")
+
         old_total = float(prev["price_per_1k_input"]) + float(prev["price_per_1k_output"])
         new_total = float(model["price_per_1k_input"]) + float(model["price_per_1k_output"])
-        
-        if old_total > 0 and old_total > new_total:
-            alerts.append(f"💸 **{model['name']}** price dropped (${old_total:.4f} → ${new_total:.4f})")
-    
+
+        if old_total > new_total and abs(old_total - new_total) > 1e-6:
+            alerts.append(
+                f"💸 {model['provider'].capitalize()}: {model['name']} price dropped (${old_total:.6f} → ${new_total:.6f})"
+            )
+
     return alerts
 
 
-def get_free_models(models):
-    return [
-        {
-            "name": m["name"],
-            "context": m.get("context_length"),
-        }
-        for m in models
+def group_free_models(models):
+    free_models = [
+        m for m in models
         if m["price_per_1k_input"] == 0 and m["price_per_1k_output"] == 0
-    ][:10]
-
-def group_models_by_provider(models):
+    ]
     grouped = {}
-
-    for m in models:
-        provider = m["provider"]
-        grouped.setdefault(provider, []).append(m)
+    for m in free_models:
+        provider = m["provider"].capitalize()
+        grouped.setdefault(provider, []).append(m["name"])
 
     return grouped
-def send_free_models_alert(models):
-    free = get_free_models(models)
-    if not free:
+
+
+def send_grouped_free_models(models):
+    grouped = group_free_models(models)
+    if not grouped:
         print("No free models found")
         return
-    message = "💰 **Free Models:**\n" + "\n".join(
-        f"- {m['name']} - {m['context']:,} context length" if m['context'] else f"- {m['name']}"
-        for m in free
-    )
-    send_discord_alert(message)
-
-def send_grouped_models(models):
-    grouped = group_models_by_provider(models)
 
     sections = []
+    for provider in sorted(grouped):
+        names = sorted(grouped[provider])
+        lines = "\n".join(f"• {name}" for name in names)
+        sections.append(f"**{provider}**\n{lines}")
 
-    for provider, items in grouped.items():
-        header = f"**{provider.capitalize()}**"
-        lines = []
-
-        for m in items:
-            url = f"https://openrouter.ai/chat?models={m['id']}"
-            lines.append(f"• [{m['name']}]({url})")
-
-        sections.append(header + "\n" + "\n".join(lines))
-
-    message = "🤖 **Models by Provider**\n\n" + "\n\n".join(sections)
+    message = "💰 **OpenRouter Free Models**\n\n" + "\n\n".join(sections)
     send_discord_alert(message)
 
 
@@ -163,6 +148,9 @@ def main():
             print("No changes detected")
     else:
         print("No previous snapshot found")
+
+    # Send free models grouped by provider
+    send_grouped_free_models(prices)
 
     save_snapshot(prices)
     print("Snapshot saved")
