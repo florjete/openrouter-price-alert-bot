@@ -121,6 +121,24 @@ def send_free_models_alert(models):
     )
     send_discord_alert(message)
 
+def send_grouped_models(models):
+    grouped = group_models_by_provider(models)
+
+    sections = []
+
+    for provider, items in grouped.items():
+        header = f"**{provider.capitalize()}**"
+        lines = []
+
+        for m in items:
+            url = f"https://openrouter.ai/chat?models={m['id']}"
+            lines.append(f"• [{m['name']}]({url})")
+
+        sections.append(header + "\n" + "\n".join(lines))
+
+    message = "🤖 **Models by Provider**\n\n" + "\n\n".join(sections)
+    send_discord_alert(message)
+
 
 def main():
     print(f"[{datetime.now().isoformat()}] Fetching models...")
