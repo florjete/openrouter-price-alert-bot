@@ -5,6 +5,7 @@ from datetime import datetime
 
 API_URL = "https://openrouter.ai/api/v1/models"
 SNAPSHOT_FILE = "models_snapshot.json"
+MAX_DISCORD_LEN = 2000
 
 # Set TEST_DISCORD=1 to print messages instead of sending to Discord
 TEST_MODE = os.getenv("TEST_DISCORD") == "1"
@@ -119,8 +120,19 @@ def send_grouped_alerts(grouped_alerts):
         lines = "\n".join(grouped_alerts[provider])
         sections.append(f"**{provider}**\n{lines}")
 
-    message = "🔔 **OpenRouter Updates**\n\n" + "\n\n".join(sections)
-    send_discord_alert(message)
+    if not sections:
+        return
+
+    # Split messages into chunks under Discord limit
+    message = "🔔 **OpenRouter Updates**\n\n"
+    for section in sections:
+        if len(message) + len(section) + 2 > MAX_DISCORD_LEN:
+            send_discord_alert(message.strip())
+            message = ""  # start new message
+        message += section + "\n\n"
+
+    if message.strip():
+        send_discord_alert(message.strip())
 
 
 def main():
