@@ -6,6 +6,7 @@ from datetime import datetime
 API_URL = "https://openrouter.ai/api/v1/models"
 SNAPSHOT_FILE = "models_snapshot.json"
 
+# Set TEST_DISCORD=1 to print messages instead of sending to Discord
 TEST_MODE = os.getenv("TEST_DISCORD") == "1"
 
 
@@ -107,8 +108,8 @@ def find_and_group_alerts(current, previous):
 
 
 def send_grouped_alerts(grouped_alerts):
-    if not grouped_alerts:
-        print("No alerts to send")
+    # Only send if at least one provider has alerts
+    if not any(grouped_alerts.values()):
         return
 
     sections = []
@@ -131,10 +132,8 @@ def main():
     snapshot = load_snapshot()
     grouped_alerts = find_and_group_alerts(prices, snapshot)
 
-    if grouped_alerts:
-        send_grouped_alerts(grouped_alerts)
-    else:
-        print("No changes detected")
+    # Send alerts only if there are updates
+    send_grouped_alerts(grouped_alerts)
 
     save_snapshot(prices)
     print("Snapshot saved")
