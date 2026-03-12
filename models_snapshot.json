@@ -1,5 +1,32 @@
 [
   {
+    "id": "openrouter/hunter-alpha",
+    "name": "Hunter Alpha",
+    "provider": "openrouter",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "openrouter/healer-alpha",
+    "name": "Healer Alpha",
+    "provider": "openrouter",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b:free",
+    "name": "NVIDIA: Nemotron 3 Super (free)",
+    "provider": "nvidia",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "bytedance-seed/seed-2.0-lite",
     "name": "ByteDance Seed: Seed-2.0-Lite",
     "provider": "bytedance-seed",
@@ -633,8 +660,8 @@
     "id": "deepseek/deepseek-v3.2",
     "name": "DeepSeek: DeepSeek V3.2",
     "provider": "deepseek",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 2.6e-07,
+    "price_per_1k_output": 3.8e-07,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -966,8 +993,8 @@
     "id": "qwen/qwen3-vl-30b-a3b-thinking",
     "name": "Qwen: Qwen3 VL 30B A3B Thinking",
     "provider": "qwen",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "price_per_1k_input": 1.3e-07,
+    "price_per_1k_output": 1.56e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -1047,8 +1074,8 @@
     "id": "qwen/qwen3-vl-235b-a22b-thinking",
     "name": "Qwen: Qwen3 VL 235B A22B Thinking",
     "provider": "qwen",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "price_per_1k_input": 2.6e-07,
+    "price_per_1k_output": 2.6e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -1128,9 +1155,9 @@
     "id": "qwen/qwen3-next-80b-a3b-thinking",
     "name": "Qwen: Qwen3 Next 80B A3B Thinking",
     "provider": "qwen",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 1.2e-06,
-    "context_length": 128000,
+    "price_per_1k_input": 9.75e-08,
+    "price_per_1k_output": 7.8e-07,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
