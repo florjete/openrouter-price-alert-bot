@@ -81,7 +81,7 @@ def find_and_group_alerts(current, previous):
         grouped.setdefault(provider, [])
 
         url = f"https://openrouter.ai/chat?models={model['id']}"
-        link_name = f"[{model['name']}]({url})"
+        link_name = f"{model['name']} <{url}>"
 
         prev = prev_by_id.get(model["id"])
 
