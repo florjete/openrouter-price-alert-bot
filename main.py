@@ -80,21 +80,20 @@ def find_and_group_alerts(current, previous):
         provider = model["provider"].capitalize()
         grouped.setdefault(provider, [])
 
-        # Model link
         url = f"https://openrouter.ai/chat?models={model['id']}"
         link_name = f"[{model['name']}]({url})"
 
         prev = prev_by_id.get(model["id"])
 
-        # First run or new model
+        # New model
         if not prev:
             grouped[provider].append(f"🆕 {link_name} added")
             continue
 
-        # Free check
+        # Went free
         was_free = prev["price_per_1k_input"] == 0 and prev["price_per_1k_output"] == 0
-        is_free = model["price_per_1k_input"] == 0 and model["price_per_1k_output"] == 0
-        if not was_free and is_free:
+        is_free_now = model["price_per_1k_input"] == 0 and model["price_per_1k_output"] == 0
+        if not was_free and is_free_now:
             grouped[provider].append(f"🎉 {link_name} went free!")
 
         # Price drop
@@ -109,9 +108,8 @@ def find_and_group_alerts(current, previous):
 
 
 def send_grouped_alerts(grouped_alerts):
-    # Only send if at least one provider has alerts
     if not any(grouped_alerts.values()):
-        return
+        return  # nothing to send
 
     sections = []
     for provider in sorted(grouped_alerts):
@@ -123,7 +121,7 @@ def send_grouped_alerts(grouped_alerts):
     if not sections:
         return
 
-    # Split messages into chunks under Discord limit
+    # Split messages for Discord limit
     message = "🔔 **OpenRouter Updates**\n\n"
     for section in sections:
         if len(message) + len(section) + 2 > MAX_DISCORD_LEN:
@@ -144,8 +142,7 @@ def main():
     snapshot = load_snapshot()
     grouped_alerts = find_and_group_alerts(prices, snapshot)
 
-    # Send alerts only if there are updates
-    send_grouped_alerts(grouped_alerts)
+    send_grouped_alerts(grouped_alerts)  # Only sends if there are updates
 
     save_snapshot(prices)
     print("Snapshot saved")
