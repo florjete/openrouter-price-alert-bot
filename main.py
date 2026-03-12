@@ -6,6 +6,8 @@ from datetime import datetime
 API_URL = "https://openrouter.ai/api/v1/models"
 SNAPSHOT_FILE = "models_snapshot.json"
 
+TEST_MODE = os.getenv("TEST_DISCORD") == "1"
+
 
 def fetch_models():
     response = requests.get(API_URL, timeout=30)
@@ -28,13 +30,22 @@ def extract_prices(models):
     ]
 
 
+def format_price(p):
+    return f"${p:.6f}".rstrip("0").rstrip(".")
+
+
 def send_discord_alert(message):
+    if TEST_MODE:
+        print("=== Discord Alert (TEST MODE) ===")
+        print(message)
+        print("=== End of Alert ===\n")
+        return
+
     webhook_url = os.getenv("DISCORD_WEBHOOK")
     if not webhook_url:
         print("WARNING: DISCORD_WEBHOOK not set, skipping Discord alert")
         return
 
-    print("Discord webhook configured, sending message...")
     try:
         response = requests.post(webhook_url, json={"content": message}, timeout=10)
         print(f"Discord response status: {response.status_code}")
@@ -49,9 +60,7 @@ def load_snapshot():
     try:
         with open(SNAPSHOT_FILE, "r") as f:
             content = f.read().strip()
-            if not content:
-                return []
-            return json.loads(content)
+            return json.loads(content) if content else []
     except FileNotFoundError:
         return []
 
@@ -61,67 +70,55 @@ def save_snapshot(data):
         json.dump(data, f, indent=2)
 
 
-def find_changes(current, previous):
-    alerts = []
-    prev_by_id = {m["id"]: m for m in previous}
-    current_ids = set(m["id"] for m in current)
-    prev_ids = set(prev_by_id.keys())
+def find_and_group_alerts(current, previous):
+    grouped = {}
+    prev_by_id = {m["id"]: m for m in previous} if previous else {}
 
-    # New models
-    new_models = current_ids - prev_ids
-    for model_id in new_models:
-        model = next(m for m in current if m["id"] == model_id)
-        alerts.append(f"🆕 {model['provider'].capitalize()}: {model['name']} added")
-
-    # Price changes
     for model in current:
+        provider = model["provider"].capitalize()
+        grouped.setdefault(provider, [])
+
+        # Model link
+        url = f"https://openrouter.ai/chat?models={model['id']}"
+        link_name = f"[{model['name']}]({url})"
+
         prev = prev_by_id.get(model["id"])
+
+        # First run or new model
         if not prev:
+            grouped[provider].append(f"🆕 {link_name} added")
             continue
 
+        # Free check
         was_free = prev["price_per_1k_input"] == 0 and prev["price_per_1k_output"] == 0
         is_free = model["price_per_1k_input"] == 0 and model["price_per_1k_output"] == 0
-
         if not was_free and is_free:
-            alerts.append(f"🎉 {model['provider'].capitalize()}: {model['name']} went free!")
+            grouped[provider].append(f"🎉 {link_name} went free!")
 
+        # Price drop
         old_total = float(prev["price_per_1k_input"]) + float(prev["price_per_1k_output"])
         new_total = float(model["price_per_1k_input"]) + float(model["price_per_1k_output"])
-
         if old_total > new_total and abs(old_total - new_total) > 1e-6:
-            alerts.append(
-                f"💸 {model['provider'].capitalize()}: {model['name']} price dropped (${old_total:.6f} → ${new_total:.6f})"
+            grouped[provider].append(
+                f"💸 {link_name} price dropped ({format_price(old_total)} → {format_price(new_total)})"
             )
-
-    return alerts
-
-
-def group_free_models(models):
-    free_models = [
-        m for m in models
-        if m["price_per_1k_input"] == 0 and m["price_per_1k_output"] == 0
-    ]
-    grouped = {}
-    for m in free_models:
-        provider = m["provider"].capitalize()
-        grouped.setdefault(provider, []).append(m["name"])
 
     return grouped
 
 
-def send_grouped_free_models(models):
-    grouped = group_free_models(models)
-    if not grouped:
-        print("No free models found")
+def send_grouped_alerts(grouped_alerts):
+    if not grouped_alerts:
+        print("No alerts to send")
         return
 
     sections = []
-    for provider in sorted(grouped):
-        names = sorted(grouped[provider])
-        lines = "\n".join(f"• {name}" for name in names)
+    for provider in sorted(grouped_alerts):
+        if not grouped_alerts[provider]:
+            continue
+        lines = "\n".join(grouped_alerts[provider])
         sections.append(f"**{provider}**\n{lines}")
 
-    message = "💰 **OpenRouter Free Models**\n\n" + "\n\n".join(sections)
+    message = "🔔 **OpenRouter Updates**\n\n" + "\n\n".join(sections)
     send_discord_alert(message)
 
 
@@ -131,26 +128,13 @@ def main():
     prices = extract_prices(models)
     print(f"Fetched {len(prices)} models")
 
-    if os.getenv("TEST_DISCORD"):
-        send_discord_alert("🧪 **Test Message:** Discord webhook is working!")
-        print("Test message sent")
-        return
-
     snapshot = load_snapshot()
-    if snapshot:
-        alerts = find_changes(prices, snapshot)
-        if alerts:
-            print(f"Found {len(alerts)} changes:")
-            for a in alerts:
-                print(f"  {a}")
-            send_discord_alert("🔔 **OpenRouter Updates:**\n" + "\n".join(alerts))
-        else:
-            print("No changes detected")
-    else:
-        print("No previous snapshot found")
+    grouped_alerts = find_and_group_alerts(prices, snapshot)
 
-    # Send free models grouped by provider
-    send_grouped_free_models(prices)
+    if grouped_alerts:
+        send_grouped_alerts(grouped_alerts)
+    else:
+        print("No changes detected")
 
     save_snapshot(prices)
     print("Snapshot saved")
