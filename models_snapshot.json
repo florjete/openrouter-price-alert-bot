@@ -57,9 +57,9 @@
     "id": "qwen/qwen3.5-9b",
     "name": "Qwen: Qwen3.5-9B",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
+    "price_per_1k_input": 5e-08,
     "price_per_1k_output": 1.5e-07,
-    "context_length": 262144,
+    "context_length": 256000,
     "updated_at": ""
   },
   {
