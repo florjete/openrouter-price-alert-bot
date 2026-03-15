@@ -237,8 +237,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 9.5e-07,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1.2e-06,
     "context_length": 196608,
     "updated_at": ""
   },
