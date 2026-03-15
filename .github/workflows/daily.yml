@@ -2,7 +2,7 @@ name: OpenRouter Price Monitor
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       test:
