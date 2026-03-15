@@ -81,6 +81,14 @@ def find_and_group_alerts(current, previous):
         grouped.setdefault(provider, [])
 
         url = f"https://openrouter.ai/chat?models={model['id']}&noembed=1"
+
+        name = model["name"]
+        provider_prefix = model["provider"].lower()
+        
+        # remove "provider:" prefix if present
+        if ":" in name and name.split(":")[0].lower() == provider_prefix:
+            name = name.split(":", 1)[1].strip()
+
         link_name = f"[{model['name']}](<{url}>)"
 
         prev = prev_by_id.get(model["id"])
