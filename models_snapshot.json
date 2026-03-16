@@ -1,5 +1,14 @@
 [
   {
+    "id": "z-ai/glm-5-turbo",
+    "name": "Z.ai: GLM 5 Turbo",
+    "provider": "z-ai",
+    "price_per_1k_input": 9.6e-07,
+    "price_per_1k_output": 3.2e-06,
+    "context_length": 202752,
+    "updated_at": ""
+  },
+  {
     "id": "x-ai/grok-4.20-multi-agent-beta",
     "name": "xAI: Grok 4.20 Multi-Agent Beta",
     "provider": "x-ai",
@@ -231,6 +240,15 @@
     "price_per_1k_input": 3.9e-07,
     "price_per_1k_output": 2.34e-06,
     "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "minimax/minimax-m2.5:free",
+    "name": "MiniMax: MiniMax M2.5 (free)",
+    "provider": "minimax",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 196608,
     "updated_at": ""
   },
   {
@@ -2559,8 +2577,8 @@
     "id": "qwen/qwen-2.5-coder-32b-instruct",
     "name": "Qwen2.5 Coder 32B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 2.0000000000000002e-07,
-    "price_per_1k_output": 2.0000000000000002e-07,
+    "price_per_1k_input": 6.6e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 32768,
     "updated_at": ""
   },
@@ -2787,15 +2805,6 @@
     "price_per_1k_input": 2e-08,
     "price_per_1k_output": 5e-08,
     "context_length": 16384,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3.1-405b-instruct",
-    "name": "Meta: Llama 3.1 405B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 4e-06,
-    "price_per_1k_output": 4e-06,
-    "context_length": 131000,
     "updated_at": ""
   },
   {
