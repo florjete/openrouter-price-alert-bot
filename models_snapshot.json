@@ -165,8 +165,8 @@
     "id": "qwen/qwen3.5-flash-02-23",
     "name": "Qwen: Qwen3.5-Flash",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 6.5e-08,
+    "price_per_1k_output": 2.6e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1128,8 +1128,8 @@
     "id": "qwen/qwen3-max",
     "name": "Qwen: Qwen3 Max",
     "provider": "qwen",
-    "price_per_1k_input": 1.2e-06,
-    "price_per_1k_output": 6e-06,
+    "price_per_1k_input": 7.8e-07,
+    "price_per_1k_output": 3.9e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2334,8 +2334,8 @@
     "id": "qwen/qwen-vl-max",
     "name": "Qwen: Qwen VL Max",
     "provider": "qwen",
-    "price_per_1k_input": 8e-07,
-    "price_per_1k_output": 3.2e-06,
+    "price_per_1k_input": 5.2e-07,
+    "price_per_1k_output": 2.08e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2361,8 +2361,8 @@
     "id": "qwen/qwen-plus",
     "name": "Qwen: Qwen-Plus",
     "provider": "qwen",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2.6e-07,
+    "price_per_1k_output": 7.8e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
