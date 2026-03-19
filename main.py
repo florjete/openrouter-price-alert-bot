@@ -87,7 +87,7 @@ def find_and_group_alerts(current, previous):
         if ":" in name:
             name = name.split(":", 1)[1].strip()
 
-        link_name = f"[{model['name']}](<{url}>)"
+        link_name = f"[{name}](<{url}>)"
 
         prev = prev_by_id.get(model["id"])
 
