@@ -516,7 +516,7 @@
     "id": "z-ai/glm-4.7",
     "name": "Z.ai: GLM 4.7",
     "provider": "z-ai",
-    "price_per_1k_input": 4e-07,
+    "price_per_1k_input": 3.9e-07,
     "price_per_1k_output": 1.75e-06,
     "context_length": 202752,
     "updated_at": ""
@@ -1201,7 +1201,7 @@
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "provider": "deepseek",
     "price_per_1k_input": 2.1e-07,
-    "price_per_1k_output": 7.9e-07,
+    "price_per_1k_output": 7.8e-07,
     "context_length": 163840,
     "updated_at": ""
   },
