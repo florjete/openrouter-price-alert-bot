@@ -301,7 +301,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
     "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_output": 1.17e-06,
     "context_length": 196608,
     "updated_at": ""
   },
@@ -2136,9 +2136,9 @@
     "id": "mistralai/mistral-small-3.1-24b-instruct",
     "name": "Mistral: Mistral Small 3.1 24B",
     "provider": "mistralai",
-    "price_per_1k_input": 3.5e-07,
-    "price_per_1k_output": 5.6e-07,
-    "context_length": 128000,
+    "price_per_1k_input": 3e-08,
+    "price_per_1k_output": 1.1e-07,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
