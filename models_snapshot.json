@@ -1480,7 +1480,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "provider": "openai",
     "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1.4e-07,
+    "price_per_1k_output": 1.1e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2075,6 +2075,15 @@
     "provider": "x-ai",
     "price_per_1k_input": 3e-06,
     "price_per_1k_output": 1.5e-05,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+    "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
+    "provider": "nvidia",
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 1.8e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2750,6 +2759,15 @@
     "provider": "qwen",
     "price_per_1k_input": 1.2e-07,
     "price_per_1k_output": 3.9e-07,
+    "context_length": 32768,
+    "updated_at": ""
+  },
+  {
+    "id": "mistralai/pixtral-12b",
+    "name": "Mistral: Pixtral 12B",
+    "provider": "mistralai",
+    "price_per_1k_input": 1.0000000000000001e-07,
+    "price_per_1k_output": 1.0000000000000001e-07,
     "context_length": 32768,
     "updated_at": ""
   },
