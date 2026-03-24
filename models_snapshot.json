@@ -57,8 +57,8 @@
     "id": "z-ai/glm-5-turbo",
     "name": "Z.ai: GLM 5 Turbo",
     "provider": "z-ai",
-    "price_per_1k_input": 9.6e-07,
-    "price_per_1k_output": 3.2e-06,
+    "price_per_1k_input": 1.2e-06,
+    "price_per_1k_output": 4e-06,
     "context_length": 202752,
     "updated_at": ""
   },
