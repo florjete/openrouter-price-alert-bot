@@ -624,8 +624,8 @@
     "id": "nex-agi/deepseek-v3.1-nex-n1",
     "name": "Nex AGI: DeepSeek V3.1 Nex N1",
     "provider": "nex-agi",
-    "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 1e-06,
+    "price_per_1k_input": 1.35e-07,
+    "price_per_1k_output": 5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -1596,9 +1596,9 @@
     "id": "moonshotai/kimi-k2",
     "name": "MoonshotAI: Kimi K2 0711",
     "provider": "moonshotai",
-    "price_per_1k_input": 5.5e-07,
-    "price_per_1k_output": 2.2e-06,
-    "context_length": 131000,
+    "price_per_1k_input": 5.7e-07,
+    "price_per_1k_output": 2.3e-06,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -2628,21 +2628,21 @@
     "updated_at": ""
   },
   {
-    "id": "anthracite-org/magnum-v4-72b",
-    "name": "Magnum v4 72B",
-    "provider": "anthracite-org",
-    "price_per_1k_input": 3e-06,
-    "price_per_1k_output": 5e-06,
-    "context_length": 16384,
-    "updated_at": ""
-  },
-  {
     "id": "anthropic/claude-3.5-sonnet",
     "name": "Anthropic: Claude 3.5 Sonnet",
     "provider": "anthropic",
     "price_per_1k_input": 6e-06,
     "price_per_1k_output": 3e-05,
     "context_length": 200000,
+    "updated_at": ""
+  },
+  {
+    "id": "anthracite-org/magnum-v4-72b",
+    "name": "Magnum v4 72B",
+    "provider": "anthracite-org",
+    "price_per_1k_input": 3e-06,
+    "price_per_1k_output": 5e-06,
+    "context_length": 16384,
     "updated_at": ""
   },
   {
@@ -2664,8 +2664,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-pi",
-    "name": "Inflection: Inflection 3 Pi",
+    "id": "inflection/inflection-3-productivity",
+    "name": "Inflection: Inflection 3 Productivity",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2673,8 +2673,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-productivity",
-    "name": "Inflection: Inflection 3 Productivity",
+    "id": "inflection/inflection-3-pi",
+    "name": "Inflection: Inflection 3 Pi",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2736,12 +2736,12 @@
     "updated_at": ""
   },
   {
-    "id": "mistralai/pixtral-12b",
-    "name": "Mistral: Pixtral 12B",
-    "provider": "mistralai",
-    "price_per_1k_input": 1.0000000000000001e-07,
-    "price_per_1k_output": 1.0000000000000001e-07,
-    "context_length": 32768,
+    "id": "cohere/command-r-plus-08-2024",
+    "name": "Cohere: Command R+ (08-2024)",
+    "provider": "cohere",
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 1e-05,
+    "context_length": 128000,
     "updated_at": ""
   },
   {
@@ -2754,30 +2754,12 @@
     "updated_at": ""
   },
   {
-    "id": "cohere/command-r-plus-08-2024",
-    "name": "Cohere: Command R+ (08-2024)",
-    "provider": "cohere",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "sao10k/l3.1-euryale-70b",
     "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
     "provider": "sao10k",
     "price_per_1k_input": 8.5e-07,
     "price_per_1k_output": 8.5e-07,
     "context_length": 131072,
-    "updated_at": ""
-  },
-  {
-    "id": "qwen/qwen-2.5-vl-7b-instruct",
-    "name": "Qwen: Qwen2.5-VL 7B Instruct",
-    "provider": "qwen",
-    "price_per_1k_input": 2.0000000000000002e-07,
-    "price_per_1k_output": 2.0000000000000002e-07,
-    "context_length": 32768,
     "updated_at": ""
   },
   {
@@ -2823,15 +2805,6 @@
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
     "context_length": 128000,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3.1-405b",
-    "name": "Meta: Llama 3.1 405B (base)",
-    "provider": "meta-llama",
-    "price_per_1k_input": 4e-06,
-    "price_per_1k_output": 4e-06,
-    "context_length": 32768,
     "updated_at": ""
   },
   {
@@ -2943,20 +2916,20 @@
     "updated_at": ""
   },
   {
-    "id": "meta-llama/llama-3-70b-instruct",
-    "name": "Meta: Llama 3 70B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 5.1e-07,
-    "price_per_1k_output": 7.4e-07,
-    "context_length": 8192,
-    "updated_at": ""
-  },
-  {
     "id": "meta-llama/llama-3-8b-instruct",
     "name": "Meta: Llama 3 8B Instruct",
     "provider": "meta-llama",
     "price_per_1k_input": 3e-08,
     "price_per_1k_output": 4e-08,
+    "context_length": 8192,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-3-70b-instruct",
+    "name": "Meta: Llama 3 70B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 5.1e-07,
+    "price_per_1k_output": 7.4e-07,
     "context_length": 8192,
     "updated_at": ""
   },
@@ -3006,21 +2979,21 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-3.5-turbo-0613",
-    "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
-    "provider": "openai",
-    "price_per_1k_input": 1e-06,
-    "price_per_1k_output": 2e-06,
-    "context_length": 4095,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4-turbo-preview",
     "name": "OpenAI: GPT-4 Turbo Preview",
     "provider": "openai",
     "price_per_1k_input": 1e-05,
     "price_per_1k_output": 3e-05,
     "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-0613",
+    "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "provider": "openai",
+    "price_per_1k_input": 1e-06,
+    "price_per_1k_output": 2e-06,
+    "context_length": 4095,
     "updated_at": ""
   },
   {
