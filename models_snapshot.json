@@ -3,8 +3,8 @@
     "id": "reka/reka-edge",
     "name": "Reka Edge",
     "provider": "reka",
-    "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 2e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 1e-07,
     "context_length": 16384,
     "updated_at": ""
   },
