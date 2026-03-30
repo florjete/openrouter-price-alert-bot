@@ -2619,21 +2619,21 @@
     "updated_at": ""
   },
   {
-    "id": "anthropic/claude-3.5-sonnet",
-    "name": "Anthropic: Claude 3.5 Sonnet",
-    "provider": "anthropic",
-    "price_per_1k_input": 6e-06,
-    "price_per_1k_output": 3e-05,
-    "context_length": 200000,
-    "updated_at": ""
-  },
-  {
     "id": "anthracite-org/magnum-v4-72b",
     "name": "Magnum v4 72B",
     "provider": "anthracite-org",
     "price_per_1k_input": 3e-06,
     "price_per_1k_output": 5e-06,
     "context_length": 16384,
+    "updated_at": ""
+  },
+  {
+    "id": "anthropic/claude-3.5-sonnet",
+    "name": "Anthropic: Claude 3.5 Sonnet",
+    "provider": "anthropic",
+    "price_per_1k_input": 6e-06,
+    "price_per_1k_output": 3e-05,
+    "context_length": 200000,
     "updated_at": ""
   },
   {
@@ -2826,8 +2826,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini-2024-07-18",
-    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "id": "openai/gpt-4o-mini",
+    "name": "OpenAI: GPT-4o-mini",
     "provider": "openai",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
@@ -2835,8 +2835,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini",
-    "name": "OpenAI: GPT-4o-mini",
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
     "provider": "openai",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
@@ -2880,15 +2880,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-2024-05-13",
-    "name": "OpenAI: GPT-4o (2024-05-13)",
-    "provider": "openai",
-    "price_per_1k_input": 5e-06,
-    "price_per_1k_output": 1.5e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4o",
     "name": "OpenAI: GPT-4o",
     "provider": "openai",
@@ -2903,6 +2894,15 @@
     "provider": "openai",
     "price_per_1k_input": 6e-06,
     "price_per_1k_output": 1.8e-05,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "openai/gpt-4o-2024-05-13",
+    "name": "OpenAI: GPT-4o (2024-05-13)",
+    "provider": "openai",
+    "price_per_1k_input": 5e-06,
+    "price_per_1k_output": 1.5e-05,
     "context_length": 128000,
     "updated_at": ""
   },
@@ -3078,8 +3078,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4-0314",
-    "name": "OpenAI: GPT-4 (older v0314)",
+    "id": "openai/gpt-4",
+    "name": "OpenAI: GPT-4",
     "provider": "openai",
     "price_per_1k_input": 3e-05,
     "price_per_1k_output": 6e-05,
@@ -3087,8 +3087,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4",
-    "name": "OpenAI: GPT-4",
+    "id": "openai/gpt-4-0314",
+    "name": "OpenAI: GPT-4 (older v0314)",
     "provider": "openai",
     "price_per_1k_input": 3e-05,
     "price_per_1k_output": 6e-05,
