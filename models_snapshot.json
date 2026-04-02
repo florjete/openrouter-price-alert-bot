@@ -1,5 +1,23 @@
 [
   {
+    "id": "z-ai/glm-5v-turbo",
+    "name": "Z.ai: GLM 5V Turbo",
+    "provider": "z-ai",
+    "price_per_1k_input": 1.2e-06,
+    "price_per_1k_output": 4e-06,
+    "context_length": 202752,
+    "updated_at": ""
+  },
+  {
+    "id": "arcee-ai/trinity-large-thinking",
+    "name": "Arcee AI: Trinity Large Thinking",
+    "provider": "arcee-ai",
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 9e-07,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "x-ai/grok-4.20-multi-agent",
     "name": "xAI: Grok 4.20 Multi-Agent",
     "provider": "x-ai",
@@ -54,9 +72,9 @@
     "updated_at": ""
   },
   {
-    "id": "reka/reka-edge",
+    "id": "rekaai/reka-edge",
     "name": "Reka Edge",
-    "provider": "reka",
+    "provider": "rekaai",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 1e-07,
     "context_length": 16384,
@@ -345,9 +363,9 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 1e-06,
-    "context_length": 196608,
+    "price_per_1k_input": 1.18e-07,
+    "price_per_1k_output": 1.25e-06,
+    "context_length": 196600,
     "updated_at": ""
   },
   {
@@ -426,8 +444,8 @@
     "id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "provider": "moonshotai",
-    "price_per_1k_input": 4.2e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 3.827e-07,
+    "price_per_1k_output": 1.9092e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -777,8 +795,8 @@
     "id": "deepseek/deepseek-v3.2",
     "name": "DeepSeek: DeepSeek V3.2",
     "provider": "deepseek",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 3.5e-07,
+    "price_per_1k_input": 2.6e-07,
+    "price_per_1k_output": 3.8e-07,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -2206,7 +2224,7 @@
   },
   {
     "id": "rekaai/reka-flash-3",
-    "name": "Reka: Flash 3",
+    "name": "Reka Flash 3",
     "provider": "rekaai",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 2e-07,
@@ -2754,20 +2772,20 @@
     "updated_at": ""
   },
   {
-    "id": "cohere/command-r-plus-08-2024",
-    "name": "Cohere: Command R+ (08-2024)",
-    "provider": "cohere",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "cohere/command-r-08-2024",
     "name": "Cohere: Command R (08-2024)",
     "provider": "cohere",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "cohere/command-r-plus-08-2024",
+    "name": "Cohere: Command R+ (08-2024)",
+    "provider": "cohere",
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 1e-05,
     "context_length": 128000,
     "updated_at": ""
   },
@@ -2997,21 +3015,21 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4-turbo-preview",
-    "name": "OpenAI: GPT-4 Turbo Preview",
-    "provider": "openai",
-    "price_per_1k_input": 1e-05,
-    "price_per_1k_output": 3e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-3.5-turbo-0613",
     "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
     "provider": "openai",
     "price_per_1k_input": 1e-06,
     "price_per_1k_output": 2e-06,
     "context_length": 4095,
+    "updated_at": ""
+  },
+  {
+    "id": "openai/gpt-4-turbo-preview",
+    "name": "OpenAI: GPT-4 Turbo Preview",
+    "provider": "openai",
+    "price_per_1k_input": 1e-05,
+    "price_per_1k_output": 3e-05,
+    "context_length": 128000,
     "updated_at": ""
   },
   {
