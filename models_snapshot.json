@@ -2673,15 +2673,6 @@
     "updated_at": ""
   },
   {
-    "id": "anthropic/claude-3.5-sonnet",
-    "name": "Anthropic: Claude 3.5 Sonnet",
-    "provider": "anthropic",
-    "price_per_1k_input": 6e-06,
-    "price_per_1k_output": 3e-05,
-    "context_length": 200000,
-    "updated_at": ""
-  },
-  {
     "id": "qwen/qwen-2.5-7b-instruct",
     "name": "Qwen: Qwen2.5 7B Instruct",
     "provider": "qwen",
