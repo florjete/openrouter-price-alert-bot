@@ -612,15 +612,6 @@
     "updated_at": ""
   },
   {
-    "id": "allenai/olmo-3.1-32b-think",
-    "name": "AllenAI: Olmo 3.1 32B Think",
-    "provider": "allenai",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 5e-07,
-    "context_length": 65536,
-    "updated_at": ""
-  },
-  {
     "id": "xiaomi/mimo-v2-flash",
     "name": "Xiaomi: MiMo-V2-Flash",
     "provider": "xiaomi",
