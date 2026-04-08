@@ -1,10 +1,46 @@
 [
   {
+    "id": "anthropic/claude-opus-4.6-fast",
+    "name": "Anthropic: Claude Opus 4.6 (Fast)",
+    "provider": "anthropic",
+    "price_per_1k_input": 3e-05,
+    "price_per_1k_output": 0.00015,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "z-ai/glm-5.1",
+    "name": "Z.ai: GLM 5.1",
+    "provider": "z-ai",
+    "price_per_1k_input": 1.26e-06,
+    "price_per_1k_output": 3.96e-06,
+    "context_length": 202752,
+    "updated_at": ""
+  },
+  {
+    "id": "google/gemma-4-26b-a4b-it:free",
+    "name": "Google: Gemma 4 26B A4B  (free)",
+    "provider": "google",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
     "price_per_1k_input": 1.3e-07,
     "price_per_1k_output": 4e-07,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "google/gemma-4-31b-it:free",
+    "name": "Google: Gemma 4 31B (free)",
+    "provider": "google",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -18,11 +54,11 @@
     "updated_at": ""
   },
   {
-    "id": "qwen/qwen3.6-plus:free",
-    "name": "Qwen: Qwen3.6 Plus (free)",
+    "id": "qwen/qwen3.6-plus",
+    "name": "Qwen: Qwen3.6 Plus",
     "provider": "qwen",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "price_per_1k_input": 3.25e-07,
+    "price_per_1k_output": 1.95e-06,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -903,9 +939,9 @@
     "id": "moonshotai/kimi-k2-thinking",
     "name": "MoonshotAI: Kimi K2 Thinking",
     "provider": "moonshotai",
-    "price_per_1k_input": 4.7e-07,
-    "price_per_1k_output": 2e-06,
-    "context_length": 131072,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 2.5e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1319,7 +1355,7 @@
     "provider": "moonshotai",
     "price_per_1k_input": 4e-07,
     "price_per_1k_output": 2e-06,
-    "context_length": 131072,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
