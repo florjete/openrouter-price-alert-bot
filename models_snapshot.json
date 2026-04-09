@@ -12,8 +12,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 1.26e-06,
-    "price_per_1k_output": 3.96e-06,
+    "price_per_1k_input": 1.395e-06,
+    "price_per_1k_output": 4.4e-06,
     "context_length": 202752,
     "updated_at": ""
   },
@@ -468,15 +468,6 @@
     "updated_at": ""
   },
   {
-    "id": "stepfun/step-3.5-flash:free",
-    "name": "StepFun: Step 3.5 Flash (free)",
-    "provider": "stepfun",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 256000,
-    "updated_at": ""
-  },
-  {
     "id": "stepfun/step-3.5-flash",
     "name": "StepFun: Step 3.5 Flash",
     "provider": "stepfun",
@@ -615,7 +606,7 @@
     "id": "minimax/minimax-m2.1",
     "name": "MiniMax: MiniMax M2.1",
     "provider": "minimax",
-    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_input": 2.9e-07,
     "price_per_1k_output": 9.5e-07,
     "context_length": 196608,
     "updated_at": ""
