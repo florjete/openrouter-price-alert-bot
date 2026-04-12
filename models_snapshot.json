@@ -2154,9 +2154,9 @@
     "id": "mistralai/mistral-small-3.1-24b-instruct",
     "name": "Mistral: Mistral Small 3.1 24B",
     "provider": "mistralai",
-    "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1.1e-07,
-    "context_length": 131072,
+    "price_per_1k_input": 3.5e-07,
+    "price_per_1k_output": 5.6e-07,
+    "context_length": 128000,
     "updated_at": ""
   },
   {
