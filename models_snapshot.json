@@ -158,7 +158,7 @@
     "provider": "minimax",
     "price_per_1k_input": 3e-07,
     "price_per_1k_output": 1.2e-06,
-    "context_length": 204800,
+    "context_length": 196608,
     "updated_at": ""
   },
   {
@@ -453,8 +453,8 @@
     "id": "qwen/qwen3-coder-next",
     "name": "Qwen: Qwen3 Coder Next",
     "provider": "qwen",
-    "price_per_1k_input": 1.2e-07,
-    "price_per_1k_output": 7.5e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1839,7 +1839,7 @@
     "id": "deepseek/deepseek-r1-0528",
     "name": "DeepSeek: R1 0528",
     "provider": "deepseek",
-    "price_per_1k_input": 4.5e-07,
+    "price_per_1k_input": 5e-07,
     "price_per_1k_output": 2.15e-06,
     "context_length": 163840,
     "updated_at": ""
@@ -2058,15 +2058,6 @@
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 4e-07,
     "context_length": 1047576,
-    "updated_at": ""
-  },
-  {
-    "id": "eleutherai/llemma_7b",
-    "name": "EleutherAI: Llemma 7b",
-    "provider": "eleutherai",
-    "price_per_1k_input": 8e-07,
-    "price_per_1k_output": 1.2e-06,
-    "context_length": 4096,
     "updated_at": ""
   },
   {
@@ -2727,6 +2718,15 @@
     "updated_at": ""
   },
   {
+    "id": "meta-llama/llama-3.2-11b-vision-instruct",
+    "name": "Meta: Llama 3.2 11B Vision Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 2.45e-07,
+    "price_per_1k_output": 2.45e-07,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
     "id": "meta-llama/llama-3.2-3b-instruct:free",
     "name": "Meta: Llama 3.2 3B Instruct (free)",
     "provider": "meta-llama",
@@ -2751,15 +2751,6 @@
     "price_per_1k_input": 2.7e-08,
     "price_per_1k_output": 2e-07,
     "context_length": 60000,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3.2-11b-vision-instruct",
-    "name": "Meta: Llama 3.2 11B Vision Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 2.45e-07,
-    "price_per_1k_output": 2.45e-07,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
