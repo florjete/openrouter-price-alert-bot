@@ -1866,8 +1866,8 @@
     "id": "google/gemma-3n-e4b-it",
     "name": "Google: Gemma 3n 4B",
     "provider": "google",
-    "price_per_1k_input": 2e-08,
-    "price_per_1k_output": 4e-08,
+    "price_per_1k_input": 6e-08,
+    "price_per_1k_output": 1.2e-07,
     "context_length": 32768,
     "updated_at": ""
   },
@@ -1923,6 +1923,15 @@
     "price_per_1k_input": 5e-07,
     "price_per_1k_output": 8e-07,
     "context_length": 32768,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-guard-4-12b:free",
+    "name": "Meta: Llama Guard 4 12B (free)",
+    "provider": "meta-llama",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 163840,
     "updated_at": ""
   },
   {
