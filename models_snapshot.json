@@ -507,9 +507,9 @@
     "id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "provider": "moonshotai",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 256000,
+    "price_per_1k_input": 3.827e-07,
+    "price_per_1k_output": 1.72e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2523,8 +2523,8 @@
     "id": "meta-llama/llama-3.3-70b-instruct",
     "name": "Meta: Llama 3.3 70B Instruct",
     "provider": "meta-llama",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 3.2e-07,
+    "price_per_1k_input": 1.2e-07,
+    "price_per_1k_output": 3.8e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2876,15 +2876,6 @@
     "provider": "openai",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/gpt-4o:extended",
-    "name": "OpenAI: GPT-4o (extended)",
-    "provider": "openai",
-    "price_per_1k_input": 6e-06,
-    "price_per_1k_output": 1.8e-05,
     "context_length": 128000,
     "updated_at": ""
   },
