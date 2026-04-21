@@ -1,5 +1,14 @@
 [
   {
+    "id": "moonshotai/kimi-k2.6",
+    "name": "MoonshotAI: Kimi K2.6",
+    "provider": "moonshotai",
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 2.8e-06,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "anthropic/claude-opus-4.7",
     "name": "Anthropic: Claude Opus 4.7",
     "provider": "anthropic",
@@ -30,8 +39,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 9.5e-07,
-    "price_per_1k_output": 3.15e-06,
+    "price_per_1k_input": 6.98e-07,
+    "price_per_1k_output": 4.4e-06,
     "context_length": 202752,
     "updated_at": ""
   },
@@ -435,8 +444,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 1.18e-07,
-    "price_per_1k_output": 9.9e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 1.2e-06,
     "context_length": 196608,
     "updated_at": ""
   },
@@ -507,8 +516,8 @@
     "id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "provider": "moonshotai",
-    "price_per_1k_input": 3.827e-07,
-    "price_per_1k_output": 1.72e-06,
+    "price_per_1k_input": 4.4e-07,
+    "price_per_1k_output": 2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -633,8 +642,8 @@
     "id": "z-ai/glm-4.7",
     "name": "Z.ai: GLM 4.7",
     "provider": "z-ai",
-    "price_per_1k_input": 3.9e-07,
-    "price_per_1k_output": 1.75e-06,
+    "price_per_1k_input": 3.8e-07,
+    "price_per_1k_output": 1.74e-06,
     "context_length": 202752,
     "updated_at": ""
   },
@@ -840,9 +849,9 @@
     "id": "deepseek/deepseek-v3.2",
     "name": "DeepSeek: DeepSeek V3.2",
     "provider": "deepseek",
-    "price_per_1k_input": 2.59e-07,
-    "price_per_1k_output": 4.2e-07,
-    "context_length": 163840,
+    "price_per_1k_input": 2.52e-07,
+    "price_per_1k_output": 3.78e-07,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
