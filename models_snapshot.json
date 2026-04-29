@@ -1,5 +1,32 @@
 [
   {
+    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "provider": "nvidia",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 256000,
+    "updated_at": ""
+  },
+  {
+    "id": "poolside/laguna-xs.2:free",
+    "name": "Poolside: Laguna XS.2 (free)",
+    "provider": "poolside",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "poolside/laguna-m.1:free",
+    "name": "Poolside: Laguna M.1 (free)",
+    "provider": "poolside",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
     "id": "~anthropic/claude-haiku-latest",
     "name": "Anthropic Claude Haiku Latest",
     "provider": "~anthropic",
@@ -189,11 +216,11 @@
     "updated_at": ""
   },
   {
-    "id": "inclusionai/ling-2.6-flash:free",
-    "name": "inclusionAI: Ling-2.6-flash (free)",
+    "id": "inclusionai/ling-2.6-flash",
+    "name": "inclusionAI: Ling-2.6-flash",
     "provider": "inclusionai",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "price_per_1k_input": 8e-08,
+    "price_per_1k_output": 2.4e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2466,15 +2493,6 @@
     "updated_at": ""
   },
   {
-    "id": "qwen/qwq-32b",
-    "name": "Qwen: QwQ 32B",
-    "provider": "qwen",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 5.8e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "google/gemini-2.0-flash-lite-001",
     "name": "Google: Gemini 2.0 Flash Lite",
     "provider": "google",
@@ -2534,7 +2552,7 @@
     "provider": "google",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 4e-07,
-    "context_length": 1000000,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -3015,15 +3033,6 @@
     "updated_at": ""
   },
   {
-    "id": "meta-llama/llama-3.1-70b-instruct",
-    "name": "Meta: Llama 3.1 70B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 4e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "meta-llama/llama-3.1-8b-instruct",
     "name": "Meta: Llama 3.1 8B Instruct",
     "provider": "meta-llama",
@@ -3033,11 +3042,20 @@
     "updated_at": ""
   },
   {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 4e-07,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
     "id": "mistralai/mistral-nemo",
     "name": "Mistral: Mistral Nemo",
     "provider": "mistralai",
     "price_per_1k_input": 2e-08,
-    "price_per_1k_output": 4e-08,
+    "price_per_1k_output": 3e-08,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -3222,21 +3240,21 @@
     "updated_at": ""
   },
   {
-    "id": "mistralai/mistral-7b-instruct-v0.1",
-    "name": "Mistral: Mistral 7B Instruct v0.1",
-    "provider": "mistralai",
-    "price_per_1k_input": 1.1e-07,
-    "price_per_1k_output": 1.9e-07,
-    "context_length": 2824,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-3.5-turbo-instruct",
     "name": "OpenAI: GPT-3.5 Turbo Instruct",
     "provider": "openai",
     "price_per_1k_input": 1.5e-06,
     "price_per_1k_output": 2e-06,
     "context_length": 4095,
+    "updated_at": ""
+  },
+  {
+    "id": "mistralai/mistral-7b-instruct-v0.1",
+    "name": "Mistral: Mistral 7B Instruct v0.1",
+    "provider": "mistralai",
+    "price_per_1k_input": 1.1e-07,
+    "price_per_1k_output": 1.9e-07,
+    "context_length": 2824,
     "updated_at": ""
   },
   {
@@ -3276,8 +3294,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4",
-    "name": "OpenAI: GPT-4",
+    "id": "openai/gpt-4-0314",
+    "name": "OpenAI: GPT-4 (older v0314)",
     "provider": "openai",
     "price_per_1k_input": 3e-05,
     "price_per_1k_output": 6e-05,
@@ -3285,8 +3303,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4-0314",
-    "name": "OpenAI: GPT-4 (older v0314)",
+    "id": "openai/gpt-4",
+    "name": "OpenAI: GPT-4",
     "provider": "openai",
     "price_per_1k_input": 3e-05,
     "price_per_1k_output": 6e-05,
