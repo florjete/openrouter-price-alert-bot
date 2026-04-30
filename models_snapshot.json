@@ -57,9 +57,9 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 7.448e-07,
-    "price_per_1k_output": 4.655e-06,
-    "context_length": 256000,
+    "price_per_1k_input": 7.5e-07,
+    "price_per_1k_output": 3.5e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -255,9 +255,9 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.448e-07,
-    "price_per_1k_output": 4.655e-06,
-    "context_length": 256000,
+    "price_per_1k_input": 7.5e-07,
+    "price_per_1k_output": 3.5e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -897,15 +897,6 @@
     "price_per_1k_input": 5e-07,
     "price_per_1k_output": 3e-06,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/mistral-small-creative",
-    "name": "Mistral: Mistral Small Creative",
-    "provider": "mistralai",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 3e-07,
-    "context_length": 32768,
     "updated_at": ""
   },
   {
