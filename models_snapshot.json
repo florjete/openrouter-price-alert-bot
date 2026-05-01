@@ -1,5 +1,32 @@
 [
   {
+    "id": "x-ai/grok-4.3",
+    "name": "xAI: Grok 4.3",
+    "provider": "x-ai",
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 2.5e-06,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "ibm-granite/granite-4.1-8b",
+    "name": "IBM: Granite 4.1 8B",
+    "provider": "ibm-granite",
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 1e-07,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "openrouter/owl-alpha",
+    "name": "Owl Alpha",
+    "provider": "openrouter",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 1048756,
+    "updated_at": ""
+  },
+  {
     "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
     "provider": "nvidia",
@@ -57,9 +84,9 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 7.5e-07,
-    "price_per_1k_output": 3.5e-06,
-    "context_length": 262144,
+    "price_per_1k_input": 7.4e-07,
+    "price_per_1k_output": 3.49e-06,
+    "context_length": 262142,
     "updated_at": ""
   },
   {
@@ -255,9 +282,9 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.5e-07,
-    "price_per_1k_output": 3.5e-06,
-    "context_length": 262144,
+    "price_per_1k_input": 7.4e-07,
+    "price_per_1k_output": 3.49e-06,
+    "context_length": 262142,
     "updated_at": ""
   },
   {
@@ -363,8 +390,8 @@
     "id": "x-ai/grok-4.20",
     "name": "xAI: Grok 4.20",
     "provider": "x-ai",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 6e-06,
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 2.5e-06,
     "context_length": 2000000,
     "updated_at": ""
   },
@@ -723,7 +750,7 @@
     "id": "qwen/qwen3-coder-next",
     "name": "Qwen: Qwen3 Coder Next",
     "provider": "qwen",
-    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_input": 1.2e-07,
     "price_per_1k_output": 8e-07,
     "context_length": 262144,
     "updated_at": ""
@@ -1741,7 +1768,7 @@
     "name": "OpenAI: gpt-oss-120b",
     "provider": "openai",
     "price_per_1k_input": 3.9e-08,
-    "price_per_1k_output": 1.9e-07,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2543,7 +2570,7 @@
     "provider": "google",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 4e-07,
-    "context_length": 1048576,
+    "context_length": 1000000,
     "updated_at": ""
   },
   {
