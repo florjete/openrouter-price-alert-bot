@@ -138,8 +138,8 @@
     "id": "qwen/qwen3.6-35b-a3b",
     "name": "Qwen: Qwen3.6 35B A3B",
     "provider": "qwen",
-    "price_per_1k_input": 1.612e-07,
-    "price_per_1k_output": 9.6525e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -597,8 +597,8 @@
     "id": "qwen/qwen3.5-35b-a3b",
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
-    "price_per_1k_input": 1.625e-07,
-    "price_per_1k_output": 1.3e-06,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -912,8 +912,8 @@
     "id": "z-ai/glm-4.7",
     "name": "Z.ai: GLM 4.7",
     "provider": "z-ai",
-    "price_per_1k_input": 3.8e-07,
-    "price_per_1k_output": 1.74e-06,
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 1.75e-06,
     "context_length": 202752,
     "updated_at": ""
   },
@@ -1515,8 +1515,8 @@
     "id": "deepseek/deepseek-v3.1-terminus",
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "provider": "deepseek",
-    "price_per_1k_input": 2.1e-07,
-    "price_per_1k_output": 7.9e-07,
+    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_output": 9.5e-07,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -2217,8 +2217,8 @@
     "id": "qwen/qwen3-30b-a3b",
     "name": "Qwen: Qwen3 30B A3B",
     "provider": "qwen",
-    "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 2.8e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 4.5e-07,
     "context_length": 40960,
     "updated_at": ""
   },
@@ -2907,8 +2907,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-pi",
-    "name": "Inflection: Inflection 3 Pi",
+    "id": "inflection/inflection-3-productivity",
+    "name": "Inflection: Inflection 3 Productivity",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2916,8 +2916,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-productivity",
-    "name": "Inflection: Inflection 3 Productivity",
+    "id": "inflection/inflection-3-pi",
+    "name": "Inflection: Inflection 3 Pi",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2931,24 +2931,6 @@
     "price_per_1k_input": 1.7e-07,
     "price_per_1k_output": 4.3e-07,
     "context_length": 32768,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3.2-1b-instruct",
-    "name": "Meta: Llama 3.2 1B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 2.7e-08,
-    "price_per_1k_output": 2e-07,
-    "context_length": 60000,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3.2-11b-vision-instruct",
-    "name": "Meta: Llama 3.2 11B Vision Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 2.45e-07,
-    "price_per_1k_output": 2.45e-07,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -2970,6 +2952,24 @@
     "updated_at": ""
   },
   {
+    "id": "meta-llama/llama-3.2-1b-instruct",
+    "name": "Meta: Llama 3.2 1B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 2.7e-08,
+    "price_per_1k_output": 2e-07,
+    "context_length": 60000,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-3.2-11b-vision-instruct",
+    "name": "Meta: Llama 3.2 11B Vision Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 2.45e-07,
+    "price_per_1k_output": 2.45e-07,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
     "id": "qwen/qwen-2.5-72b-instruct",
     "name": "Qwen2.5 72B Instruct",
     "provider": "qwen",
@@ -2979,20 +2979,20 @@
     "updated_at": ""
   },
   {
-    "id": "cohere/command-r-08-2024",
-    "name": "Cohere: Command R (08-2024)",
-    "provider": "cohere",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "cohere/command-r-plus-08-2024",
     "name": "Cohere: Command R+ (08-2024)",
     "provider": "cohere",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "cohere/command-r-08-2024",
+    "name": "Cohere: Command R (08-2024)",
+    "provider": "cohere",
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 128000,
     "updated_at": ""
   },
@@ -3123,15 +3123,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o",
-    "name": "OpenAI: GPT-4o",
-    "provider": "openai",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4o-2024-05-13",
     "name": "OpenAI: GPT-4o (2024-05-13)",
     "provider": "openai",
@@ -3141,12 +3132,12 @@
     "updated_at": ""
   },
   {
-    "id": "meta-llama/llama-3-70b-instruct",
-    "name": "Meta: Llama 3 70B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 5.1e-07,
-    "price_per_1k_output": 7.4e-07,
-    "context_length": 8192,
+    "id": "openai/gpt-4o",
+    "name": "OpenAI: GPT-4o",
+    "provider": "openai",
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 1e-05,
+    "context_length": 128000,
     "updated_at": ""
   },
   {
@@ -3155,6 +3146,15 @@
     "provider": "meta-llama",
     "price_per_1k_input": 3e-08,
     "price_per_1k_output": 4e-08,
+    "context_length": 8192,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-3-70b-instruct",
+    "name": "Meta: Llama 3 70B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 5.1e-07,
+    "price_per_1k_output": 7.4e-07,
     "context_length": 8192,
     "updated_at": ""
   },
@@ -3312,6 +3312,15 @@
     "updated_at": ""
   },
   {
+    "id": "openai/gpt-4-0314",
+    "name": "OpenAI: GPT-4 (older v0314)",
+    "provider": "openai",
+    "price_per_1k_input": 3e-05,
+    "price_per_1k_output": 6e-05,
+    "context_length": 8191,
+    "updated_at": ""
+  },
+  {
     "id": "openai/gpt-4",
     "name": "OpenAI: GPT-4",
     "provider": "openai",
@@ -3327,15 +3336,6 @@
     "price_per_1k_input": 5e-07,
     "price_per_1k_output": 1.5e-06,
     "context_length": 16385,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/gpt-4-0314",
-    "name": "OpenAI: GPT-4 (older v0314)",
-    "provider": "openai",
-    "price_per_1k_input": 3e-05,
-    "price_per_1k_output": 6e-05,
-    "context_length": 8191,
     "updated_at": ""
   }
 ]
