@@ -18,6 +18,15 @@
     "updated_at": ""
   },
   {
+    "id": "mistralai/mistral-medium-3-5",
+    "name": "Mistral: Mistral Medium 3.5",
+    "provider": "mistralai",
+    "price_per_1k_input": 1.5e-06,
+    "price_per_1k_output": 7.5e-06,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "openrouter/owl-alpha",
     "name": "Owl Alpha",
     "provider": "openrouter",
@@ -912,8 +921,8 @@
     "id": "z-ai/glm-4.7",
     "name": "Z.ai: GLM 4.7",
     "provider": "z-ai",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 1.75e-06,
+    "price_per_1k_input": 3.8e-07,
+    "price_per_1k_output": 1.74e-06,
     "context_length": 202752,
     "updated_at": ""
   },
