@@ -831,8 +831,8 @@
     "id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "provider": "moonshotai",
-    "price_per_1k_input": 4.4e-07,
-    "price_per_1k_output": 2e-06,
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 1.98e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2499,24 +2499,6 @@
     "price_per_1k_input": 7.5e-08,
     "price_per_1k_output": 3e-07,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "anthropic/claude-3.7-sonnet",
-    "name": "Anthropic: Claude 3.7 Sonnet",
-    "provider": "anthropic",
-    "price_per_1k_input": 3e-06,
-    "price_per_1k_output": 1.5e-05,
-    "context_length": 200000,
-    "updated_at": ""
-  },
-  {
-    "id": "anthropic/claude-3.7-sonnet:thinking",
-    "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
-    "provider": "anthropic",
-    "price_per_1k_input": 3e-06,
-    "price_per_1k_output": 1.5e-05,
-    "context_length": 200000,
     "updated_at": ""
   },
   {
