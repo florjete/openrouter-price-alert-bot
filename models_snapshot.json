@@ -219,8 +219,8 @@
     "id": "qwen/qwen3.6-flash",
     "name": "Qwen: Qwen3.6 Flash",
     "provider": "qwen",
-    "price_per_1k_input": 1.2375e-07,
-    "price_per_1k_output": 7.425e-07,
+    "price_per_1k_input": 1.875e-07,
+    "price_per_1k_output": 1.125e-06,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -291,8 +291,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 1.12e-07,
-    "price_per_1k_output": 2.24e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 2e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -453,8 +453,8 @@
     "id": "qwen/qwen3.6-plus",
     "name": "Qwen: Qwen3.6 Plus",
     "provider": "qwen",
-    "price_per_1k_input": 1.794e-07,
-    "price_per_1k_output": 1.07315e-06,
+    "price_per_1k_input": 3.25e-07,
+    "price_per_1k_output": 1.95e-06,
     "context_length": 1000000,
     "updated_at": ""
   },
