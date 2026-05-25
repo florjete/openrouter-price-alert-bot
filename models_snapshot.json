@@ -1602,15 +1602,6 @@
     "updated_at": ""
   },
   {
-    "id": "alibaba/tongyi-deepresearch-30b-a3b",
-    "name": "Tongyi DeepResearch 30B A3B",
-    "provider": "alibaba",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 4.5e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "qwen/qwen3-coder-flash",
     "name": "Qwen: Qwen3 Coder Flash",
     "provider": "qwen",
