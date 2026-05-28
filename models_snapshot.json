@@ -63,15 +63,6 @@
     "updated_at": ""
   },
   {
-    "id": "baidu/cobuddy:free",
-    "name": "Baidu Qianfan: CoBuddy (free)",
-    "provider": "baidu",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-chat-latest",
     "name": "OpenAI: GPT Chat Latest",
     "provider": "openai",
@@ -309,8 +300,8 @@
     "id": "tencent/hy3-preview",
     "name": "Tencent: Hy3 preview",
     "provider": "tencent",
-    "price_per_1k_input": 6.6e-08,
-    "price_per_1k_output": 2.6e-07,
+    "price_per_1k_input": 6.3e-08,
+    "price_per_1k_output": 2.1e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -375,6 +366,15 @@
     "price_per_1k_input": 6.8e-07,
     "price_per_1k_output": 2.81e-06,
     "context_length": 65536,
+    "updated_at": ""
+  },
+  {
+    "id": "moonshotai/kimi-k2.6:free",
+    "name": "MoonshotAI: Kimi K2.6 (free)",
+    "provider": "moonshotai",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -806,7 +806,7 @@
     "provider": "minimax",
     "price_per_1k_input": 0.0,
     "price_per_1k_output": 0.0,
-    "context_length": 204800,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2790,8 +2790,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-productivity",
-    "name": "Inflection: Inflection 3 Productivity",
+    "id": "inflection/inflection-3-pi",
+    "name": "Inflection: Inflection 3 Pi",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2799,8 +2799,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-pi",
-    "name": "Inflection: Inflection 3 Pi",
+    "id": "inflection/inflection-3-productivity",
+    "name": "Inflection: Inflection 3 Productivity",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2862,20 +2862,20 @@
     "updated_at": ""
   },
   {
-    "id": "cohere/command-r-08-2024",
-    "name": "Cohere: Command R (08-2024)",
-    "provider": "cohere",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "cohere/command-r-plus-08-2024",
     "name": "Cohere: Command R+ (08-2024)",
     "provider": "cohere",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "cohere/command-r-08-2024",
+    "name": "Cohere: Command R (08-2024)",
+    "provider": "cohere",
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 128000,
     "updated_at": ""
   },
@@ -3006,15 +3006,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o",
-    "name": "OpenAI: GPT-4o",
-    "provider": "openai",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4o-2024-05-13",
     "name": "OpenAI: GPT-4o (2024-05-13)",
     "provider": "openai",
@@ -3024,12 +3015,12 @@
     "updated_at": ""
   },
   {
-    "id": "meta-llama/llama-3-70b-instruct",
-    "name": "Meta: Llama 3 70B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 5.1e-07,
-    "price_per_1k_output": 7.4e-07,
-    "context_length": 8192,
+    "id": "openai/gpt-4o",
+    "name": "OpenAI: GPT-4o",
+    "provider": "openai",
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 1e-05,
+    "context_length": 128000,
     "updated_at": ""
   },
   {
@@ -3038,6 +3029,15 @@
     "provider": "meta-llama",
     "price_per_1k_input": 4e-08,
     "price_per_1k_output": 4e-08,
+    "context_length": 8192,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-3-70b-instruct",
+    "name": "Meta: Llama 3 70B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 5.1e-07,
+    "price_per_1k_output": 7.4e-07,
     "context_length": 8192,
     "updated_at": ""
   },
@@ -3087,21 +3087,21 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-3.5-turbo-0613",
-    "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
-    "provider": "openai",
-    "price_per_1k_input": 1e-06,
-    "price_per_1k_output": 2e-06,
-    "context_length": 4095,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4-turbo-preview",
     "name": "OpenAI: GPT-4 Turbo Preview",
     "provider": "openai",
     "price_per_1k_input": 1e-05,
     "price_per_1k_output": 3e-05,
     "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-0613",
+    "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+    "provider": "openai",
+    "price_per_1k_input": 1e-06,
+    "price_per_1k_output": 2e-06,
+    "context_length": 4095,
     "updated_at": ""
   },
   {
