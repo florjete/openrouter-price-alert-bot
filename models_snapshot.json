@@ -75,8 +75,8 @@
     "id": "inclusionai/ring-2.6-1t",
     "name": "inclusionAI: Ring-2.6-1T",
     "provider": "inclusionai",
-    "price_per_1k_input": 7.5e-08,
-    "price_per_1k_output": 6.25e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 2.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -293,15 +293,6 @@
     "provider": "deepseek",
     "price_per_1k_input": 4.35e-07,
     "price_per_1k_output": 8.7e-07,
-    "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "deepseek/deepseek-v4-flash:free",
-    "name": "DeepSeek: DeepSeek V4 Flash (free)",
-    "provider": "deepseek",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -546,24 +537,6 @@
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 1e-07,
     "context_length": 16384,
-    "updated_at": ""
-  },
-  {
-    "id": "xiaomi/mimo-v2-omni",
-    "name": "Xiaomi: MiMo-V2-Omni",
-    "provider": "xiaomi",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 2e-06,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "xiaomi/mimo-v2-pro",
-    "name": "Xiaomi: MiMo-V2-Pro",
-    "provider": "xiaomi",
-    "price_per_1k_input": 1e-06,
-    "price_per_1k_output": 3e-06,
-    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -1944,24 +1917,6 @@
     "updated_at": ""
   },
   {
-    "id": "mistralai/devstral-medium",
-    "name": "Mistral: Devstral Medium",
-    "provider": "mistralai",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 2e-06,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/devstral-small",
-    "name": "Mistral: Devstral Small 1.1",
-    "provider": "mistralai",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 3e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
     "name": "Venice: Uncensored (free)",
     "provider": "cognitivecomputations",
@@ -2673,26 +2628,8 @@
     "updated_at": ""
   },
   {
-    "id": "mistralai/mistral-large-2411",
-    "name": "Mistral Large 2411",
-    "provider": "mistralai",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 6e-06,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "mistralai/mistral-large-2407",
     "name": "Mistral Large 2407",
-    "provider": "mistralai",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 6e-06,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/pixtral-large-2411",
-    "name": "Mistral: Pixtral Large 2411",
     "provider": "mistralai",
     "price_per_1k_input": 2e-06,
     "price_per_1k_output": 6e-06,

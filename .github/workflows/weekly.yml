@@ -10,6 +10,10 @@ on:
         required: false
         default: 'false'
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -31,13 +35,18 @@ jobs:
       - name: Run bot
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          TEST_DISCORD: ${{ github.inputs.test }}
-        run: python main.py
+          TEST_DISCORD: ${{ github.event.inputs.test || '' }}
+        run: |
+          if [ "$(date +%u)" = "1" ]; then
+            python main.py --weekly
+          else
+            python main.py
+          fi
 
-      - name: Commit updated snapshot
+      - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add models_snapshot.json
-          git commit -m "Update snapshot" || echo "No changes"
+          git add models_snapshot.json weekly_updates.json
+          git commit -m "Update data" || echo "No changes"
           git push

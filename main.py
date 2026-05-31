@@ -1,10 +1,12 @@
 import json
 import os
+import sys
 import requests
-from datetime import datetime
+from datetime import datetime, date, timezone
 
 API_URL = "https://openrouter.ai/api/v1/models"
 SNAPSHOT_FILE = "models_snapshot.json"
+WEEKLY_FILE = "weekly_updates.json"
 MAX_DISCORD_LEN = 2000
 
 # Set TEST_DISCORD=1 to print messages instead of sending to Discord
@@ -113,6 +115,119 @@ def find_and_group_alerts(current, previous):
     return grouped
 
 
+def load_weekly_updates():
+    try:
+        with open(WEEKLY_FILE, "r") as f:
+            content = f.read().strip()
+            return json.loads(content) if content else []
+    except FileNotFoundError:
+        return []
+
+
+def save_weekly_updates(updates):
+    with open(WEEKLY_FILE, "w") as f:
+        json.dump(updates, f, indent=2)
+
+
+def clear_weekly_updates():
+    save_weekly_updates([])
+
+
+def accumulate_daily_changes(grouped_alerts):
+    if not any(grouped_alerts.values()):
+        return False
+
+    today = date.today().isoformat()
+    updates = load_weekly_updates()
+    updates.append({"date": today, "changes": grouped_alerts})
+    save_weekly_updates(updates)
+    print(f"Accumulated changes for {today}")
+    return True
+
+
+def generate_weekly_embed(entries):
+    if not entries:
+        return None
+
+    start_date = entries[0]["date"]
+    end_date = entries[-1]["date"]
+
+    all_changes = {}
+
+    for entry in entries:
+        d = entry["date"]
+        for provider, changes in entry.get("changes", {}).items():
+            if not changes:
+                continue
+            if provider not in all_changes:
+                all_changes[provider] = []
+            for change in changes:
+                all_changes[provider].append((d, change))
+
+    description = f"**{start_date} → {end_date}**"
+
+    fields = []
+    for provider in sorted(all_changes.keys()):
+        items = all_changes[provider]
+        lines = []
+        for day, change in items:
+            short_day = datetime.fromisoformat(day).strftime("%a")
+            lines.append(f"{short_day}: {change}")
+
+        field_value = "\n".join(lines)
+
+        if len(field_value) > 1024:
+            field_value = field_value[:1021] + "..."
+
+        fields.append({
+            "name": provider,
+            "value": field_value,
+            "inline": False
+        })
+
+        if len(fields) >= 25:
+            break
+
+    if all_changes:
+        total_events = sum(len(v) for v in all_changes.values())
+        description += f"\n{total_events} change{'s' if total_events != 1 else ''} detected"
+
+    embed = {
+        "title": "Weekly OpenRouter Digest",
+        "description": description,
+        "color": 0x2b2d31,
+        "fields": fields,
+        "footer": {"text": "OpenRouter Price Bot"},
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    }
+
+    return embed
+
+
+def send_discord_embed(embed):
+    payload = {"embeds": [embed]}
+
+    if TEST_MODE:
+        print("=== Discord Embed (TEST MODE) ===")
+        print(json.dumps(payload, indent=2))
+        print("=== End of Embed ===\n")
+        return
+
+    webhook_url = os.getenv("DISCORD_WEBHOOK")
+    if not webhook_url:
+        print("WARNING: DISCORD_WEBHOOK not set, skipping Discord embed")
+        return
+
+    try:
+        response = requests.post(webhook_url, json=payload, timeout=10)
+        print(f"Discord response status: {response.status_code}")
+        if response.status_code not in (200, 204):
+            print(f"WARNING: Discord webhook returned {response.status_code}")
+            print(f"Response: {response.text}")
+    except requests.RequestException as e:
+        print(f"WARNING: Failed to send Discord embed: {e}")
+
+
 def send_grouped_alerts(grouped_alerts):
     if not any(grouped_alerts.values()):
         return  # nothing to send
@@ -140,7 +255,11 @@ def send_grouped_alerts(grouped_alerts):
 
 
 def main():
-    print(f"[{datetime.now().isoformat()}] Fetching models...")
+    is_weekly = "--weekly" in sys.argv
+    mode = "weekly" if is_weekly else "daily"
+    print(f"[{datetime.now().isoformat()}] Running in {mode} mode")
+
+    print(f"Fetching models...")
     models = fetch_models()
     prices = extract_prices(models)
     print(f"Fetched {len(prices)} models")
@@ -148,7 +267,33 @@ def main():
     snapshot = load_snapshot()
     grouped_alerts = find_and_group_alerts(prices, snapshot)
 
-    send_grouped_alerts(grouped_alerts)  # Only sends if there are updates
+    has_changes = accumulate_daily_changes(grouped_alerts)
+
+    if has_changes:
+        print("Changes detected and accumulated")
+    else:
+        print("No changes detected")
+
+    if is_weekly:
+        entries = load_weekly_updates()
+        if entries:
+            embed = generate_weekly_embed(entries)
+            if embed:
+                send_discord_embed(embed)
+                print("Weekly digest sent")
+        else:
+            no_change_embed = {
+                "title": "Weekly OpenRouter Digest",
+                "description": "**No pricing changes detected this week**",
+                "color": 0x2b2d31,
+                "footer": {"text": "OpenRouter Price Bot"},
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            }
+            send_discord_embed(no_change_embed)
+            print("Sent no-change weekly digest")
+
+        clear_weekly_updates()
+        print("Weekly updates cleared")
 
     save_snapshot(prices)
     print("Snapshot saved")
