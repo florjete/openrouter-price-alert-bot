@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "date": "2026-06-03",
+    "changes": {
+      "Qwen": [
+        "\ud83c\udd95 [Qwen3.7 Plus](<https://openrouter.ai/chat?models=qwen/qwen3.7-plus&noembed=1>) added"
+      ],
+      "Minimax": [],
+      "Stepfun": [],
+      "Anthropic": [],
+      "X-ai": [],
+      "Google": [],
+      "Openrouter": [
+        "\ud83c\udd95 [Fusion](<https://openrouter.ai/chat?models=openrouter/fusion&noembed=1>) added"
+      ],
+      "Perceptron": [],
+      "Inclusionai": [
+        "\ud83d\udcb8 [Ring-2.6-1T](<https://openrouter.ai/chat?models=inclusionai/ring-2.6-1t&noembed=1>) price dropped ($0.000003 \u2192 $0.000001)"
+      ],
+      "Openai": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "Nvidia": [],
+      "Poolside": [],
+      "~anthropic": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Deepseek": [],
+      "Tencent": [],
+      "Xiaomi": [],
+      "Moonshotai": [],
+      "Z-ai": [],
+      "Arcee-ai": [],
+      "Kwaipilot": [],
+      "Rekaai": [],
+      "Bytedance-seed": [],
+      "Inception": [],
+      "Liquid": [],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Writer": [],
+      "Relace": [],
+      "Nex-agi": [],
+      "Essentialai": [],
+      "Amazon": [],
+      "Prime-intellect": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Microsoft": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Baidu": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Switchpoint": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Meta-llama": [],
+      "Cohere": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Inflection": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
+  }
+]
