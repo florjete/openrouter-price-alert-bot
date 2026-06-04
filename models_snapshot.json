@@ -1839,8 +1839,8 @@
     "id": "qwen/qwen3-30b-a3b-instruct-2507",
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "provider": "qwen",
-    "price_per_1k_input": 4.28e-08,
-    "price_per_1k_output": 1.716e-07,
+    "price_per_1k_input": 4.815e-08,
+    "price_per_1k_output": 1.9305e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -3066,15 +3066,6 @@
     "price_per_1k_input": 6e-08,
     "price_per_1k_output": 6e-08,
     "context_length": 4096,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/gpt-4-0314",
-    "name": "OpenAI: GPT-4 (older v0314)",
-    "provider": "openai",
-    "price_per_1k_input": 3e-05,
-    "price_per_1k_output": 6e-05,
-    "context_length": 8191,
     "updated_at": ""
   },
   {
