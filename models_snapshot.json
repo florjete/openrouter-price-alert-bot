@@ -508,7 +508,7 @@
     "name": "Google: Gemma 4 31B",
     "provider": "google",
     "price_per_1k_input": 1.2e-07,
-    "price_per_1k_output": 3.7e-07,
+    "price_per_1k_output": 3.6e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2912,24 +2912,6 @@
     "provider": "google",
     "price_per_1k_input": 6.5e-07,
     "price_per_1k_output": 6.5e-07,
-    "context_length": 8192,
-    "updated_at": ""
-  },
-  {
-    "id": "sao10k/l3-euryale-70b",
-    "name": "Sao10k: Llama 3 Euryale 70B v2.1",
-    "provider": "sao10k",
-    "price_per_1k_input": 1.48e-06,
-    "price_per_1k_output": 1.48e-06,
-    "context_length": 8192,
-    "updated_at": ""
-  },
-  {
-    "id": "nousresearch/hermes-2-pro-llama-3-8b",
-    "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
-    "provider": "nousresearch",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 1.4e-07,
     "context_length": 8192,
     "updated_at": ""
   },
