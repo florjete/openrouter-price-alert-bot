@@ -318,8 +318,8 @@
     "id": "qwen/qwen3.6-27b",
     "name": "Qwen: Qwen3.6 27B",
     "provider": "qwen",
-    "price_per_1k_input": 2.9e-07,
-    "price_per_1k_output": 3.2e-06,
+    "price_per_1k_input": 2.89e-07,
+    "price_per_1k_output": 2.4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1737,15 +1737,6 @@
     "updated_at": ""
   },
   {
-    "id": "baidu/ernie-4.5-vl-28b-a3b",
-    "name": "Baidu: ERNIE 4.5 VL 28B A3B",
-    "provider": "baidu",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 5.6e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "z-ai/glm-4.5v",
     "name": "Z.ai: GLM 4.5V",
     "provider": "z-ai",
@@ -2130,15 +2121,6 @@
     "price_per_1k_input": 1.25e-06,
     "price_per_1k_output": 1e-05,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "arcee-ai/spotlight",
-    "name": "Arcee AI: Spotlight",
-    "provider": "arcee-ai",
-    "price_per_1k_input": 1.8e-07,
-    "price_per_1k_output": 1.8e-07,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -2937,8 +2919,8 @@
     "id": "meta-llama/llama-3-8b-instruct",
     "name": "Meta: Llama 3 8B Instruct",
     "provider": "meta-llama",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 4e-08,
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 1.4e-07,
     "context_length": 8192,
     "updated_at": ""
   },
@@ -3021,15 +3003,6 @@
     "price_per_1k_input": -1.0,
     "price_per_1k_output": -1.0,
     "context_length": 2000000,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/gpt-4-1106-preview",
-    "name": "OpenAI: GPT-4 Turbo (older v1106)",
-    "provider": "openai",
-    "price_per_1k_input": 1e-05,
-    "price_per_1k_output": 3e-05,
-    "context_length": 128000,
     "updated_at": ""
   },
   {
