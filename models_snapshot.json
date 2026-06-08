@@ -246,8 +246,8 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 6.84e-07,
-    "price_per_1k_output": 3.42e-06,
+    "price_per_1k_input": 6.8e-07,
+    "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -444,8 +444,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.84e-07,
-    "price_per_1k_output": 3.42e-06,
+    "price_per_1k_input": 6.8e-07,
+    "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -669,7 +669,7 @@
     "id": "qwen/qwen3.5-9b",
     "name": "Qwen: Qwen3.5-9B",
     "provider": "qwen",
-    "price_per_1k_input": 4e-08,
+    "price_per_1k_input": 1e-07,
     "price_per_1k_output": 1.5e-07,
     "context_length": 262144,
     "updated_at": ""
@@ -1125,15 +1125,6 @@
     "updated_at": ""
   },
   {
-    "id": "nex-agi/deepseek-v3.1-nex-n1",
-    "name": "Nex AGI: DeepSeek V3.1 Nex N1",
-    "provider": "nex-agi",
-    "price_per_1k_input": 1.35e-07,
-    "price_per_1k_output": 5e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "essentialai/rnj-1-instruct",
     "name": "EssentialAI: Rnj 1 Instruct",
     "provider": "essentialai",
@@ -1461,7 +1452,7 @@
     "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
     "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
     "provider": "nvidia",
-    "price_per_1k_input": 1e-07,
+    "price_per_1k_input": 4e-07,
     "price_per_1k_output": 4e-07,
     "context_length": 131072,
     "updated_at": ""
@@ -1947,7 +1938,7 @@
     "id": "qwen/qwen3-235b-a22b-2507",
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "provider": "qwen",
-    "price_per_1k_input": 7.1e-08,
+    "price_per_1k_input": 9e-08,
     "price_per_1k_output": 1e-07,
     "context_length": 262144,
     "updated_at": ""
@@ -2163,8 +2154,8 @@
     "id": "qwen/qwen3-30b-a3b",
     "name": "Qwen: Qwen3 30B A3B",
     "provider": "qwen",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 4.5e-07,
+    "price_per_1k_input": 1.2e-07,
+    "price_per_1k_output": 5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2271,7 +2262,7 @@
     "id": "meta-llama/llama-4-scout",
     "name": "Meta: Llama 4 Scout",
     "provider": "meta-llama",
-    "price_per_1k_input": 8e-08,
+    "price_per_1k_input": 1e-07,
     "price_per_1k_output": 3e-07,
     "context_length": 10000000,
     "updated_at": ""
@@ -2307,8 +2298,8 @@
     "id": "google/gemma-3-4b-it",
     "name": "Google: Gemma 3 4B",
     "provider": "google",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 8e-08,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 1e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2316,8 +2307,8 @@
     "id": "google/gemma-3-12b-it",
     "name": "Google: Gemma 3 12B",
     "provider": "google",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 1.3e-07,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 1.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2757,8 +2748,8 @@
     "id": "meta-llama/llama-3.2-11b-vision-instruct",
     "name": "Meta: Llama 3.2 11B Vision Instruct",
     "provider": "meta-llama",
-    "price_per_1k_input": 2.45e-07,
-    "price_per_1k_output": 2.45e-07,
+    "price_per_1k_input": 3.45e-07,
+    "price_per_1k_output": 3.45e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2802,8 +2793,8 @@
     "id": "nousresearch/hermes-3-llama-3.1-70b",
     "name": "Nous: Hermes 3 70B Instruct",
     "provider": "nousresearch",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 7e-07,
+    "price_per_1k_output": 7e-07,
     "context_length": 131072,
     "updated_at": ""
   },
