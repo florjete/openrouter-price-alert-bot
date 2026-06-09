@@ -1,5 +1,14 @@
 [
   {
+    "id": "nex-agi/nex-n2-pro:free",
+    "name": "Nex AGI: Nex-N2-Pro (free)",
+    "provider": "nex-agi",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "nvidia/nemotron-3.5-content-safety:free",
     "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
     "provider": "nvidia",
@@ -850,7 +859,7 @@
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
     "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 1.15e-06,
+    "price_per_1k_output": 9e-07,
     "context_length": 204800,
     "updated_at": ""
   },
