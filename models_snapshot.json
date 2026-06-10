@@ -1,5 +1,23 @@
 [
   {
+    "id": "~anthropic/claude-fable-latest",
+    "name": "Anthropic: Claude Fable Latest",
+    "provider": "~anthropic",
+    "price_per_1k_input": 1e-05,
+    "price_per_1k_output": 5e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "anthropic/claude-fable-5",
+    "name": "Anthropic: Claude Fable 5",
+    "provider": "anthropic",
+    "price_per_1k_input": 1e-05,
+    "price_per_1k_output": 5e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "nex-agi/nex-n2-pro:free",
     "name": "Nex AGI: Nex-N2-Pro (free)",
     "provider": "nex-agi",
@@ -531,15 +549,6 @@
     "updated_at": ""
   },
   {
-    "id": "z-ai/glm-5v-turbo",
-    "name": "Z.ai: GLM 5V Turbo",
-    "provider": "z-ai",
-    "price_per_1k_input": 1.2e-06,
-    "price_per_1k_output": 4e-06,
-    "context_length": 202752,
-    "updated_at": ""
-  },
-  {
     "id": "arcee-ai/trinity-large-thinking",
     "name": "Arcee AI: Trinity Large Thinking",
     "provider": "arcee-ai",
@@ -606,8 +615,8 @@
     "id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "minimax",
-    "price_per_1k_input": 2.79e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_output": 1.08e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -644,7 +653,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 1.2e-06,
     "price_per_1k_output": 4e-06,
-    "context_length": 202752,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1872,15 +1881,6 @@
     "updated_at": ""
   },
   {
-    "id": "z-ai/glm-4.5-air:free",
-    "name": "Z.ai: GLM 4.5 Air (free)",
-    "provider": "z-ai",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "z-ai/glm-4.5-air",
     "name": "Z.ai: GLM 4.5 Air",
     "provider": "z-ai",
@@ -1896,15 +1896,6 @@
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 1e-07,
     "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "z-ai/glm-4-32b",
-    "name": "Z.ai: GLM 4 32B ",
-    "provider": "z-ai",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 1e-07,
-    "context_length": 128000,
     "updated_at": ""
   },
   {
@@ -2121,15 +2112,6 @@
     "price_per_1k_input": 1.25e-06,
     "price_per_1k_output": 1e-05,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "arcee-ai/maestro-reasoning",
-    "name": "Arcee AI: Maestro Reasoning",
-    "provider": "arcee-ai",
-    "price_per_1k_input": 9e-07,
-    "price_per_1k_output": 3.3e-06,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
