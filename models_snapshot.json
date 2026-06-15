@@ -390,8 +390,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 1.8e-07,
+    "price_per_1k_input": 9.8e-08,
+    "price_per_1k_output": 1.96e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
