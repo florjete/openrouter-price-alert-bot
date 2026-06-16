@@ -5,7 +5,7 @@
     "provider": "openrouter",
     "price_per_1k_input": -1.0,
     "price_per_1k_output": -1.0,
-    "context_length": 128000,
+    "context_length": 1000000,
     "updated_at": ""
   },
   {
@@ -408,8 +408,8 @@
     "id": "tencent/hy3-preview",
     "name": "Tencent: Hy3 preview",
     "provider": "tencent",
-    "price_per_1k_input": 6.3e-08,
-    "price_per_1k_output": 2.1e-07,
+    "price_per_1k_input": 6.6e-08,
+    "price_per_1k_output": 2.6e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -561,8 +561,8 @@
     "id": "x-ai/grok-4.20-multi-agent",
     "name": "xAI: Grok 4.20 Multi-Agent",
     "provider": "x-ai",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 6e-06,
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 2.5e-06,
     "context_length": 2000000,
     "updated_at": ""
   },
@@ -858,9 +858,9 @@
     "id": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",
     "provider": "qwen",
-    "price_per_1k_input": 3.9e-07,
-    "price_per_1k_output": 2.34e-06,
-    "context_length": 262144,
+    "price_per_1k_input": 3.85e-07,
+    "price_per_1k_output": 2.45e-06,
+    "context_length": 256000,
     "updated_at": ""
   },
   {
@@ -1875,7 +1875,7 @@
     "id": "z-ai/glm-4.5-air",
     "name": "Z.ai: GLM 4.5 Air",
     "provider": "z-ai",
-    "price_per_1k_input": 1.25e-07,
+    "price_per_1k_input": 1.3e-07,
     "price_per_1k_output": 8.5e-07,
     "context_length": 131072,
     "updated_at": ""
@@ -2454,15 +2454,6 @@
     "price_per_1k_input": 5e-08,
     "price_per_1k_output": 8e-08,
     "context_length": 32768,
-    "updated_at": ""
-  },
-  {
-    "id": "deepseek/deepseek-r1-distill-qwen-32b",
-    "name": "DeepSeek: R1 Distill Qwen 32B",
-    "provider": "deepseek",
-    "price_per_1k_input": 2.9e-07,
-    "price_per_1k_output": 2.9e-07,
-    "context_length": 128000,
     "updated_at": ""
   },
   {
