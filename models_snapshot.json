@@ -1,5 +1,14 @@
 [
   {
+    "id": "z-ai/glm-5.2",
+    "name": "Z.ai: GLM 5.2",
+    "provider": "z-ai",
+    "price_per_1k_input": 1.4e-06,
+    "price_per_1k_output": 4.4e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "openrouter/fusion",
     "name": "OpenRouter: Fusion",
     "provider": "openrouter",
@@ -12,7 +21,7 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.5e-07,
+    "price_per_1k_input": 7.4e-07,
     "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -67,7 +76,7 @@
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
     "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2.5e-06,
+    "price_per_1k_output": 2.2e-06,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -390,8 +399,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 9.8e-08,
-    "price_per_1k_output": 1.96e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
