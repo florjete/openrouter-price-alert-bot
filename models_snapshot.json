@@ -48,8 +48,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.4e-07,
-    "price_per_1k_output": 3.5e-06,
+    "price_per_1k_input": 6.12e-07,
+    "price_per_1k_output": 3.069e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -336,7 +336,7 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 6.7e-07,
+    "price_per_1k_input": 6.6e-07,
     "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -462,8 +462,8 @@
     "id": "tencent/hy3-preview",
     "name": "Tencent: Hy3 preview",
     "provider": "tencent",
-    "price_per_1k_input": 6.6e-08,
-    "price_per_1k_output": 2.6e-07,
+    "price_per_1k_input": 6.3e-08,
+    "price_per_1k_output": 2.1e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -525,7 +525,7 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.7e-07,
+    "price_per_1k_input": 6.6e-07,
     "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -2921,15 +2921,6 @@
     "provider": "meta-llama",
     "price_per_1k_input": 1.4e-07,
     "price_per_1k_output": 1.4e-07,
-    "context_length": 8192,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3-70b-instruct",
-    "name": "Meta: Llama 3 70B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 5.1e-07,
-    "price_per_1k_output": 7.4e-07,
     "context_length": 8192,
     "updated_at": ""
   },
