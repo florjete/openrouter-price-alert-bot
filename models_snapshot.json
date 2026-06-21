@@ -606,8 +606,8 @@
     "id": "arcee-ai/trinity-large-thinking",
     "name": "Arcee AI: Trinity Large Thinking",
     "provider": "arcee-ai",
-    "price_per_1k_input": 2.2e-07,
-    "price_per_1k_output": 8.5e-07,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
