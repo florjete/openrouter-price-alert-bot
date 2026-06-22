@@ -30,8 +30,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 1.2e-06,
-    "price_per_1k_output": 4.1e-06,
+    "price_per_1k_input": 1e-06,
+    "price_per_1k_output": 4e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -72,11 +72,11 @@
     "updated_at": ""
   },
   {
-    "id": "nex-agi/nex-n2-pro:free",
-    "name": "Nex AGI: Nex-N2-Pro (free)",
+    "id": "nex-agi/nex-n2-pro",
+    "name": "Nex AGI: Nex-N2-Pro",
     "provider": "nex-agi",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 2.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -337,7 +337,7 @@
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
     "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 3.5e-06,
+    "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -526,7 +526,7 @@
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
     "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 3.5e-06,
+    "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2670,15 +2670,6 @@
     "price_per_1k_input": 4e-07,
     "price_per_1k_output": 4e-07,
     "context_length": 32768,
-    "updated_at": ""
-  },
-  {
-    "id": "anthropic/claude-3.5-haiku",
-    "name": "Anthropic: Claude 3.5 Haiku",
-    "provider": "anthropic",
-    "price_per_1k_input": 8e-07,
-    "price_per_1k_output": 4e-06,
-    "context_length": 200000,
     "updated_at": ""
   },
   {
