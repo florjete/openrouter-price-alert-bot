@@ -30,8 +30,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 1e-06,
-    "price_per_1k_output": 4e-06,
+    "price_per_1k_input": 9.8e-07,
+    "price_per_1k_output": 3.08e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -48,8 +48,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.12e-07,
-    "price_per_1k_output": 3.069e-06,
+    "price_per_1k_input": 6.8e-07,
+    "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -75,8 +75,8 @@
     "id": "nex-agi/nex-n2-pro",
     "name": "Nex AGI: Nex-N2-Pro",
     "provider": "nex-agi",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2.5e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -600,6 +600,15 @@
     "price_per_1k_input": 3.25e-07,
     "price_per_1k_output": 1.95e-06,
     "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "z-ai/glm-5v-turbo",
+    "name": "Z.ai: GLM 5V Turbo",
+    "provider": "z-ai",
+    "price_per_1k_input": 1.2e-06,
+    "price_per_1k_output": 4e-06,
+    "context_length": 202752,
     "updated_at": ""
   },
   {
