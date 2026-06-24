@@ -1,5 +1,14 @@
 [
   {
+    "id": "sakana/fugu-ultra",
+    "name": "Sakana: Fugu Ultra",
+    "provider": "sakana",
+    "price_per_1k_input": 5e-06,
+    "price_per_1k_output": 3e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "google/gemini-3.1-flash-image",
     "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
     "provider": "google",
@@ -30,8 +39,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.8e-07,
-    "price_per_1k_output": 3.08e-06,
+    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_output": 3e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -48,8 +57,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.8e-07,
-    "price_per_1k_output": 3.41e-06,
+    "price_per_1k_input": 7.4e-07,
+    "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -480,7 +489,7 @@
     "id": "xiaomi/mimo-v2.5",
     "name": "Xiaomi: MiMo-V2.5",
     "provider": "xiaomi",
-    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_input": 1.05e-07,
     "price_per_1k_output": 2.8e-07,
     "context_length": 1048576,
     "updated_at": ""
@@ -678,8 +687,8 @@
     "id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "minimax",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 1e-06,
+    "price_per_1k_input": 2.4e-07,
+    "price_per_1k_output": 9.6e-07,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1197,15 +1206,6 @@
     "updated_at": ""
   },
   {
-    "id": "essentialai/rnj-1-instruct",
-    "name": "EssentialAI: Rnj 1 Instruct",
-    "provider": "essentialai",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 1.5e-07,
-    "context_length": 32768,
-    "updated_at": ""
-  },
-  {
     "id": "openrouter/bodybuilder",
     "name": "Body Builder (beta)",
     "provider": "openrouter",
@@ -1283,15 +1283,6 @@
     "provider": "deepseek",
     "price_per_1k_input": 2.288e-07,
     "price_per_1k_output": 3.432e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
-    "id": "prime-intellect/intellect-3",
-    "name": "Prime Intellect: INTELLECT-3",
-    "provider": "prime-intellect",
-    "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 1.1e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2550,7 +2541,7 @@
     "id": "microsoft/phi-4",
     "name": "Microsoft: Phi 4",
     "provider": "microsoft",
-    "price_per_1k_input": 6.5e-08,
+    "price_per_1k_input": 7e-08,
     "price_per_1k_output": 1.4e-07,
     "context_length": 16384,
     "updated_at": ""
@@ -2721,8 +2712,8 @@
     "id": "thedrummer/rocinante-12b",
     "name": "TheDrummer: Rocinante 12B",
     "provider": "thedrummer",
-    "price_per_1k_input": 1.7e-07,
-    "price_per_1k_output": 4.3e-07,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 5e-07,
     "context_length": 32768,
     "updated_at": ""
   },
