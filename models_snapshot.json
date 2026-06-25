@@ -2763,20 +2763,20 @@
     "updated_at": ""
   },
   {
-    "id": "cohere/command-r-plus-08-2024",
-    "name": "Cohere: Command R+ (08-2024)",
-    "provider": "cohere",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "cohere/command-r-08-2024",
     "name": "Cohere: Command R (08-2024)",
     "provider": "cohere",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "cohere/command-r-plus-08-2024",
+    "name": "Cohere: Command R+ (08-2024)",
+    "provider": "cohere",
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 1e-05,
     "context_length": 128000,
     "updated_at": ""
   },
@@ -2862,8 +2862,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini-2024-07-18",
-    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "id": "openai/gpt-4o-mini",
+    "name": "OpenAI: GPT-4o-mini",
     "provider": "openai",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
@@ -2871,8 +2871,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini",
-    "name": "OpenAI: GPT-4o-mini",
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
     "provider": "openai",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
@@ -3033,21 +3033,21 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4",
-    "name": "OpenAI: GPT-4",
-    "provider": "openai",
-    "price_per_1k_input": 3e-05,
-    "price_per_1k_output": 6e-05,
-    "context_length": 8191,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-3.5-turbo",
     "name": "OpenAI: GPT-3.5 Turbo",
     "provider": "openai",
     "price_per_1k_input": 5e-07,
     "price_per_1k_output": 1.5e-06,
     "context_length": 16385,
+    "updated_at": ""
+  },
+  {
+    "id": "openai/gpt-4",
+    "name": "OpenAI: GPT-4",
+    "provider": "openai",
+    "price_per_1k_input": 3e-05,
+    "price_per_1k_output": 6e-05,
+    "context_length": 8191,
     "updated_at": ""
   }
 ]
