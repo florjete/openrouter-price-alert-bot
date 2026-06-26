@@ -687,8 +687,8 @@
     "id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "minimax",
-    "price_per_1k_input": 2.4e-07,
-    "price_per_1k_output": 9.6e-07,
+    "price_per_1k_input": 1.8e-07,
+    "price_per_1k_output": 7.2e-07,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -741,8 +741,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 4.5e-07,
+    "price_per_1k_input": 8.5e-08,
+    "price_per_1k_output": 4e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -939,8 +939,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 9e-07,
+    "price_per_1k_input": 1.2e-07,
+    "price_per_1k_output": 4.8e-07,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1848,8 +1848,8 @@
     "id": "openai/gpt-oss-120b",
     "name": "OpenAI: gpt-oss-120b",
     "provider": "openai",
-    "price_per_1k_input": 3.9e-08,
-    "price_per_1k_output": 1.8e-07,
+    "price_per_1k_input": 3e-08,
+    "price_per_1k_output": 1.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
