@@ -418,7 +418,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provider": "qwen",
     "price_per_1k_input": 2.885e-07,
-    "price_per_1k_output": 3.17e-06,
+    "price_per_1k_output": 2.65e-06,
     "context_length": 262144,
     "updated_at": ""
   },
