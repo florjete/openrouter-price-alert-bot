@@ -345,8 +345,8 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 3.41e-06,
+    "price_per_1k_input": 5.5e-07,
+    "price_per_1k_output": 3.2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -534,8 +534,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 3.41e-06,
+    "price_per_1k_input": 5.5e-07,
+    "price_per_1k_output": 3.2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -545,15 +545,6 @@
     "provider": "anthropic",
     "price_per_1k_input": 5e-06,
     "price_per_1k_output": 2.5e-05,
-    "context_length": 1000000,
-    "updated_at": ""
-  },
-  {
-    "id": "anthropic/claude-opus-4.6-fast",
-    "name": "Anthropic: Claude Opus 4.6 (Fast)",
-    "provider": "anthropic",
-    "price_per_1k_input": 3e-05,
-    "price_per_1k_output": 0.00015,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -993,7 +984,7 @@
     "id": "stepfun/step-3.5-flash",
     "name": "StepFun: Step 3.5 Flash",
     "provider": "stepfun",
-    "price_per_1k_input": 9e-08,
+    "price_per_1k_input": 1e-07,
     "price_per_1k_output": 3e-07,
     "context_length": 262144,
     "updated_at": ""
