@@ -39,7 +39,7 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_input": 9.4e-07,
     "price_per_1k_output": 3e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -552,8 +552,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 9.8e-07,
-    "price_per_1k_output": 3.08e-06,
+    "price_per_1k_input": 9.75e-07,
+    "price_per_1k_output": 4.3e-06,
     "context_length": 202752,
     "updated_at": ""
   },
