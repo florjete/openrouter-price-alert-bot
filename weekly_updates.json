@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "date": "2026-07-01",
+    "changes": {
+      "Anthropic": [
+        "\ud83c\udd95 [Claude Sonnet 5](<https://openrouter.ai/chat?models=anthropic/claude-sonnet-5&noembed=1>) added"
+      ],
+      "Google": [
+        "\ud83c\udd95 [Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)](<https://openrouter.ai/chat?models=google/gemini-3.1-flash-lite-image&noembed=1>) added"
+      ],
+      "Sakana": [],
+      "Cohere": [],
+      "Z-ai": [],
+      "Openrouter": [],
+      "Moonshotai": [],
+      "~anthropic": [
+        "\ud83d\udcb8 [Anthropic Claude Sonnet Latest](<https://openrouter.ai/chat?models=~anthropic/claude-sonnet-latest&noembed=1>) price dropped ($0.000018 \u2192 $0.000012)"
+      ],
+      "Nex-agi": [],
+      "Nvidia": [],
+      "Qwen": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "X-ai": [],
+      "Perceptron": [],
+      "Inclusionai": [],
+      "Openai": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "Poolside": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Deepseek": [],
+      "Tencent": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Kwaipilot": [],
+      "Rekaai": [],
+      "Bytedance-seed": [],
+      "Inception": [],
+      "Liquid": [],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Switchpoint": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Inflection": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
+  }
+]
