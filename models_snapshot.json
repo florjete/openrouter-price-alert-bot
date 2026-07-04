@@ -75,8 +75,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.3e-07,
-    "price_per_1k_output": 3e-06,
+    "price_per_1k_input": 9.086e-07,
+    "price_per_1k_output": 2.8556e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -759,8 +759,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 8.5e-08,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 8e-08,
+    "price_per_1k_output": 4.5e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
