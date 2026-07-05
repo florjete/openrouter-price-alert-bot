@@ -75,8 +75,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.086e-07,
-    "price_per_1k_output": 2.8556e-06,
+    "price_per_1k_input": 6.986e-07,
+    "price_per_1k_output": 2.1956e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
