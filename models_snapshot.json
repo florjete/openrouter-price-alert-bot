@@ -1,5 +1,23 @@
 [
   {
+    "id": "x-ai/grok-4.5",
+    "name": "xAI: Grok 4.5",
+    "provider": "x-ai",
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 6e-06,
+    "context_length": 500000,
+    "updated_at": ""
+  },
+  {
+    "id": "~x-ai/grok-latest",
+    "name": "xAI: Grok Latest",
+    "provider": "~x-ai",
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 6e-06,
+    "context_length": 500000,
+    "updated_at": ""
+  },
+  {
     "id": "aion-labs/aion-3.0-mini",
     "name": "AionLabs: Aion-3.0-Mini",
     "provider": "aion-labs",
@@ -30,8 +48,8 @@
     "id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "provider": "tencent",
-    "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 8e-07,
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 5.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -417,7 +435,7 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 6.6e-07,
+    "price_per_1k_input": 6.5e-07,
     "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -606,7 +624,7 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.6e-07,
+    "price_per_1k_input": 6.5e-07,
     "price_per_1k_output": 3.41e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -924,15 +942,6 @@
     "price_per_1k_input": 6.5e-08,
     "price_per_1k_output": 2.6e-07,
     "context_length": 1000000,
-    "updated_at": ""
-  },
-  {
-    "id": "liquid/lfm-2-24b-a2b",
-    "name": "LiquidAI: LFM2-24B-A2B",
-    "provider": "liquid",
-    "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1.2e-07,
-    "context_length": 128000,
     "updated_at": ""
   },
   {
@@ -2034,15 +2043,6 @@
     "updated_at": ""
   },
   {
-    "id": "switchpoint/router",
-    "name": "Switchpoint Router",
-    "provider": "switchpoint",
-    "price_per_1k_input": 8.5e-07,
-    "price_per_1k_output": 3.4e-06,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "moonshotai/kimi-k2",
     "name": "MoonshotAI: Kimi K2 0711",
     "provider": "moonshotai",
@@ -2727,8 +2727,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-productivity",
-    "name": "Inflection: Inflection 3 Productivity",
+    "id": "inflection/inflection-3-pi",
+    "name": "Inflection: Inflection 3 Pi",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2736,8 +2736,8 @@
     "updated_at": ""
   },
   {
-    "id": "inflection/inflection-3-pi",
-    "name": "Inflection: Inflection 3 Pi",
+    "id": "inflection/inflection-3-productivity",
+    "name": "Inflection: Inflection 3 Productivity",
     "provider": "inflection",
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
@@ -2751,15 +2751,6 @@
     "price_per_1k_input": 2.5e-07,
     "price_per_1k_output": 5e-07,
     "context_length": 65536,
-    "updated_at": ""
-  },
-  {
-    "id": "meta-llama/llama-3.2-1b-instruct",
-    "name": "Meta: Llama 3.2 1B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 2.7e-08,
-    "price_per_1k_output": 2.01e-07,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -2777,6 +2768,15 @@
     "provider": "meta-llama",
     "price_per_1k_input": 5e-08,
     "price_per_1k_output": 3.3e-07,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-3.2-1b-instruct",
+    "name": "Meta: Llama 3.2 1B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 2.7e-08,
+    "price_per_1k_output": 2.01e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2871,20 +2871,20 @@
     "updated_at": ""
   },
   {
-    "id": "meta-llama/llama-3.1-70b-instruct",
-    "name": "Meta: Llama 3.1 70B Instruct",
-    "provider": "meta-llama",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 4e-07,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "meta-llama/llama-3.1-8b-instruct",
     "name": "Meta: Llama 3.1 8B Instruct",
     "provider": "meta-llama",
     "price_per_1k_input": 2e-08,
     "price_per_1k_output": 3e-08,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "meta-llama/llama-3.1-70b-instruct",
+    "name": "Meta: Llama 3.1 70B Instruct",
+    "provider": "meta-llama",
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 4e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2898,8 +2898,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini",
-    "name": "OpenAI: GPT-4o-mini",
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
     "provider": "openai",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
@@ -2907,8 +2907,8 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini-2024-07-18",
-    "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+    "id": "openai/gpt-4o-mini",
+    "name": "OpenAI: GPT-4o-mini",
     "provider": "openai",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
@@ -3069,21 +3069,21 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-3.5-turbo",
-    "name": "OpenAI: GPT-3.5 Turbo",
-    "provider": "openai",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 1.5e-06,
-    "context_length": 16385,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4",
     "name": "OpenAI: GPT-4",
     "provider": "openai",
     "price_per_1k_input": 3e-05,
     "price_per_1k_output": 6e-05,
     "context_length": 8191,
+    "updated_at": ""
+  },
+  {
+    "id": "openai/gpt-3.5-turbo",
+    "name": "OpenAI: GPT-3.5 Turbo",
+    "provider": "openai",
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 1.5e-06,
+    "context_length": 16385,
     "updated_at": ""
   }
 ]
