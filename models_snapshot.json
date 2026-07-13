@@ -192,8 +192,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 4.2e-07,
-    "price_per_1k_output": 1.32e-06,
+    "price_per_1k_input": 9.3e-07,
+    "price_per_1k_output": 3e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -210,8 +210,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.2e-07,
-    "price_per_1k_output": 3.5e-06,
+    "price_per_1k_input": 7.19e-07,
+    "price_per_1k_output": 3.49e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1651,8 +1651,8 @@
     "name": "Z.ai: GLM 4.6",
     "provider": "z-ai",
     "price_per_1k_input": 4.3e-07,
-    "price_per_1k_output": 1.74e-06,
-    "context_length": 202752,
+    "price_per_1k_output": 1.75e-06,
+    "context_length": 200000,
     "updated_at": ""
   },
   {
@@ -2056,7 +2056,7 @@
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "provider": "qwen",
     "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 1e-07,
+    "price_per_1k_output": 5.5e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2361,8 +2361,8 @@
     "id": "meta-llama/llama-4-maverick",
     "name": "Meta: Llama 4 Maverick",
     "provider": "meta-llama",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
+    "price_per_1k_input": 2e-07,
+    "price_per_1k_output": 8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
