@@ -1,5 +1,23 @@
 [
   {
+    "id": "moonshotai/kimi-k3",
+    "name": "MoonshotAI: Kimi K3",
+    "provider": "moonshotai",
+    "price_per_1k_input": 3e-06,
+    "price_per_1k_output": 1.5e-05,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "meta/muse-spark-1.1",
+    "name": "Meta: Muse Spark 1.1",
+    "provider": "meta",
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 4.25e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "kwaipilot/kat-coder-air-v2.5",
     "name": "Kwaipilot: KAT-Coder-Air V2.5",
     "provider": "kwaipilot",
@@ -210,8 +228,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.548e-07,
-    "price_per_1k_output": 3.0008e-06,
+    "price_per_1k_input": 9.324e-07,
+    "price_per_1k_output": 2.9304e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -228,8 +246,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.19e-07,
-    "price_per_1k_output": 3.49e-06,
+    "price_per_1k_input": 7.5e-07,
+    "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -489,9 +507,9 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 3.41e-06,
-    "context_length": 262144,
+    "price_per_1k_input": 3e-06,
+    "price_per_1k_output": 1.5e-05,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -822,8 +840,8 @@
     "id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "minimax",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1056,8 +1074,8 @@
     "id": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",
     "provider": "qwen",
-    "price_per_1k_input": 4.5e-07,
-    "price_per_1k_output": 3e-06,
+    "price_per_1k_input": 3.9e-07,
+    "price_per_1k_output": 2.34e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2442,8 +2460,8 @@
     "id": "google/gemma-3-27b-it",
     "name": "Google: Gemma 3 27B",
     "provider": "google",
-    "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 4.5e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 3e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2775,8 +2793,8 @@
     "id": "meta-llama/llama-3.2-3b-instruct",
     "name": "Meta: Llama 3.2 3B Instruct",
     "provider": "meta-llama",
-    "price_per_1k_input": 5e-08,
-    "price_per_1k_output": 3.3e-07,
+    "price_per_1k_input": 5.09e-08,
+    "price_per_1k_output": 3.35e-07,
     "context_length": 131072,
     "updated_at": ""
   },
