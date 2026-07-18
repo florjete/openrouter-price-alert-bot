@@ -126,5 +126,73 @@
       "Undi95": [],
       "Gryphe": []
     }
+  },
+  {
+    "date": "2026-07-18",
+    "changes": {
+      "Thinkingmachines": [
+        "\ud83c\udd95 [Inkling](<https://openrouter.ai/chat?models=thinkingmachines/inkling&noembed=1>) added"
+      ],
+      "Openrouter": [
+        "\ud83c\udd95 [Auto Router (Beta)](<https://openrouter.ai/chat?models=openrouter/auto-beta&noembed=1>) added"
+      ],
+      "Moonshotai": [],
+      "Meta": [],
+      "Kwaipilot": [],
+      "Openai": [],
+      "X-ai": [],
+      "~x-ai": [],
+      "Aion-labs": [],
+      "Tencent": [],
+      "Poolside": [],
+      "Anthropic": [],
+      "Google": [],
+      "Nex-agi": [],
+      "Sakana": [],
+      "Cohere": [],
+      "Z-ai": [
+        "\ud83d\udcb8 [GLM 5.2](<https://openrouter.ai/chat?models=z-ai/glm-5.2&noembed=1>) price dropped ($0.000004 \u2192 $0.000001)"
+      ],
+      "~anthropic": [],
+      "Nvidia": [],
+      "Qwen": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "Perceptron": [],
+      "Inclusionai": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Deepseek": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Bytedance-seed": [],
+      "Inception": [],
+      "Upstage": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Inflection": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
   }
 ]
