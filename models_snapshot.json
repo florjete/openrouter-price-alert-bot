@@ -1,5 +1,14 @@
 [
   {
+    "id": "meituan/longcat-2.0",
+    "name": "Meituan: LongCat 2.0",
+    "provider": "meituan",
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.2e-06,
+    "context_length": 1048756,
+    "updated_at": ""
+  },
+  {
     "id": "thinkingmachines/inkling",
     "name": "Thinking Machines: Inkling",
     "provider": "thinkingmachines",
@@ -147,17 +156,8 @@
     "id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "provider": "tencent",
-    "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 8e-07,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "tencent/hy3:free",
-    "name": "Tencent: Hy3 (free)",
-    "provider": "tencent",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 5.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -246,8 +246,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.758e-07,
-    "price_per_1k_output": 3.0668e-06,
+    "price_per_1k_input": 9.366e-07,
+    "price_per_1k_output": 2.9436e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -264,8 +264,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 8.5e-07,
-    "price_per_1k_output": 3.8e-06,
+    "price_per_1k_input": 8.2e-07,
+    "price_per_1k_output": 3.75e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -633,8 +633,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 9.8e-08,
-    "price_per_1k_output": 1.96e-07,
+    "price_per_1k_input": 9.38e-08,
+    "price_per_1k_output": 1.876e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -759,8 +759,8 @@
     "id": "google/gemma-4-31b-it",
     "name": "Google: Gemma 4 31B",
     "provider": "google",
-    "price_per_1k_input": 2.2e-07,
-    "price_per_1k_output": 5.5e-07,
+    "price_per_1k_input": 1.2e-07,
+    "price_per_1k_output": 3.7e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -903,8 +903,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 8.5e-08,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 8e-08,
+    "price_per_1k_output": 4.5e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1794,8 +1794,8 @@
     "id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 1.1e-06,
+    "price_per_1k_input": 9.75e-08,
+    "price_per_1k_output": 7.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
