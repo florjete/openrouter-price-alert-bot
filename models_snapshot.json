@@ -1,5 +1,41 @@
 [
   {
+    "id": "poolside/laguna-s-2.1",
+    "name": "Poolside: Laguna S 2.1",
+    "provider": "poolside",
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 2e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "poolside/laguna-s-2.1:free",
+    "name": "Poolside: Laguna S 2.1 (free)",
+    "provider": "poolside",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "google/gemini-3.6-flash",
+    "name": "Google: Gemini 3.6 Flash",
+    "provider": "google",
+    "price_per_1k_input": 1.5e-06,
+    "price_per_1k_output": 7.5e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "google/gemini-3.5-flash-lite",
+    "name": "Google: Gemini 3.5 Flash-Lite",
+    "provider": "google",
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 2.5e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "meituan/longcat-2.0",
     "name": "Meituan: LongCat 2.0",
     "provider": "meituan",
@@ -14,7 +50,7 @@
     "provider": "thinkingmachines",
     "price_per_1k_input": 1e-06,
     "price_per_1k_output": 4.05e-06,
-    "context_length": 1048576,
+    "context_length": 524288,
     "updated_at": ""
   },
   {
@@ -230,7 +266,7 @@
     "provider": "google",
     "price_per_1k_input": 2e-06,
     "price_per_1k_output": 1.2e-05,
-    "context_length": 65536,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -246,8 +282,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 9.366e-07,
-    "price_per_1k_output": 2.9436e-06,
+    "price_per_1k_input": 7.868e-07,
+    "price_per_1k_output": 2.4728e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -311,7 +347,7 @@
     "provider": "nvidia",
     "price_per_1k_input": 6e-07,
     "price_per_1k_output": 3.6e-06,
-    "context_length": 1000000,
+    "context_length": 512288,
     "updated_at": ""
   },
   {
@@ -347,7 +383,7 @@
     "provider": "stepfun",
     "price_per_1k_input": 2e-07,
     "price_per_1k_output": 1.15e-06,
-    "context_length": 256000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -535,7 +571,7 @@
     "name": "Google Gemini Flash Latest",
     "provider": "~google",
     "price_per_1k_input": 1.5e-06,
-    "price_per_1k_output": 9e-06,
+    "price_per_1k_output": 7.5e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -633,8 +669,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 9.38e-08,
-    "price_per_1k_output": 1.876e-07,
+    "price_per_1k_input": 9.8e-08,
+    "price_per_1k_output": 1.96e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -662,7 +698,7 @@
     "provider": "xiaomi",
     "price_per_1k_input": 4.35e-07,
     "price_per_1k_output": 8.7e-07,
-    "context_length": 1048576,
+    "context_length": 1050000,
     "updated_at": ""
   },
   {
@@ -671,7 +707,7 @@
     "provider": "xiaomi",
     "price_per_1k_input": 1.4e-07,
     "price_per_1k_output": 2.8e-07,
-    "context_length": 1048576,
+    "context_length": 1050000,
     "updated_at": ""
   },
   {
@@ -734,7 +770,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 9.66e-07,
     "price_per_1k_output": 3.036e-06,
-    "context_length": 202752,
+    "context_length": 204800,
     "updated_at": ""
   },
   {
@@ -842,7 +878,7 @@
     "provider": "kwaipilot",
     "price_per_1k_input": 3e-07,
     "price_per_1k_output": 1.2e-06,
-    "context_length": 256000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -914,7 +950,7 @@
     "provider": "nvidia",
     "price_per_1k_input": 0.0,
     "price_per_1k_output": 0.0,
-    "context_length": 1000000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1040,7 +1076,7 @@
     "provider": "google",
     "price_per_1k_input": 2e-06,
     "price_per_1k_output": 1.2e-05,
-    "context_length": 1048756,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -1220,7 +1256,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 6.05e-08,
     "price_per_1k_output": 4e-07,
-    "context_length": 200000,
+    "context_length": 202752,
     "updated_at": ""
   },
   {
@@ -1265,7 +1301,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 4e-07,
     "price_per_1k_output": 1.75e-06,
-    "context_length": 202752,
+    "context_length": 204800,
     "updated_at": ""
   },
   {
@@ -1562,7 +1598,7 @@
     "provider": "qwen",
     "price_per_1k_input": 1.04e-07,
     "price_per_1k_output": 4.16e-07,
-    "context_length": 262144,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -1598,7 +1634,7 @@
     "provider": "qwen",
     "price_per_1k_input": 1.17e-07,
     "price_per_1k_output": 1.365e-06,
-    "context_length": 256000,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -1607,7 +1643,7 @@
     "provider": "qwen",
     "price_per_1k_input": 1.17e-07,
     "price_per_1k_output": 4.55e-07,
-    "context_length": 256000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1652,7 +1688,7 @@
     "provider": "qwen",
     "price_per_1k_input": 1.3e-07,
     "price_per_1k_output": 1.56e-06,
-    "context_length": 131072,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1679,7 +1715,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 5e-07,
     "price_per_1k_output": 2e-06,
-    "context_length": 202752,
+    "context_length": 204800,
     "updated_at": ""
   },
   {
@@ -1733,7 +1769,7 @@
     "provider": "qwen",
     "price_per_1k_input": 2.1e-07,
     "price_per_1k_output": 1.9e-06,
-    "context_length": 131072,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1769,7 +1805,7 @@
     "provider": "deepseek",
     "price_per_1k_input": 2.7e-07,
     "price_per_1k_output": 1e-06,
-    "context_length": 131072,
+    "context_length": 163840,
     "updated_at": ""
   },
   {
@@ -1794,8 +1830,8 @@
     "id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 9.75e-08,
-    "price_per_1k_output": 7.8e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 1.1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1841,7 +1877,7 @@
     "provider": "qwen",
     "price_per_1k_input": 1.3e-07,
     "price_per_1k_output": 1.56e-06,
-    "context_length": 131072,
+    "context_length": 81920,
     "updated_at": ""
   },
   {
@@ -1985,7 +2021,7 @@
     "provider": "qwen",
     "price_per_1k_input": 7e-08,
     "price_per_1k_output": 2.7e-07,
-    "context_length": 160000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2030,7 +2066,7 @@
     "provider": "qwen",
     "price_per_1k_input": 3e-07,
     "price_per_1k_output": 1e-06,
-    "context_length": 1048576,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2111,7 +2147,7 @@
     "provider": "baidu",
     "price_per_1k_input": 4.2e-07,
     "price_per_1k_output": 1.25e-06,
-    "context_length": 131072,
+    "context_length": 123000,
     "updated_at": ""
   },
   {
@@ -2120,7 +2156,7 @@
     "provider": "mistralai",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 3e-07,
-    "context_length": 131072,
+    "context_length": 256000,
     "updated_at": ""
   },
   {
@@ -2237,7 +2273,7 @@
     "provider": "meta-llama",
     "price_per_1k_input": 1.8e-07,
     "price_per_1k_output": 1.8e-07,
-    "context_length": 163840,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -2264,7 +2300,7 @@
     "provider": "qwen",
     "price_per_1k_input": 1.2e-07,
     "price_per_1k_output": 2.4e-07,
-    "context_length": 131702,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -2354,7 +2390,7 @@
     "provider": "meta-llama",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 3e-07,
-    "context_length": 10000000,
+    "context_length": 1310720,
     "updated_at": ""
   },
   {
@@ -2444,7 +2480,7 @@
     "provider": "google",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 3e-07,
-    "context_length": 131072,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2516,7 +2552,7 @@
     "provider": "qwen",
     "price_per_1k_input": 8e-07,
     "price_per_1k_output": 1e-06,
-    "context_length": 131072,
+    "context_length": 128000,
     "updated_at": ""
   },
   {
@@ -2561,7 +2597,7 @@
     "provider": "deepseek",
     "price_per_1k_input": 8e-07,
     "price_per_1k_output": 8e-07,
-    "context_length": 128000,
+    "context_length": 8192,
     "updated_at": ""
   },
   {
@@ -2597,7 +2633,7 @@
     "provider": "deepseek",
     "price_per_1k_input": 2.002e-07,
     "price_per_1k_output": 8.001e-07,
-    "context_length": 131072,
+    "context_length": 163840,
     "updated_at": ""
   },
   {
@@ -2687,7 +2723,7 @@
     "provider": "qwen",
     "price_per_1k_input": 6.6e-07,
     "price_per_1k_output": 1e-06,
-    "context_length": 128000,
+    "context_length": 32768,
     "updated_at": ""
   },
   {
@@ -2705,7 +2741,7 @@
     "provider": "anthracite-org",
     "price_per_1k_input": 3e-06,
     "price_per_1k_output": 5e-06,
-    "context_length": 32768,
+    "context_length": 16384,
     "updated_at": ""
   },
   {
@@ -2714,7 +2750,7 @@
     "provider": "qwen",
     "price_per_1k_input": 4e-08,
     "price_per_1k_output": 1e-07,
-    "context_length": 131072,
+    "context_length": 32768,
     "updated_at": ""
   },
   {
@@ -2750,7 +2786,7 @@
     "provider": "meta-llama",
     "price_per_1k_input": 2.7e-08,
     "price_per_1k_output": 2.01e-07,
-    "context_length": 131072,
+    "context_length": 60000,
     "updated_at": ""
   },
   {
@@ -2768,7 +2804,7 @@
     "provider": "qwen",
     "price_per_1k_input": 3.6e-07,
     "price_per_1k_output": 4e-07,
-    "context_length": 131072,
+    "context_length": 32768,
     "updated_at": ""
   },
   {
@@ -2921,7 +2957,7 @@
     "provider": "microsoft",
     "price_per_1k_input": 6.2e-07,
     "price_per_1k_output": 6.2e-07,
-    "context_length": 65536,
+    "context_length": 65535,
     "updated_at": ""
   },
   {
@@ -3020,7 +3056,7 @@
     "provider": "gryphe",
     "price_per_1k_input": 6e-08,
     "price_per_1k_output": 6e-08,
-    "context_length": 4096,
+    "context_length": 8192,
     "updated_at": ""
   },
   {
