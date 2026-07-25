@@ -1,5 +1,23 @@
 [
   {
+    "id": "anthropic/claude-opus-5-fast",
+    "name": "Claude Opus 5 (Fast)",
+    "provider": "anthropic",
+    "price_per_1k_input": 1e-05,
+    "price_per_1k_output": 5e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "anthropic/claude-opus-5",
+    "name": "Claude Opus 5",
+    "provider": "anthropic",
+    "price_per_1k_input": 5e-06,
+    "price_per_1k_output": 2.5e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "inclusionai/ling-3.0-flash:free",
     "name": "Ling-3.0-flash (free)",
     "provider": "inclusionai",
@@ -291,8 +309,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 8.204e-07,
-    "price_per_1k_output": 2.5784e-06,
+    "price_per_1k_input": 7.266e-07,
+    "price_per_1k_output": 2.2836e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -309,8 +327,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.1e-07,
-    "price_per_1k_output": 3.49e-06,
+    "price_per_1k_input": 7.8e-07,
+    "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -354,8 +372,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 512288,
     "updated_at": ""
   },
@@ -642,7 +660,7 @@
     "id": "qwen/qwen3.6-27b",
     "name": "Qwen: Qwen3.6 27B",
     "provider": "qwen",
-    "price_per_1k_input": 2.88e-07,
+    "price_per_1k_input": 2.89e-07,
     "price_per_1k_output": 2.4e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -678,8 +696,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 9.8e-08,
-    "price_per_1k_output": 1.96e-07,
+    "price_per_1k_input": 9.38e-08,
+    "price_per_1k_output": 1.876e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -759,8 +777,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.84e-07,
-    "price_per_1k_output": 3.42e-06,
+    "price_per_1k_input": 6.46e-07,
+    "price_per_1k_output": 2.72e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -804,8 +822,8 @@
     "id": "google/gemma-4-31b-it",
     "name": "Google: Gemma 4 31B",
     "provider": "google",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 3.5e-07,
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 4e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -840,8 +858,8 @@
     "id": "arcee-ai/trinity-large-thinking",
     "name": "Arcee AI: Trinity Large Thinking",
     "provider": "arcee-ai",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 8e-07,
+    "price_per_1k_input": 2.2e-07,
+    "price_per_1k_output": 8.5e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -948,8 +966,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 4.5e-07,
+    "price_per_1k_input": 8.5e-08,
+    "price_per_1k_output": 4e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1839,8 +1857,8 @@
     "id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 1.1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1992,8 +2010,8 @@
     "id": "openai/gpt-oss-20b",
     "name": "OpenAI: gpt-oss-20b",
     "provider": "openai",
-    "price_per_1k_input": 2.9e-08,
-    "price_per_1k_output": 1.4e-07,
+    "price_per_1k_input": 3e-08,
+    "price_per_1k_output": 1.3e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2073,8 +2091,8 @@
     "id": "qwen/qwen3-coder",
     "name": "Qwen: Qwen3 Coder 480B A35B",
     "provider": "qwen",
-    "price_per_1k_input": 3.8e-07,
-    "price_per_1k_output": 1.55e-06,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
