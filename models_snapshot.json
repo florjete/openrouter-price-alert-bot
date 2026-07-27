@@ -309,8 +309,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 6.804e-07,
-    "price_per_1k_output": 2.1384e-06,
+    "price_per_1k_input": 7.938e-07,
+    "price_per_1k_output": 2.4948e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -327,7 +327,7 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.5e-07,
+    "price_per_1k_input": 7.3e-07,
     "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -372,8 +372,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 6e-07,
-    "price_per_1k_output": 3.6e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 2.2e-06,
     "context_length": 512288,
     "updated_at": ""
   },
@@ -1058,7 +1058,7 @@
     "provider": "google",
     "price_per_1k_input": 5e-07,
     "price_per_1k_output": 3e-06,
-    "context_length": 131072,
+    "context_length": 65536,
     "updated_at": ""
   },
   {
@@ -2475,15 +2475,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-4o-mini-search-preview",
-    "name": "OpenAI: GPT-4o-mini Search Preview",
-    "provider": "openai",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-4o-search-preview",
     "name": "OpenAI: GPT-4o Search Preview",
     "provider": "openai",
@@ -2778,24 +2769,6 @@
     "price_per_1k_input": 4e-08,
     "price_per_1k_output": 1e-07,
     "context_length": 32768,
-    "updated_at": ""
-  },
-  {
-    "id": "inflection/inflection-3-pi",
-    "name": "Inflection: Inflection 3 Pi",
-    "provider": "inflection",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 8000,
-    "updated_at": ""
-  },
-  {
-    "id": "inflection/inflection-3-productivity",
-    "name": "Inflection: Inflection 3 Productivity",
-    "provider": "inflection",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 8000,
     "updated_at": ""
   },
   {
