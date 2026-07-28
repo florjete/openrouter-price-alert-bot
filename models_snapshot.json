@@ -1,5 +1,14 @@
 [
   {
+    "id": "qwen/qwen3.7-flash",
+    "name": "Qwen: Qwen3.7 Flash",
+    "provider": "qwen",
+    "price_per_1k_input": 3e-08,
+    "price_per_1k_output": 1.3e-07,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "anthropic/claude-opus-5-fast",
     "name": "Claude Opus 5 (Fast)",
     "provider": "anthropic",
@@ -129,8 +138,8 @@
     "id": "openai/gpt-5.6-luna-pro",
     "name": "OpenAI: GPT-5.6 Luna Pro",
     "provider": "openai",
-    "price_per_1k_input": 1e-06,
-    "price_per_1k_output": 6e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3e-06,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -138,8 +147,8 @@
     "id": "openai/gpt-5.6-luna",
     "name": "OpenAI: GPT-5.6 Luna",
     "provider": "openai",
-    "price_per_1k_input": 1e-06,
-    "price_per_1k_output": 6e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3e-06,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -147,8 +156,8 @@
     "id": "openai/gpt-5.6-terra-pro",
     "name": "OpenAI: GPT-5.6 Terra Pro",
     "provider": "openai",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1.5e-05,
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 7.5e-06,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -156,8 +165,8 @@
     "id": "openai/gpt-5.6-terra",
     "name": "OpenAI: GPT-5.6 Terra",
     "provider": "openai",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1.5e-05,
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 7.5e-06,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -309,8 +318,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 7.938e-07,
-    "price_per_1k_output": 2.4948e-06,
+    "price_per_1k_input": 7.686e-07,
+    "price_per_1k_output": 2.4156e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -804,8 +813,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
-    "price_per_1k_input": 1.2e-07,
-    "price_per_1k_output": 3.5e-07,
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 4.2e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1200,8 +1209,8 @@
     "id": "qwen/qwen3-coder-next",
     "name": "Qwen: Qwen3 Coder Next",
     "provider": "qwen",
-    "price_per_1k_input": 1.1e-07,
-    "price_per_1k_output": 8e-07,
+    "price_per_1k_input": 1.8e-07,
+    "price_per_1k_output": 9e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1962,15 +1971,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-5-chat",
-    "name": "OpenAI: GPT-5 Chat",
-    "provider": "openai",
-    "price_per_1k_input": 1.25e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-5",
     "name": "OpenAI: GPT-5",
     "provider": "openai",
@@ -2472,15 +2472,6 @@
     "price_per_1k_input": 2.5e-06,
     "price_per_1k_output": 1e-05,
     "context_length": 256000,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/gpt-4o-search-preview",
-    "name": "OpenAI: GPT-4o Search Preview",
-    "provider": "openai",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 128000,
     "updated_at": ""
   },
   {
