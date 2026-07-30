@@ -345,8 +345,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 7.378e-07,
-    "price_per_1k_output": 2.3188e-06,
+    "price_per_1k_input": 6.251e-07,
+    "price_per_1k_output": 1.9646e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -417,8 +417,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 512288,
     "updated_at": ""
   },
@@ -651,7 +651,7 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 3e-06,
+    "price_per_1k_input": 2.9e-06,
     "price_per_1k_output": 1.5e-05,
     "context_length": 1048576,
     "updated_at": ""
@@ -903,8 +903,8 @@
     "id": "google/gemma-4-31b-it",
     "name": "Google: Gemma 4 31B",
     "provider": "google",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 3.4e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2874,8 +2874,8 @@
     "id": "deepseek/deepseek-chat",
     "name": "DeepSeek: DeepSeek V3",
     "provider": "deepseek",
-    "price_per_1k_input": 2.002e-07,
-    "price_per_1k_output": 8.001e-07,
+    "price_per_1k_input": 2.574e-07,
+    "price_per_1k_output": 1.0287e-06,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -2991,8 +2991,8 @@
     "id": "qwen/qwen-2.5-7b-instruct",
     "name": "Qwen: Qwen2.5 7B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 1e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 2e-07,
     "context_length": 32768,
     "updated_at": ""
   },
