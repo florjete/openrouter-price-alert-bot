@@ -1,5 +1,14 @@
 [
   {
+    "id": "deepseek/deepseek-v4-flash-0731",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731",
+    "provider": "deepseek",
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 2.8e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "qwen/qwen3.7-flash",
     "name": "Qwen: Qwen3.7 Flash",
     "provider": "qwen",
@@ -39,8 +48,8 @@
     "id": "poolside/laguna-s-2.1",
     "name": "Poolside: Laguna S 2.1",
     "provider": "poolside",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 2e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -156,8 +165,8 @@
     "id": "openai/gpt-5.6-luna-pro",
     "name": "OpenAI: GPT-5.6 Luna Pro",
     "provider": "openai",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 3e-06,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 6.000000000000001e-07,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -165,8 +174,8 @@
     "id": "openai/gpt-5.6-luna",
     "name": "OpenAI: GPT-5.6 Luna",
     "provider": "openai",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 3e-06,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 6.000000000000001e-07,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -174,8 +183,8 @@
     "id": "openai/gpt-5.6-terra-pro",
     "name": "OpenAI: GPT-5.6 Terra Pro",
     "provider": "openai",
-    "price_per_1k_input": 1.25e-06,
-    "price_per_1k_output": 7.5e-06,
+    "price_per_1k_input": 1.0000000000000002e-06,
+    "price_per_1k_output": 6e-06,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -183,8 +192,8 @@
     "id": "openai/gpt-5.6-terra",
     "name": "OpenAI: GPT-5.6 Terra",
     "provider": "openai",
-    "price_per_1k_input": 1.25e-06,
-    "price_per_1k_output": 7.5e-06,
+    "price_per_1k_input": 1.0000000000000002e-06,
+    "price_per_1k_output": 6e-06,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -345,8 +354,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 6.251e-07,
-    "price_per_1k_output": 1.9646e-06,
+    "price_per_1k_input": 1.12e-06,
+    "price_per_1k_output": 3.52e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -652,7 +661,7 @@
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
     "price_per_1k_input": 2.9e-06,
-    "price_per_1k_output": 1.5e-05,
+    "price_per_1k_output": 1.4e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -849,8 +858,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 6.46e-07,
-    "price_per_1k_output": 2.72e-06,
+    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_output": 4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1854,24 +1863,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/o3-deep-research",
-    "name": "OpenAI: o3 Deep Research",
-    "provider": "openai",
-    "price_per_1k_input": 1e-05,
-    "price_per_1k_output": 4e-05,
-    "context_length": 200000,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/o4-mini-deep-research",
-    "name": "OpenAI: o4 Mini Deep Research",
-    "provider": "openai",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 8e-06,
-    "context_length": 200000,
-    "updated_at": ""
-  },
-  {
     "id": "google/gemini-2.5-flash-image",
     "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
     "provider": "google",
@@ -1893,8 +1884,8 @@
     "id": "qwen/qwen3-vl-30b-a3b-instruct",
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
+    "price_per_1k_input": 1.3e-07,
+    "price_per_1k_output": 5.2e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1995,15 +1986,6 @@
     "price_per_1k_input": 6.5e-07,
     "price_per_1k_output": 3.25e-06,
     "context_length": 1000000,
-    "updated_at": ""
-  },
-  {
-    "id": "openai/gpt-5-codex",
-    "name": "OpenAI: GPT-5 Codex",
-    "provider": "openai",
-    "price_per_1k_input": 1.25e-06,
-    "price_per_1k_output": 1e-05,
-    "context_length": 400000,
     "updated_at": ""
   },
   {
@@ -2209,7 +2191,7 @@
     "name": "OpenAI: gpt-oss-20b",
     "provider": "openai",
     "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1.3e-07,
+    "price_per_1k_output": 1.4e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2289,8 +2271,8 @@
     "id": "qwen/qwen3-235b-a22b-thinking-2507",
     "name": "Qwen: Qwen3 235B A22B Thinking 2507",
     "provider": "qwen",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 3e-06,
+    "price_per_1k_input": 2.3e-07,
+    "price_per_1k_output": 2.3e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2975,7 +2957,7 @@
     "provider": "thedrummer",
     "price_per_1k_input": 4e-07,
     "price_per_1k_output": 4e-07,
-    "context_length": 32768,
+    "context_length": 1024000,
     "updated_at": ""
   },
   {
