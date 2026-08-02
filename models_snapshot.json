@@ -1,10 +1,19 @@
 [
   {
+    "id": "~deepseek/deepseek-v4-flash-latest",
+    "name": "DeepSeek V4 Flash Latest",
+    "provider": "~deepseek",
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 1.8e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "deepseek",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 2.8e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -336,8 +345,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 7.6006e-07,
-    "price_per_1k_output": 2.38876e-06,
+    "price_per_1k_input": 2.842e-07,
+    "price_per_1k_output": 8.932e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -399,8 +408,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 512288,
     "updated_at": ""
   },
