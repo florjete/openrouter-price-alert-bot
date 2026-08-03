@@ -166,7 +166,7 @@
     "name": "OpenAI: GPT-5.6 Luna Pro",
     "provider": "openai",
     "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 6.000000000000001e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -175,7 +175,7 @@
     "name": "OpenAI: GPT-5.6 Luna",
     "provider": "openai",
     "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 6.000000000000001e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 1050000,
     "updated_at": ""
   },
@@ -183,7 +183,7 @@
     "id": "openai/gpt-5.6-terra-pro",
     "name": "OpenAI: GPT-5.6 Terra Pro",
     "provider": "openai",
-    "price_per_1k_input": 1.0000000000000002e-06,
+    "price_per_1k_input": 1e-06,
     "price_per_1k_output": 6e-06,
     "context_length": 1050000,
     "updated_at": ""
@@ -192,7 +192,7 @@
     "id": "openai/gpt-5.6-terra",
     "name": "OpenAI: GPT-5.6 Terra",
     "provider": "openai",
-    "price_per_1k_input": 1.0000000000000002e-06,
+    "price_per_1k_input": 1e-06,
     "price_per_1k_output": 6e-06,
     "context_length": 1050000,
     "updated_at": ""
@@ -345,8 +345,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 2.842e-07,
-    "price_per_1k_output": 8.932e-07,
+    "price_per_1k_input": 7.07e-07,
+    "price_per_1k_output": 2.222e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1101,8 +1101,8 @@
     "id": "qwen/qwen3.5-122b-a10b",
     "name": "Qwen: Qwen3.5-122B-A10B",
     "provider": "qwen",
-    "price_per_1k_input": 2.6e-07,
-    "price_per_1k_output": 2.08e-06,
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 3.2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1767,8 +1767,8 @@
     "id": "qwen/qwen3-vl-235b-a22b-thinking",
     "name": "Qwen: Qwen3 VL 235B A22B Thinking",
     "provider": "qwen",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 4e-06,
+    "price_per_1k_input": 9.8e-07,
+    "price_per_1k_output": 3.95e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -2082,8 +2082,8 @@
     "id": "qwen/qwen3-235b-a22b-2507",
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "provider": "qwen",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 5.5e-07,
+    "price_per_1k_input": 1.495e-07,
+    "price_per_1k_output": 5.98e-07,
     "context_length": 262144,
     "updated_at": ""
   },
