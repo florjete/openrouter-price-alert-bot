@@ -226,7 +226,7 @@
   },
   {
     "id": "x-ai/grok-4.5",
-    "name": "xAI: Grok 4.5",
+    "name": "SpaceXAI: Grok 4.5",
     "provider": "x-ai",
     "price_per_1k_input": 2e-06,
     "price_per_1k_output": 6e-06,
@@ -487,7 +487,7 @@
   },
   {
     "id": "x-ai/grok-build-0.1",
-    "name": "xAI: Grok Build 0.1",
+    "name": "SpaceXAI: Grok Build 0.1",
     "provider": "x-ai",
     "price_per_1k_input": 1e-06,
     "price_per_1k_output": 2e-06,
@@ -550,7 +550,7 @@
   },
   {
     "id": "x-ai/grok-4.3",
-    "name": "xAI: Grok 4.3",
+    "name": "SpaceXAI: Grok 4.3",
     "provider": "x-ai",
     "price_per_1k_input": 1.25e-06,
     "price_per_1k_output": 2.5e-06,
@@ -892,7 +892,7 @@
   },
   {
     "id": "x-ai/grok-4.20-multi-agent",
-    "name": "xAI: Grok 4.20 Multi-Agent",
+    "name": "SpaceXAI: Grok 4.20 Multi-Agent",
     "provider": "x-ai",
     "price_per_1k_input": 1.25e-06,
     "price_per_1k_output": 2.5e-06,
@@ -901,7 +901,7 @@
   },
   {
     "id": "x-ai/grok-4.20",
-    "name": "xAI: Grok 4.20",
+    "name": "SpaceXAI: Grok 4.20",
     "provider": "x-ai",
     "price_per_1k_input": 1.25e-06,
     "price_per_1k_output": 2.5e-06,
@@ -948,8 +948,8 @@
     "id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "minimax",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 1e-06,
+    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_output": 1.08e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2154,8 +2154,8 @@
     "id": "mistralai/mistral-small-3.2-24b-instruct",
     "name": "Mistral: Mistral Small 3.2 24B",
     "provider": "mistralai",
-    "price_per_1k_input": 7.5e-08,
-    "price_per_1k_output": 2e-07,
+    "price_per_1k_input": 9.375e-08,
+    "price_per_1k_output": 2.5e-07,
     "context_length": 256000,
     "updated_at": ""
   },
