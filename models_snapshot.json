@@ -1,5 +1,14 @@
 [
   {
+    "id": "meta/muse-spark-1.2",
+    "name": "Meta: Muse Spark 1.2",
+    "provider": "meta",
+    "price_per_1k_input": 1.25e-06,
+    "price_per_1k_output": 4.25e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "qwen/qwen3.8-max",
     "name": "Qwen: Qwen3.8 Max",
     "provider": "qwen",
@@ -60,6 +69,15 @@
     "price_per_1k_input": 5e-06,
     "price_per_1k_output": 2.5e-05,
     "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "inclusionai/ling-3.0-flash",
+    "name": "Ling-3.0-flash",
+    "provider": "inclusionai",
+    "price_per_1k_input": 7.5e-08,
+    "price_per_1k_output": 2.2e-07,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -372,7 +390,7 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.3e-07,
+    "price_per_1k_input": 7e-07,
     "price_per_1k_output": 3.5e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -687,8 +705,8 @@
     "id": "qwen/qwen3.6-27b",
     "name": "Qwen: Qwen3.6 27B",
     "provider": "qwen",
-    "price_per_1k_input": 2.89e-07,
-    "price_per_1k_output": 2.4e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -723,8 +741,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 2.8e-07,
+    "price_per_1k_input": 8.82e-08,
+    "price_per_1k_output": 1.764e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -822,8 +840,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 9.66e-07,
-    "price_per_1k_output": 3.036e-06,
+    "price_per_1k_input": 9.52e-07,
+    "price_per_1k_output": 2.992e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1191,7 +1209,7 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_input": 2.2e-07,
     "price_per_1k_output": 9e-07,
     "context_length": 204800,
     "updated_at": ""
@@ -1265,7 +1283,7 @@
     "provider": "upstage",
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 6e-07,
-    "context_length": 128000,
+    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -2091,8 +2109,8 @@
     "id": "qwen/qwen3-235b-a22b-2507",
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "provider": "qwen",
-    "price_per_1k_input": 1.495e-07,
-    "price_per_1k_output": 5.98e-07,
+    "price_per_1k_input": 9e-08,
+    "price_per_1k_output": 5.5e-07,
     "context_length": 262144,
     "updated_at": ""
   },
