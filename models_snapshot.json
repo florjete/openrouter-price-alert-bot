@@ -165,7 +165,7 @@
     "id": "thinkingmachines/inkling",
     "name": "Thinking Machines: Inkling",
     "provider": "thinkingmachines",
-    "price_per_1k_input": 1e-06,
+    "price_per_1k_input": 9.5e-07,
     "price_per_1k_output": 4.05e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -471,8 +471,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 7.6e-07,
-    "price_per_1k_output": 2.42e-06,
+    "price_per_1k_input": 2.52e-07,
+    "price_per_1k_output": 7.92e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -930,8 +930,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.82e-08,
-    "price_per_1k_output": 1.764e-07,
+    "price_per_1k_input": 1.4e-07,
+    "price_per_1k_output": 2.8e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1011,8 +1011,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 5.89e-07,
-    "price_per_1k_output": 2.48e-06,
+    "price_per_1k_input": 5.795e-07,
+    "price_per_1k_output": 2.44e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1227,8 +1227,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 9e-07,
+    "price_per_1k_input": 8.5e-08,
+    "price_per_1k_output": 4e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -1803,8 +1803,8 @@
     "id": "deepseek/deepseek-v3.2",
     "name": "DeepSeek: DeepSeek V3.2",
     "provider": "deepseek",
-    "price_per_1k_input": 2.69e-07,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 2.6e-07,
+    "price_per_1k_output": 3.8e-07,
     "context_length": 163840,
     "updated_at": ""
   },
