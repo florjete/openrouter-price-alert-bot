@@ -1,5 +1,32 @@
 [
   {
+    "id": "sakana/sakana-namazu",
+    "name": "Sakana: Sakana Namazu",
+    "provider": "sakana",
+    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_output": 4e-06,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "upstage/solar-pro4",
+    "name": "Upstage: Solar Pro 4",
+    "provider": "upstage",
+    "price_per_1k_input": 3e-08,
+    "price_per_1k_output": 1.2e-07,
+    "context_length": 524288,
+    "updated_at": ""
+  },
+  {
+    "id": "meta/muse-glimmer-30b",
+    "name": "Meta: Muse Glimmer 30B",
+    "provider": "meta",
+    "price_per_1k_input": 3.5e-07,
+    "price_per_1k_output": 1.5e-06,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
     "id": "inclusionai/ling-3.0-tiny:free",
     "name": "inclusionAI: Ling 3.0 Tiny (free)",
     "provider": "inclusionai",
@@ -921,8 +948,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provider": "deepseek",
-    "price_per_1k_input": 4.35e-07,
-    "price_per_1k_output": 8.7e-07,
+    "price_per_1k_input": 6.3168e-07,
+    "price_per_1k_output": 1.26336e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1305,15 +1332,6 @@
     "updated_at": ""
   },
   {
-    "id": "openai/gpt-5.3-chat",
-    "name": "OpenAI: GPT-5.3 Chat",
-    "provider": "openai",
-    "price_per_1k_input": 1.75e-06,
-    "price_per_1k_output": 1.4e-05,
-    "context_length": 128000,
-    "updated_at": ""
-  },
-  {
     "id": "google/gemini-3.1-flash-lite-preview",
     "name": "Google: Gemini 3.1 Flash Lite Preview",
     "provider": "google",
@@ -1452,8 +1470,8 @@
     "id": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",
     "provider": "qwen",
-    "price_per_1k_input": 3.9e-07,
-    "price_per_1k_output": 2.34e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2073,8 +2091,8 @@
     "id": "z-ai/glm-4.6",
     "name": "Z.ai: GLM 4.6",
     "provider": "z-ai",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2e-06,
+    "price_per_1k_input": 5.5e-07,
+    "price_per_1k_output": 2.2e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2416,7 +2434,7 @@
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "provider": "qwen",
     "price_per_1k_input": 7e-08,
-    "price_per_1k_output": 2.7e-07,
+    "price_per_1k_output": 2.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },

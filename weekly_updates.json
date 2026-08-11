@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "date": "2026-08-11",
+    "changes": {
+      "Sakana": [
+        "\ud83c\udd95 [Sakana Namazu](<https://openrouter.ai/chat?models=sakana/sakana-namazu&noembed=1>) added"
+      ],
+      "Upstage": [
+        "\ud83c\udd95 [Solar Pro 4](<https://openrouter.ai/chat?models=upstage/solar-pro4&noembed=1>) added"
+      ],
+      "Meta": [
+        "\ud83c\udd95 [Muse Glimmer 30B](<https://openrouter.ai/chat?models=meta/muse-glimmer-30b&noembed=1>) added"
+      ],
+      "Inclusionai": [],
+      "Qwen": [],
+      "~deepseek": [],
+      "Deepseek": [],
+      "Thinkingmachines": [],
+      "Anthropic": [],
+      "Poolside": [],
+      "Google": [],
+      "Meituan": [],
+      "Openrouter": [],
+      "Moonshotai": [],
+      "Kwaipilot": [],
+      "Openai": [],
+      "X-ai": [],
+      "~x-ai": [],
+      "Aion-labs": [],
+      "Tencent": [],
+      "Nex-agi": [],
+      "Cohere": [],
+      "Z-ai": [],
+      "~anthropic": [],
+      "Nvidia": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "Perceptron": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Bytedance-seed": [],
+      "Inception": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
+  }
+]
