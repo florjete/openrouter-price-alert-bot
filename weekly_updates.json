@@ -67,5 +67,76 @@
       "Undi95": [],
       "Gryphe": []
     }
+  },
+  {
+    "date": "2026-08-12",
+    "changes": {
+      "Liquid": [
+        "\ud83c\udd95 [LFM2.5-2.6B (free)](<https://openrouter.ai/chat?models=liquid/lfm-2.5-2.6b:free&noembed=1>) added"
+      ],
+      "Nvidia": [
+        "\ud83c\udd95 [Nemotron 3.5 Lightning](<https://openrouter.ai/chat?models=nvidia/nemotron-3.5-lightning&noembed=1>) added",
+        "\ud83c\udd95 [Nemotron 3.5 Lightning (free)](<https://openrouter.ai/chat?models=nvidia/nemotron-3.5-lightning:free&noembed=1>) added"
+      ],
+      "Sakana": [],
+      "Upstage": [],
+      "Meta": [],
+      "Inclusionai": [],
+      "Qwen": [],
+      "~deepseek": [],
+      "Deepseek": [],
+      "Bytedance-seed": [
+        "\ud83c\udd95 [Seed-2.0-Code](<https://openrouter.ai/chat?models=bytedance-seed/seed-2.0-code&noembed=1>) added"
+      ],
+      "Thinkingmachines": [],
+      "Anthropic": [],
+      "Poolside": [],
+      "Google": [],
+      "Meituan": [],
+      "Openrouter": [],
+      "Moonshotai": [],
+      "Kwaipilot": [],
+      "Openai": [],
+      "X-ai": [],
+      "~x-ai": [],
+      "Aion-labs": [],
+      "Tencent": [],
+      "Nex-agi": [],
+      "Cohere": [],
+      "Z-ai": [],
+      "~anthropic": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "Perceptron": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Inception": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
   }
 ]

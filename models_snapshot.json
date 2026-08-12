@@ -1,5 +1,32 @@
 [
   {
+    "id": "liquid/lfm-2.5-2.6b:free",
+    "name": "LiquidAI: LFM2.5-2.6B (free)",
+    "provider": "liquid",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
+    "id": "nvidia/nemotron-3.5-lightning",
+    "name": "NVIDIA: Nemotron 3.5 Lightning",
+    "provider": "nvidia",
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 2.5e-07,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "nvidia/nemotron-3.5-lightning:free",
+    "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "provider": "nvidia",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "sakana/sakana-namazu",
     "name": "Sakana: Sakana Namazu",
     "provider": "sakana",
@@ -69,6 +96,15 @@
     "price_per_1k_input": 8e-08,
     "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "bytedance-seed/seed-2.0-code",
+    "name": "ByteDance Seed: Seed-2.0-Code",
+    "provider": "bytedance-seed",
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -498,8 +534,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 7.6e-07,
-    "price_per_1k_output": 2.42e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3.15e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -948,8 +984,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provider": "deepseek",
-    "price_per_1k_input": 6.3168e-07,
-    "price_per_1k_output": 1.26336e-06,
+    "price_per_1k_input": 1.168e-06,
+    "price_per_1k_output": 2.336e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2154,8 +2190,8 @@
     "id": "qwen/qwen3-vl-235b-a22b-instruct",
     "name": "Qwen: Qwen3 VL 235B A22B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 2.1e-07,
-    "price_per_1k_output": 1.9e-06,
+    "price_per_1k_input": 2.6e-07,
+    "price_per_1k_output": 1.04e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2191,7 +2227,7 @@
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "provider": "deepseek",
     "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 1e-06,
+    "price_per_1k_output": 9.5e-07,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -2379,7 +2415,7 @@
     "id": "openai/gpt-oss-120b",
     "name": "OpenAI: gpt-oss-120b",
     "provider": "openai",
-    "price_per_1k_input": 3.7e-08,
+    "price_per_1k_input": 3e-08,
     "price_per_1k_output": 1.7e-07,
     "context_length": 131072,
     "updated_at": ""
