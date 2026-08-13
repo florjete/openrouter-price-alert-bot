@@ -138,5 +138,79 @@
       "Undi95": [],
       "Gryphe": []
     }
+  },
+  {
+    "date": "2026-08-13",
+    "changes": {
+      "Bytedance-seed": [
+        "\ud83c\udd95 [Seed 2.1 Turbo](<https://openrouter.ai/chat?models=bytedance-seed/seed-2-1-turbo&noembed=1>) added"
+      ],
+      "Qwen": [
+        "\ud83c\udd95 [Qwen3.8 2.4T A95B](<https://openrouter.ai/chat?models=qwen/qwen3.8-2.4t-a95b&noembed=1>) added"
+      ],
+      "Deepseek": [
+        "\ud83c\udd95 [DeepSeek V4 Pro 0813](<https://openrouter.ai/chat?models=deepseek/deepseek-v4-pro-0813&noembed=1>) added"
+      ],
+      "X-ai": [
+        "\ud83c\udd95 [Grok 4.6](<https://openrouter.ai/chat?models=x-ai/grok-4.6&noembed=1>) added"
+      ],
+      "Liquid": [],
+      "Nvidia": [],
+      "Sakana": [],
+      "Upstage": [],
+      "Meta": [],
+      "~deepseek": [],
+      "Thinkingmachines": [],
+      "Anthropic": [],
+      "Inclusionai": [],
+      "Poolside": [],
+      "Google": [],
+      "Meituan": [],
+      "Openrouter": [],
+      "Moonshotai": [],
+      "Kwaipilot": [],
+      "Openai": [],
+      "~x-ai": [],
+      "Aion-labs": [],
+      "Tencent": [],
+      "Nex-agi": [],
+      "Cohere": [],
+      "Z-ai": [
+        "\ud83d\udcb8 [GLM 5.2](<https://openrouter.ai/chat?models=z-ai/glm-5.2&noembed=1>) price dropped ($0.000004 \u2192 $0.000003)"
+      ],
+      "~anthropic": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "Perceptron": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Inception": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
   }
 ]

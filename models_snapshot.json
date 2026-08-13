@@ -1,5 +1,50 @@
 [
   {
+    "id": "bytedance-seed/seed-2-1-turbo",
+    "name": "ByteDance Seed: Seed 2.1 Turbo",
+    "provider": "bytedance-seed",
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 2.5e-06,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "qwen/qwen3.8-2.4t-a95b",
+    "name": "Qwen: Qwen3.8 2.4T A95B",
+    "provider": "qwen",
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 6e-06,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "bytedance-seed/seed-2.0-code",
+    "name": "ByteDance Seed: Seed-2.0-Code",
+    "provider": "bytedance-seed",
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3e-06,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "deepseek/deepseek-v4-pro-0813",
+    "name": "DeepSeek: DeepSeek V4 Pro 0813",
+    "provider": "deepseek",
+    "price_per_1k_input": 4.35e-07,
+    "price_per_1k_output": 8.7e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "x-ai/grok-4.6",
+    "name": "SpaceXAI: Grok 4.6",
+    "provider": "x-ai",
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 6e-06,
+    "context_length": 500000,
+    "updated_at": ""
+  },
+  {
     "id": "liquid/lfm-2.5-2.6b:free",
     "name": "LiquidAI: LFM2.5-2.6B (free)",
     "provider": "liquid",
@@ -14,7 +59,7 @@
     "provider": "nvidia",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 2.5e-07,
-    "context_length": 262144,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -54,15 +99,6 @@
     "updated_at": ""
   },
   {
-    "id": "inclusionai/ling-3.0-tiny:free",
-    "name": "inclusionAI: Ling 3.0 Tiny (free)",
-    "provider": "inclusionai",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
     "id": "meta/muse-spark-1.2",
     "name": "Meta: Muse Spark 1.2",
     "provider": "meta",
@@ -96,15 +132,6 @@
     "price_per_1k_input": 8e-08,
     "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "bytedance-seed/seed-2.0-code",
-    "name": "ByteDance Seed: Seed-2.0-Code",
-    "provider": "bytedance-seed",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 3e-06,
-    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -534,8 +561,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 3.15e-06,
+    "price_per_1k_input": 6.3e-07,
+    "price_per_1k_output": 1.98e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -561,8 +588,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7e-07,
-    "price_per_1k_output": 3.5e-06,
+    "price_per_1k_input": 6.7e-07,
+    "price_per_1k_output": 3.4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1398,8 +1425,8 @@
     "id": "qwen/qwen3.5-35b-a3b",
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 1e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1.25e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2127,8 +2154,8 @@
     "id": "z-ai/glm-4.6",
     "name": "Z.ai: GLM 4.6",
     "provider": "z-ai",
-    "price_per_1k_input": 5.5e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 2e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2253,7 +2280,7 @@
     "id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 9e-08,
+    "price_per_1k_input": 1e-07,
     "price_per_1k_output": 1.1e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -3299,7 +3326,7 @@
     "provider": "anthracite-org",
     "price_per_1k_input": 3e-06,
     "price_per_1k_output": 5e-06,
-    "context_length": 16384,
+    "context_length": 32768,
     "updated_at": ""
   },
   {
