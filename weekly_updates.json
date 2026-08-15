@@ -283,5 +283,77 @@
       "Undi95": [],
       "Gryphe": []
     }
+  },
+  {
+    "date": "2026-08-15",
+    "changes": {
+      "Qwen": [
+        "\ud83c\udd95 [Qwen3.8 27B](<https://openrouter.ai/chat?models=qwen/qwen3.8-27b&noembed=1>) added",
+        "\ud83d\udcb8 [Qwen3.5 397B A17B](<https://openrouter.ai/chat?models=qwen/qwen3.5-397b-a17b&noembed=1>) price dropped ($0.000004 \u2192 $0.000003)"
+      ],
+      "Dots-studio": [
+        "\ud83c\udd95 [Dots3-Note Preview (free)](<https://openrouter.ai/chat?models=dots-studio/dots-3-note-preview:free&noembed=1>) added"
+      ],
+      "Google": [],
+      "Bytedance-seed": [],
+      "Deepseek": [],
+      "X-ai": [],
+      "Liquid": [],
+      "Nvidia": [],
+      "Sakana": [],
+      "Upstage": [],
+      "Meta": [],
+      "~deepseek": [],
+      "Thinkingmachines": [],
+      "Anthropic": [],
+      "Inclusionai": [],
+      "Poolside": [],
+      "Meituan": [],
+      "Openrouter": [],
+      "Moonshotai": [],
+      "Kwaipilot": [],
+      "Openai": [],
+      "~x-ai": [],
+      "Aion-labs": [],
+      "Tencent": [],
+      "Nex-agi": [],
+      "Cohere": [],
+      "Z-ai": [
+        "\ud83d\udcb8 [GLM 5.1](<https://openrouter.ai/chat?models=z-ai/glm-5.1&noembed=1>) price dropped ($0.000006 \u2192 $0.000004)"
+      ],
+      "~anthropic": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "Perceptron": [],
+      "Ibm-granite": [],
+      "Mistralai": [],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Inception": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Ai21": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
   }
 ]
