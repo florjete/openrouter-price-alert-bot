@@ -1,5 +1,14 @@
 [
   {
+    "id": "~z-ai/glm-latest",
+    "name": "Z.ai: GLM Latest",
+    "provider": "~z-ai",
+    "price_per_1k_input": 1.4e-06,
+    "price_per_1k_output": 4.4e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "z-ai/glm-5.3",
     "name": "Z.ai: GLM 5.3",
     "provider": "z-ai",
@@ -14,7 +23,7 @@
     "provider": "qwen",
     "price_per_1k_input": 4.5e-07,
     "price_per_1k_output": 3.2e-06,
-    "context_length": 262144,
+    "context_length": 1000000,
     "updated_at": ""
   },
   {
@@ -75,8 +84,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 1.32e-06,
-    "price_per_1k_output": 3.96e-06,
+    "price_per_1k_input": 1.188e-06,
+    "price_per_1k_output": 3.564e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -165,8 +174,8 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 7.65e-08,
-    "price_per_1k_output": 1.53e-07,
+    "price_per_1k_input": 6.5e-08,
+    "price_per_1k_output": 1.4e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -1020,8 +1029,8 @@
     "id": "qwen/qwen3.6-27b",
     "name": "Qwen: Qwen3.6 27B",
     "provider": "qwen",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 2e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1065,8 +1074,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 1.44e-06,
-    "price_per_1k_output": 2.88e-06,
+    "price_per_1k_input": 1.6e-06,
+    "price_per_1k_output": 3.2e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1074,8 +1083,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.26e-08,
-    "price_per_1k_output": 1.652e-07,
+    "price_per_1k_input": 8.8606e-08,
+    "price_per_1k_output": 1.77212e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1479,8 +1488,8 @@
     "id": "qwen/qwen3.5-35b-a3b",
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
-    "price_per_1k_input": 2.25e-07,
-    "price_per_1k_output": 1.8e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1.25e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1596,7 +1605,7 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 2.2e-07,
+    "price_per_1k_input": 2.25e-07,
     "price_per_1k_output": 9e-07,
     "context_length": 204800,
     "updated_at": ""
@@ -2430,15 +2439,6 @@
     "updated_at": ""
   },
   {
-    "id": "ai21/jamba-large-1.7",
-    "name": "AI21: Jamba Large 1.7",
-    "provider": "ai21",
-    "price_per_1k_input": 2e-06,
-    "price_per_1k_output": 8e-06,
-    "context_length": 256000,
-    "updated_at": ""
-  },
-  {
     "id": "openai/gpt-5",
     "name": "OpenAI: GPT-5",
     "provider": "openai",
@@ -3018,8 +3018,8 @@
     "id": "deepseek/deepseek-chat-v3-0324",
     "name": "DeepSeek: DeepSeek V3 0324",
     "provider": "deepseek",
-    "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 1.12e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -3678,15 +3678,6 @@
     "price_per_1k_input": 3e-06,
     "price_per_1k_output": 4e-06,
     "context_length": 16385,
-    "updated_at": ""
-  },
-  {
-    "id": "mancer/weaver",
-    "name": "Mancer: Weaver (alpha)",
-    "provider": "mancer",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 7.5e-07,
-    "context_length": 8000,
     "updated_at": ""
   },
   {
