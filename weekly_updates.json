@@ -205,5 +205,80 @@
       "Undi95": [],
       "Gryphe": []
     }
+  },
+  {
+    "date": "2026-08-21",
+    "changes": {
+      "Stealth": [
+        "\ud83c\udd95 [Ox Alpha](<https://openrouter.ai/chat?models=stealth/ox-alpha&noembed=1>) added"
+      ],
+      "Tencent": [
+        "\ud83c\udd95 [Hy-MT2-1.8B](<https://openrouter.ai/chat?models=tencent/hy-mt2-1.8b&noembed=1>) added",
+        "\ud83c\udd95 [Hy-MT2-30B-A3B](<https://openrouter.ai/chat?models=tencent/hy-mt2-30b-a3b&noembed=1>) added"
+      ],
+      "~z-ai": [],
+      "Z-ai": [],
+      "Qwen": [],
+      "Dots-studio": [],
+      "Google": [],
+      "Bytedance-seed": [],
+      "Deepseek": [],
+      "X-ai": [],
+      "Liquid": [],
+      "Nvidia": [],
+      "Sakana": [],
+      "Upstage": [],
+      "Meta": [],
+      "~deepseek": [],
+      "Thinkingmachines": [],
+      "Anthropic": [],
+      "Inclusionai": [],
+      "Poolside": [],
+      "Meituan": [],
+      "Openrouter": [],
+      "Moonshotai": [],
+      "Kwaipilot": [],
+      "Openai": [],
+      "~x-ai": [],
+      "Aion-labs": [],
+      "Nex-agi": [],
+      "Cohere": [],
+      "~anthropic": [],
+      "Minimax": [],
+      "Stepfun": [],
+      "Perceptron": [],
+      "Ibm-granite": [],
+      "Mistralai": [
+        "\ud83c\udd95 [Ministral 8B](<https://openrouter.ai/chat?models=mistralai/ministral-8b&noembed=1>) added"
+      ],
+      "~openai": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Xiaomi": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Inception": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Allenai": [],
+      "Deepcogito": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Baidu": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Mancer": [
+        "\ud83c\udd95 [Weaver (alpha)](<https://openrouter.ai/chat?models=mancer/weaver&noembed=1>) added"
+      ],
+      "Undi95": [],
+      "Gryphe": []
+    }
   }
 ]

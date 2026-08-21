@@ -1,5 +1,32 @@
 [
   {
+    "id": "stealth/ox-alpha",
+    "name": "Ox Alpha",
+    "provider": "stealth",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "tencent/hy-mt2-1.8b",
+    "name": "Tencent: Hy-MT2-1.8B",
+    "provider": "tencent",
+    "price_per_1k_input": 4.4e-08,
+    "price_per_1k_output": 1.77e-07,
+    "context_length": 8192,
+    "updated_at": ""
+  },
+  {
+    "id": "tencent/hy-mt2-30b-a3b",
+    "name": "Tencent: Hy-MT2-30B-A3B",
+    "provider": "tencent",
+    "price_per_1k_input": 7.4e-08,
+    "price_per_1k_output": 2.95e-07,
+    "context_length": 8192,
+    "updated_at": ""
+  },
+  {
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
@@ -104,7 +131,7 @@
     "provider": "liquid",
     "price_per_1k_input": 0.0,
     "price_per_1k_output": 0.0,
-    "context_length": 128000,
+    "context_length": 65536,
     "updated_at": ""
   },
   {
@@ -113,7 +140,7 @@
     "provider": "nvidia",
     "price_per_1k_input": 8e-08,
     "price_per_1k_output": 2e-07,
-    "context_length": 1000000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -147,8 +174,8 @@
     "id": "meta/muse-glimmer-30b",
     "name": "Meta: Muse Glimmer 30B",
     "provider": "meta",
-    "price_per_1k_input": 3.5e-07,
-    "price_per_1k_output": 1.5e-06,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.1e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -175,7 +202,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
     "price_per_1k_input": 6.5e-08,
-    "price_per_1k_output": 1.4e-07,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -194,7 +221,7 @@
     "provider": "thinkingmachines",
     "price_per_1k_input": 4.5e-07,
     "price_per_1k_output": 1.2e-06,
-    "context_length": 524288,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -626,7 +653,7 @@
     "provider": "z-ai",
     "price_per_1k_input": 1.4e-06,
     "price_per_1k_output": 4.4e-06,
-    "context_length": 512000,
+    "context_length": 1048575,
     "updated_at": ""
   },
   {
@@ -651,8 +678,8 @@
     "id": "moonshotai/kimi-k2.7-code",
     "name": "MoonshotAI: Kimi K2.7 Code",
     "provider": "moonshotai",
-    "price_per_1k_input": 7.1e-07,
-    "price_per_1k_output": 3.5e-06,
+    "price_per_1k_input": 6.7e-07,
+    "price_per_1k_output": 3.4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1083,8 +1110,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.8606e-08,
-    "price_per_1k_output": 1.77212e-07,
+    "price_per_1k_input": 8.26e-08,
+    "price_per_1k_output": 1.652e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1218,7 +1245,7 @@
     "id": "google/gemma-4-31b-it",
     "name": "Google: Gemma 4 31B",
     "provider": "google",
-    "price_per_1k_input": 9e-08,
+    "price_per_1k_input": 1e-07,
     "price_per_1k_output": 3.4e-07,
     "context_length": 262144,
     "updated_at": ""
@@ -1605,8 +1632,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 2.25e-07,
-    "price_per_1k_output": 9e-07,
+    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_output": 9.5e-07,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -3384,6 +3411,15 @@
     "updated_at": ""
   },
   {
+    "id": "mistralai/ministral-8b",
+    "name": "Mistral: Ministral 8B",
+    "provider": "mistralai",
+    "price_per_1k_input": 1.1e-07,
+    "price_per_1k_output": 1.1e-07,
+    "context_length": 128000,
+    "updated_at": ""
+  },
+  {
     "id": "qwen/qwen-2.5-7b-instruct",
     "name": "Qwen: Qwen2.5 7B Instruct",
     "provider": "qwen",
@@ -3678,6 +3714,15 @@
     "price_per_1k_input": 3e-06,
     "price_per_1k_output": 4e-06,
     "context_length": 16385,
+    "updated_at": ""
+  },
+  {
+    "id": "mancer/weaver",
+    "name": "Mancer: Weaver (alpha)",
+    "provider": "mancer",
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 7.5e-07,
+    "context_length": 8000,
     "updated_at": ""
   },
   {
