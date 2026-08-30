@@ -292,7 +292,7 @@
     "name": "DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
     "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1e-07,
+    "price_per_1k_output": 1.6e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -300,8 +300,8 @@
     "id": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "deepseek",
-    "price_per_1k_input": 4.5e-08,
-    "price_per_1k_output": 9e-08,
+    "price_per_1k_input": 6.5e-08,
+    "price_per_1k_output": 1.8e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -453,7 +453,7 @@
     "id": "thinkingmachines/inkling",
     "name": "Thinking Machines: Inkling",
     "provider": "thinkingmachines",
-    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_input": 1e-06,
     "price_per_1k_output": 4.05e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -1155,8 +1155,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 5.99778e-07,
-    "price_per_1k_output": 1.199556e-06,
+    "price_per_1k_input": 4.17252e-07,
+    "price_per_1k_output": 8.34504e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1164,8 +1164,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.344e-08,
-    "price_per_1k_output": 1.6688e-07,
+    "price_per_1k_input": 7.924e-08,
+    "price_per_1k_output": 1.5848e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1254,8 +1254,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 1.26e-06,
-    "price_per_1k_output": 3.96e-06,
+    "price_per_1k_input": 9.66e-07,
+    "price_per_1k_output": 3.036e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1326,8 +1326,8 @@
     "id": "arcee-ai/trinity-large-thinking",
     "name": "Arcee AI: Trinity Large Thinking",
     "provider": "arcee-ai",
-    "price_per_1k_input": 2.2e-07,
-    "price_per_1k_output": 8.5e-07,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1902,8 +1902,8 @@
     "id": "mistralai/devstral-2512",
     "name": "Mistral: Devstral 2 2512",
     "provider": "mistralai",
-    "price_per_1k_input": 4.4e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2352,7 +2352,7 @@
     "id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
+    "price_per_1k_input": 9e-08,
     "price_per_1k_output": 1.1e-06,
     "context_length": 262144,
     "updated_at": ""
