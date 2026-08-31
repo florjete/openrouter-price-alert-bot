@@ -165,8 +165,8 @@
     "id": "qwen/qwen3.8-2.4t-a95b:batch",
     "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
     "provider": "qwen",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 6.25e-06,
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 6e-06,
     "context_length": 1010000,
     "updated_at": ""
   },
@@ -513,15 +513,6 @@
     "updated_at": ""
   },
   {
-    "id": "kwaipilot/kat-coder-air-v2.5",
-    "name": "Kwaipilot: KAT-Coder-Air V2.5",
-    "provider": "kwaipilot",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
-    "context_length": 256000,
-    "updated_at": ""
-  },
-  {
     "id": "kwaipilot/kat-coder-pro-v2.5",
     "name": "Kwaipilot: KAT-Coder-Pro V2.5",
     "provider": "kwaipilot",
@@ -624,8 +615,8 @@
     "id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "provider": "tencent",
-    "price_per_1k_input": 1.32e-07,
-    "price_per_1k_output": 5.28e-07,
+    "price_per_1k_input": 8.25e-08,
+    "price_per_1k_output": 3.3e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1155,8 +1146,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 4.17252e-07,
-    "price_per_1k_output": 8.34504e-07,
+    "price_per_1k_input": 1.035996e-06,
+    "price_per_1k_output": 2.071992e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1164,8 +1155,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 7.924e-08,
-    "price_per_1k_output": 1.5848e-07,
+    "price_per_1k_input": 8.4e-08,
+    "price_per_1k_output": 1.68e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1740,8 +1731,8 @@
     "id": "moonshotai/kimi-k2.5",
     "name": "MoonshotAI: Kimi K2.5",
     "provider": "moonshotai",
-    "price_per_1k_input": 6e-07,
-    "price_per_1k_output": 3e-06,
+    "price_per_1k_input": 4.5e-07,
+    "price_per_1k_output": 2.25e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2911,7 +2902,7 @@
     "name": "Meta: Llama 4 Maverick",
     "provider": "meta-llama",
     "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 8e-07,
+    "price_per_1k_output": 6.96e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
