@@ -1,5 +1,32 @@
 [
   {
+    "id": "anthropic/claude-fable-5.1",
+    "name": "Anthropic: Claude Fable 5.1",
+    "provider": "anthropic",
+    "price_per_1k_input": 1e-05,
+    "price_per_1k_output": 5e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "anthropic/claude-fable-5.1:batch",
+    "name": "Anthropic: Claude Fable 5.1 (batch)",
+    "provider": "anthropic",
+    "price_per_1k_input": 5e-06,
+    "price_per_1k_output": 2.5e-05,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "inception/mercury-2.5-preview",
+    "name": "Inception: Mercury 2.5 Preview",
+    "provider": "inception",
+    "price_per_1k_input": 4e-08,
+    "price_per_1k_output": 1.5e-07,
+    "context_length": 260000,
+    "updated_at": ""
+  },
+  {
     "id": "ibm-granite/granite-4.2-8b",
     "name": "IBM: Granite 4.2 8B",
     "provider": "ibm-granite",
@@ -24,6 +51,15 @@
     "price_per_1k_input": 0.0,
     "price_per_1k_output": 0.0,
     "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "~z-ai/glm-flash-latest",
+    "name": "Z.ai: GLM Flash Latest",
+    "provider": "~z-ai",
+    "price_per_1k_input": 7.5e-08,
+    "price_per_1k_output": 2.5e-07,
+    "context_length": 1310720,
     "updated_at": ""
   },
   {
@@ -93,8 +129,8 @@
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 1.17e-06,
-    "price_per_1k_output": 3.96e-06,
+    "price_per_1k_input": 1.15e-06,
+    "price_per_1k_output": 3.5e-06,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -174,8 +210,8 @@
     "id": "qwen/qwen3.8-2.4t-a95b:batch",
     "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
     "provider": "qwen",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 6.25e-06,
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 6e-06,
     "context_length": 1010000,
     "updated_at": ""
   },
@@ -192,8 +228,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 1.98e-06,
+    "price_per_1k_input": 1.1154e-06,
+    "price_per_1k_output": 3.3462e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -300,8 +336,8 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 4.998e-08,
-    "price_per_1k_output": 9.996e-08,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 1.6e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -768,8 +804,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 1.19e-06,
-    "price_per_1k_output": 3.74e-06,
+    "price_per_1k_input": 9.66e-07,
+    "price_per_1k_output": 3.036e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -849,8 +885,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 6.25e-07,
+    "price_per_1k_output": 3.125e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1200,8 +1236,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 1.6e-06,
-    "price_per_1k_output": 3.2e-06,
+    "price_per_1k_input": 1.039302e-06,
+    "price_per_1k_output": 2.078604e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1209,8 +1245,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 7.938e-08,
-    "price_per_1k_output": 1.5876e-07,
+    "price_per_1k_input": 8.708e-08,
+    "price_per_1k_output": 1.7416e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2496,8 +2532,8 @@
     "id": "deepseek/deepseek-chat-v3.1",
     "name": "DeepSeek: DeepSeek V3.1",
     "provider": "deepseek",
-    "price_per_1k_input": 5.5e-07,
-    "price_per_1k_output": 1.65e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 9.5e-07,
     "context_length": 163840,
     "updated_at": ""
   },
