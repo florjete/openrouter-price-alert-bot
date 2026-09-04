@@ -81,6 +81,15 @@
     "updated_at": ""
   },
   {
+    "id": "inclusionai/ling-3.0-flash-fin",
+    "name": "Ling 3.0 Flash Fin",
+    "provider": "inclusionai",
+    "price_per_1k_input": 6e-08,
+    "price_per_1k_output": 1.8e-07,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "inclusionai/ling-3.0-flash-fin:free",
     "name": "Ling 3.0 Flash Fin (free)",
     "provider": "inclusionai",
@@ -165,8 +174,8 @@
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 1.134e-06,
-    "price_per_1k_output": 3.564e-06,
+    "price_per_1k_input": 1.15e-06,
+    "price_per_1k_output": 3.5e-06,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -192,8 +201,8 @@
     "id": "qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",
     "provider": "qwen",
-    "price_per_1k_input": 4.25e-07,
-    "price_per_1k_output": 2.55e-06,
+    "price_per_1k_input": 4.2e-07,
+    "price_per_1k_output": 3e-06,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -909,6 +918,15 @@
     "updated_at": ""
   },
   {
+    "id": "nvidia/nemotron-3.5-content-safety",
+    "name": "NVIDIA: Nemotron 3.5 Content Safety",
+    "provider": "nvidia",
+    "price_per_1k_input": 2e-07,
+    "price_per_1k_output": 2e-07,
+    "context_length": 131072,
+    "updated_at": ""
+  },
+  {
     "id": "nvidia/nemotron-3.5-content-safety:free",
     "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
     "provider": "nvidia",
@@ -921,8 +939,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 6e-07,
-    "price_per_1k_output": 2.4e-06,
+    "price_per_1k_input": 6.25e-07,
+    "price_per_1k_output": 3.125e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1080,6 +1098,15 @@
     "updated_at": ""
   },
   {
+    "id": "x-ai/grok-4.3:batch",
+    "name": "SpaceXAI: Grok 4.3 (batch)",
+    "provider": "x-ai",
+    "price_per_1k_input": 1e-06,
+    "price_per_1k_output": 2e-06,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "ibm-granite/granite-4.1-8b",
     "name": "IBM: Granite 4.1 8B",
     "provider": "ibm-granite",
@@ -1103,7 +1130,7 @@
     "provider": "mistralai",
     "price_per_1k_input": 7.5e-07,
     "price_per_1k_output": 3.75e-06,
-    "context_length": 262144,
+    "context_length": 32768,
     "updated_at": ""
   },
   {
@@ -1146,8 +1173,8 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 2.55e-06,
-    "price_per_1k_output": 1.275e-05,
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 1.4e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1200,8 +1227,8 @@
     "id": "qwen/qwen3.6-35b-a3b",
     "name": "Qwen: Qwen3.6 35B A3B",
     "provider": "qwen",
-    "price_per_1k_input": 5e-08,
-    "price_per_1k_output": 7e-07,
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 9e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2559,8 +2586,8 @@
     "id": "deepseek/deepseek-chat-v3.1",
     "name": "DeepSeek: DeepSeek V3.1",
     "provider": "deepseek",
-    "price_per_1k_input": 2.5e-07,
-    "price_per_1k_output": 9.5e-07,
+    "price_per_1k_input": 5.5e-07,
+    "price_per_1k_output": 1.65e-06,
     "context_length": 163840,
     "updated_at": ""
   },
@@ -3774,7 +3801,7 @@
     "id": "undi95/remm-slerp-l2-13b",
     "name": "ReMM SLERP 13B",
     "provider": "undi95",
-    "price_per_1k_input": 4.5e-07,
+    "price_per_1k_input": 3.5e-07,
     "price_per_1k_output": 6.5e-07,
     "context_length": 6144,
     "updated_at": ""
