@@ -1,5 +1,32 @@
 [
   {
+    "id": "inception/mercury-2.5",
+    "name": "Inception: Mercury 2.5",
+    "provider": "inception",
+    "price_per_1k_input": 4e-08,
+    "price_per_1k_output": 1.5e-07,
+    "context_length": 260000,
+    "updated_at": ""
+  },
+  {
+    "id": "nex-agi/nex-n2.5-mini:free",
+    "name": "Nex AGI: Nex-N2.5-Mini (free)",
+    "provider": "nex-agi",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "nex-agi/nex-n2.5-pro:free",
+    "name": "Nex AGI: Nex-N2.5-Pro (free)",
+    "provider": "nex-agi",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "openai/gpt-6-astra",
     "name": "OpenAI: GPT-6 Astra",
     "provider": "openai",
@@ -108,20 +135,11 @@
     "updated_at": ""
   },
   {
-    "id": "inception/mercury-2.5-preview",
-    "name": "Inception: Mercury 2.5 Preview",
-    "provider": "inception",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 1.5e-07,
-    "context_length": 260000,
-    "updated_at": ""
-  },
-  {
     "id": "ibm-granite/granite-4.2-8b",
     "name": "IBM: Granite 4.2 8B",
     "provider": "ibm-granite",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 1.5e-07,
+    "price_per_1k_input": 6e-08,
+    "price_per_1k_output": 2.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -156,8 +174,8 @@
     "id": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 7.125e-08,
-    "price_per_1k_output": 2.375e-07,
+    "price_per_1k_input": 7.5e-08,
+    "price_per_1k_output": 2.5e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -183,9 +201,9 @@
     "id": "z-ai/glm-5.3-flash:batch",
     "name": "Z.ai: GLM 5.3 Flash (batch)",
     "provider": "z-ai",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 5e-07,
-    "context_length": 1048575,
+    "price_per_1k_input": 7.5e-08,
+    "price_per_1k_output": 2.5e-07,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -203,6 +221,15 @@
     "provider": "deepseek",
     "price_per_1k_input": 2.2e-07,
     "price_per_1k_output": 6.6e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+    "provider": "deepseek",
+    "price_per_1k_input": 1.1e-07,
+    "price_per_1k_output": 3.3e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -249,6 +276,15 @@
     "price_per_1k_input": 1.4e-06,
     "price_per_1k_output": 4.4e-06,
     "context_length": 1310720,
+    "updated_at": ""
+  },
+  {
+    "id": "z-ai/glm-5.3:batch",
+    "name": "Z.ai: GLM 5.3 (batch)",
+    "provider": "z-ai",
+    "price_per_1k_input": 7e-07,
+    "price_per_1k_output": 2.2e-06,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -336,8 +372,8 @@
     "id": "deepseek/deepseek-v4-pro-0813:batch",
     "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
     "provider": "deepseek",
-    "price_per_1k_input": 1.32e-06,
-    "price_per_1k_output": 3.96e-06,
+    "price_per_1k_input": 6.6e-07,
+    "price_per_1k_output": 1.98e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -408,8 +444,8 @@
     "id": "meta/muse-glimmer-30b:batch",
     "name": "Meta: Muse Glimmer 30B (batch)",
     "provider": "meta",
-    "price_per_1k_input": 3.5e-07,
-    "price_per_1k_output": 1.5e-06,
+    "price_per_1k_input": 1.75e-07,
+    "price_per_1k_output": 7.5e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -444,8 +480,8 @@
     "id": "deepseek/deepseek-v4-flash-0731:batch",
     "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
     "provider": "deepseek",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 2.8e-07,
+    "price_per_1k_input": 1.1e-07,
+    "price_per_1k_output": 3.3e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -891,6 +927,15 @@
     "updated_at": ""
   },
   {
+    "id": "z-ai/glm-5.2:batch",
+    "name": "Z.ai: GLM 5.2 (batch)",
+    "provider": "z-ai",
+    "price_per_1k_input": 7e-07,
+    "price_per_1k_output": 2.2e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "openrouter/fusion",
     "name": "OpenRouter: Fusion",
     "provider": "openrouter",
@@ -1173,8 +1218,8 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 2.5e-06,
-    "price_per_1k_output": 1.4e-05,
+    "price_per_1k_input": 2.4e-06,
+    "price_per_1k_output": 1.2e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1290,8 +1335,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 9.5526e-07,
-    "price_per_1k_output": 1.91052e-06,
+    "price_per_1k_input": 9.53172e-07,
+    "price_per_1k_output": 1.906344e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1299,8 +1344,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.8606e-08,
-    "price_per_1k_output": 1.77212e-07,
+    "price_per_1k_input": 8.708e-08,
+    "price_per_1k_output": 1.7416e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1589,7 +1634,7 @@
     "provider": "nvidia",
     "price_per_1k_input": 8.5e-08,
     "price_per_1k_output": 4e-07,
-    "context_length": 1000000,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2406,8 +2451,8 @@
     "id": "z-ai/glm-4.6",
     "name": "Z.ai: GLM 4.6",
     "provider": "z-ai",
-    "price_per_1k_input": 5.5e-07,
-    "price_per_1k_output": 2.2e-06,
+    "price_per_1k_input": 4.3e-07,
+    "price_per_1k_output": 1.75e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2523,7 +2568,7 @@
     "id": "qwen/qwen3-next-80b-a3b-instruct",
     "name": "Qwen: Qwen3 Next 80B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
+    "price_per_1k_input": 9e-08,
     "price_per_1k_output": 1.1e-06,
     "context_length": 262144,
     "updated_at": ""
@@ -2802,8 +2847,8 @@
     "id": "qwen/qwen3-235b-a22b-2507",
     "name": "Qwen: Qwen3 235B A22B Instruct 2507",
     "provider": "qwen",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 5.5e-07,
+    "price_per_1k_input": 2.2e-07,
+    "price_per_1k_output": 8.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2874,7 +2919,7 @@
     "id": "minimax/minimax-m1",
     "name": "MiniMax: MiniMax M1",
     "provider": "minimax",
-    "price_per_1k_input": 4e-07,
+    "price_per_1k_input": 5.5e-07,
     "price_per_1k_output": 2.2e-06,
     "context_length": 1000000,
     "updated_at": ""
