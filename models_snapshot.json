@@ -1,5 +1,23 @@
 [
   {
+    "id": "~deepseek/deepseek-pro-latest",
+    "name": "DeepSeek: DeepSeek Pro Latest",
+    "provider": "~deepseek",
+    "price_per_1k_input": 5.808e-07,
+    "price_per_1k_output": 1.7424e-06,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "~deepseek/deepseek-flash-latest",
+    "name": "DeepSeek: DeepSeek Flash Latest",
+    "provider": "~deepseek",
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "inference-net/schematron-v2-turbo",
     "name": "Inference.net: Schematron V2 Turbo",
     "provider": "inference-net",
@@ -354,8 +372,8 @@
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 9.36e-07,
-    "price_per_1k_output": 3.168e-06,
+    "price_per_1k_input": 9.2e-07,
+    "price_per_1k_output": 3.1372e-06,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -372,8 +390,8 @@
     "id": "z-ai/glm-5.3",
     "name": "Z.ai: GLM 5.3",
     "provider": "z-ai",
-    "price_per_1k_input": 1.092e-06,
-    "price_per_1k_output": 3.432e-06,
+    "price_per_1k_input": 1.4e-06,
+    "price_per_1k_output": 4.4e-06,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -462,8 +480,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 5.7816e-07,
-    "price_per_1k_output": 1.73448e-06,
+    "price_per_1k_input": 6.5868e-07,
+    "price_per_1k_output": 1.97604e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -561,8 +579,8 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 3.52e-08,
-    "price_per_1k_output": 1.056e-07,
+    "price_per_1k_input": 4e-08,
+    "price_per_1k_output": 1e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -570,8 +588,8 @@
     "id": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "deepseek",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 8e-08,
+    "price_per_1k_input": 6e-08,
+    "price_per_1k_output": 1.2e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -1020,8 +1038,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 6e-07,
-    "price_per_1k_output": 2e-06,
+    "price_per_1k_input": 6.832e-07,
+    "price_per_1k_output": 2.1472e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1101,8 +1119,8 @@
     "id": "nvidia/nemotron-3-ultra-550b-a55b",
     "name": "NVIDIA: Nemotron 3 Ultra",
     "provider": "nvidia",
-    "price_per_1k_input": 6.25e-07,
-    "price_per_1k_output": 3.125e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 2.4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1434,8 +1452,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 4.872e-08,
-    "price_per_1k_output": 9.744e-08,
+    "price_per_1k_input": 8.4e-08,
+    "price_per_1k_output": 1.68e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1731,8 +1749,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 8.5e-08,
-    "price_per_1k_output": 4e-07,
+    "price_per_1k_input": 8e-08,
+    "price_per_1k_output": 4.5e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -3180,8 +3198,8 @@
     "id": "qwen/qwen3-14b",
     "name": "Qwen: Qwen3 14B",
     "provider": "qwen",
-    "price_per_1k_input": 2.275e-07,
-    "price_per_1k_output": 9.1e-07,
+    "price_per_1k_input": 1.2e-07,
+    "price_per_1k_output": 2.4e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -3306,8 +3324,8 @@
     "id": "meta-llama/llama-4-maverick",
     "name": "Meta: Llama 4 Maverick",
     "provider": "meta-llama",
-    "price_per_1k_input": 2e-07,
-    "price_per_1k_output": 6.96e-07,
+    "price_per_1k_input": 1.875e-07,
+    "price_per_1k_output": 6.525e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
