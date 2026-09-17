@@ -1,5 +1,14 @@
 [
   {
+    "id": "stealth/union-alpha",
+    "name": "Union Alpha",
+    "provider": "stealth",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
@@ -480,8 +489,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 9.834e-07,
-    "price_per_1k_output": 2.9502e-06,
+    "price_per_1k_input": 5.808e-07,
+    "price_per_1k_output": 1.7424e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -552,8 +561,8 @@
     "id": "meta/muse-glimmer-30b",
     "name": "Meta: Muse Glimmer 30B",
     "provider": "meta",
-    "price_per_1k_input": 3.5e-07,
-    "price_per_1k_output": 1.5e-06,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.1e-06,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -579,8 +588,8 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 1e-07,
+    "price_per_1k_input": 3e-08,
+    "price_per_1k_output": 1.3e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -759,8 +768,8 @@
     "id": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "moonshotai",
-    "price_per_1k_input": 2.648138063e-06,
-    "price_per_1k_output": 1.328272425e-05,
+    "price_per_1k_input": 3e-06,
+    "price_per_1k_output": 1.5e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1452,8 +1461,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.708e-08,
-    "price_per_1k_output": 1.7416e-07,
+    "price_per_1k_input": 7e-08,
+    "price_per_1k_output": 1.4e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2172,8 +2181,8 @@
     "id": "nvidia/nemotron-3-nano-30b-a3b",
     "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
     "provider": "nvidia",
-    "price_per_1k_input": 5e-08,
-    "price_per_1k_output": 2e-07,
+    "price_per_1k_input": 6e-08,
+    "price_per_1k_output": 2.4e-07,
     "context_length": 262144,
     "updated_at": ""
   },
