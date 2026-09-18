@@ -1,10 +1,10 @@
 [
   {
-    "id": "stealth/union-alpha",
-    "name": "Union Alpha",
-    "provider": "stealth",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
+    "id": "unbiased/pareto",
+    "name": "Pareto",
+    "provider": "unbiased",
+    "price_per_1k_input": 2.5e-06,
+    "price_per_1k_output": 7.5e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -12,8 +12,8 @@
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 5.808e-07,
-    "price_per_1k_output": 1.7424e-06,
+    "price_per_1k_input": 6.5868e-07,
+    "price_per_1k_output": 1.97604e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -345,8 +345,8 @@
     "id": "deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "provider": "deepseek",
-    "price_per_1k_input": 2.2e-07,
-    "price_per_1k_output": 6.6e-07,
+    "price_per_1k_input": 2.156e-07,
+    "price_per_1k_output": 6.468e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -381,8 +381,8 @@
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 8.775e-07,
-    "price_per_1k_output": 2.97e-06,
+    "price_per_1k_input": 9e-07,
+    "price_per_1k_output": 3e-06,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -420,6 +420,15 @@
     "price_per_1k_input": 2.14e-07,
     "price_per_1k_output": 2.55e-06,
     "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
+    "id": "qwen/qwen3.8-27b:free",
+    "name": "Qwen: Qwen3.8 27B (free)",
+    "provider": "qwen",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -489,8 +498,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 5.808e-07,
-    "price_per_1k_output": 1.7424e-06,
+    "price_per_1k_input": 6.5868e-07,
+    "price_per_1k_output": 1.97604e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -588,8 +597,8 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1.3e-07,
+    "price_per_1k_input": 5.58e-08,
+    "price_per_1k_output": 1.767e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -608,6 +617,15 @@
     "provider": "deepseek",
     "price_per_1k_input": 1.1e-07,
     "price_per_1k_output": 3.3e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash-0731:free",
+    "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+    "provider": "deepseek",
+    "price_per_1k_input": 0.0,
+    "price_per_1k_output": 0.0,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -768,8 +786,8 @@
     "id": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "moonshotai",
-    "price_per_1k_input": 3e-06,
-    "price_per_1k_output": 1.5e-05,
+    "price_per_1k_input": 2.1e-06,
+    "price_per_1k_output": 1.095e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1038,8 +1056,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 1.4e-06,
-    "price_per_1k_output": 4.4e-06,
+    "price_per_1k_input": 5.614e-07,
+    "price_per_1k_output": 1.7644e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1461,8 +1479,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 7e-08,
-    "price_per_1k_output": 1.4e-07,
+    "price_per_1k_input": 4.9e-08,
+    "price_per_1k_output": 9.8e-08,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2322,15 +2340,6 @@
     "updated_at": ""
   },
   {
-    "id": "mistralai/mistral-large-2512",
-    "name": "Mistral: Mistral Large 3 2512",
-    "provider": "mistralai",
-    "price_per_1k_input": 5e-07,
-    "price_per_1k_output": 1.5e-06,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
     "id": "mistralai/mistral-large-2512:batch",
     "name": "Mistral: Mistral Large 3 2512 (batch)",
     "provider": "mistralai",
@@ -2838,8 +2847,8 @@
     "id": "openai/gpt-oss-120b",
     "name": "OpenAI: gpt-oss-120b",
     "provider": "openai",
-    "price_per_1k_input": 3.7e-08,
-    "price_per_1k_output": 1.7e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -3549,8 +3558,8 @@
     "id": "deepseek/deepseek-chat",
     "name": "DeepSeek: DeepSeek V3",
     "provider": "deepseek",
-    "price_per_1k_input": 2.574e-07,
-    "price_per_1k_output": 1.0287e-06,
+    "price_per_1k_input": 3.2e-07,
+    "price_per_1k_output": 8.9e-07,
     "context_length": 163840,
     "updated_at": ""
   },
