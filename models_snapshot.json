@@ -237,8 +237,8 @@
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 3.894e-07,
-    "price_per_1k_output": 1.1682e-06,
+    "price_per_1k_input": 2.528e-07,
+    "price_per_1k_output": 1.9584e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -247,7 +247,7 @@
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
     "price_per_1k_input": 4e-08,
-    "price_per_1k_output": 1e-06,
+    "price_per_1k_output": 4.9e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -327,8 +327,8 @@
     "id": "inclusionai/ling-3.0-flash-vl",
     "name": "inclusionAI: Ling 3.0 Flash VL",
     "provider": "inclusionai",
-    "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 1.8e-07,
+    "price_per_1k_input": 2.1e-08,
+    "price_per_1k_output": 6.16e-08,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -336,8 +336,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 4.2e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -357,24 +357,6 @@
     "price_per_1k_input": 4e-08,
     "price_per_1k_output": 1.5e-07,
     "context_length": 260000,
-    "updated_at": ""
-  },
-  {
-    "id": "nex-agi/nex-n2.5-mini:free",
-    "name": "Nex AGI: Nex-N2.5-Mini (free)",
-    "provider": "nex-agi",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "nex-agi/nex-n2.5-pro:free",
-    "name": "Nex AGI: Nex-N2.5-Pro (free)",
-    "provider": "nex-agi",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -543,8 +525,8 @@
     "id": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
     "provider": "z-ai",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 5e-07,
+    "price_per_1k_input": 4.5e-08,
+    "price_per_1k_output": 1.4e-07,
     "context_length": 1310720,
     "updated_at": ""
   },
@@ -705,8 +687,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 4.62e-07,
-    "price_per_1k_output": 1.386e-06,
+    "price_per_1k_input": 3.4848e-07,
+    "price_per_1k_output": 1.04544e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -732,9 +714,9 @@
     "id": "nvidia/nemotron-3.5-lightning",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "provider": "nvidia",
-    "price_per_1k_input": 8e-08,
+    "price_per_1k_input": 7e-08,
     "price_per_1k_output": 2e-07,
-    "context_length": 262144,
+    "context_length": 1000000,
     "updated_at": ""
   },
   {
@@ -1506,8 +1488,8 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 1.4e-06,
-    "price_per_1k_output": 1.075e-05,
+    "price_per_1k_input": 8.845e-07,
+    "price_per_1k_output": 1.05346e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1614,8 +1596,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 9.27768e-07,
-    "price_per_1k_output": 1.855536e-06,
+    "price_per_1k_input": 7.73778e-07,
+    "price_per_1k_output": 1.547556e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1623,8 +1605,8 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.554e-08,
-    "price_per_1k_output": 1.7108e-07,
+    "price_per_1k_input": 4.872e-08,
+    "price_per_1k_output": 9.744e-08,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1713,8 +1695,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 9.66e-07,
-    "price_per_1k_output": 3.036e-06,
+    "price_per_1k_input": 9.646e-07,
+    "price_per_1k_output": 3.0316e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1722,8 +1704,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 6.75e-08,
+    "price_per_1k_output": 2.25e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2298,8 +2280,8 @@
     "id": "z-ai/glm-4.7",
     "name": "Z.ai: GLM 4.7",
     "provider": "z-ai",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 1.75e-06,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 2.2e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2373,6 +2355,15 @@
     "price_per_1k_input": 8.75e-07,
     "price_per_1k_output": 7e-06,
     "context_length": 400000,
+    "updated_at": ""
+  },
+  {
+    "id": "mistralai/devstral-2512",
+    "name": "Mistral: Devstral 2 2512",
+    "provider": "mistralai",
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 2e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2454,6 +2445,15 @@
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 1e-07,
     "context_length": 131072,
+    "updated_at": ""
+  },
+  {
+    "id": "mistralai/mistral-large-2512",
+    "name": "Mistral: Mistral Large 3 2512",
+    "provider": "mistralai",
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 1.5e-06,
+    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -2685,8 +2685,8 @@
     "id": "qwen/qwen3-vl-30b-a3b-instruct",
     "name": "Qwen: Qwen3 VL 30B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1.3e-07,
-    "price_per_1k_output": 5.2e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 262144,
     "updated_at": ""
   },
