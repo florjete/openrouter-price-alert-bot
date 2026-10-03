@@ -243,6 +243,15 @@
     "updated_at": ""
   },
   {
+    "id": "nvidia/switchyard",
+    "name": "NVIDIA: Switchyard",
+    "provider": "nvidia",
+    "price_per_1k_input": -1.0,
+    "price_per_1k_output": -1.0,
+    "context_length": 1000000,
+    "updated_at": ""
+  },
+  {
     "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
     "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
     "provider": "xiaomi",
@@ -318,8 +327,8 @@
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 1.32e-07,
-    "price_per_1k_output": 3.96e-07,
+    "price_per_1k_input": 2.2e-07,
+    "price_per_1k_output": 4.2e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -327,8 +336,8 @@
     "id": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 1.5e-08,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2e-08,
+    "price_per_1k_output": 6e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -588,8 +597,8 @@
     "id": "inclusionai/ling-3.0-flash-fin",
     "name": "inclusionAI: Ling 3.0 Flash Fin",
     "provider": "inclusionai",
-    "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 1.8e-07,
+    "price_per_1k_input": 4.2e-08,
+    "price_per_1k_output": 1.232e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -597,8 +606,8 @@
     "id": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 2.625e-08,
-    "price_per_1k_output": 9e-07,
+    "price_per_1k_input": 3.5e-08,
+    "price_per_1k_output": 5e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -777,8 +786,8 @@
     "id": "deepseek/deepseek-v4-pro-0813",
     "name": "DeepSeek: DeepSeek V4 Pro 0813",
     "provider": "deepseek",
-    "price_per_1k_input": 6.6e-07,
-    "price_per_1k_output": 1.98e-06,
+    "price_per_1k_input": 2.2e-07,
+    "price_per_1k_output": 4.2e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -804,8 +813,8 @@
     "id": "nvidia/nemotron-3.5-lightning",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "provider": "nvidia",
-    "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 1.6e-07,
+    "price_per_1k_input": 5.95e-08,
+    "price_per_1k_output": 1.7e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -858,7 +867,7 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 7.7e-09,
+    "price_per_1k_input": 1.88e-08,
     "price_per_1k_output": 1.28e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -867,7 +876,7 @@
     "id": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "deepseek",
-    "price_per_1k_input": 7.7e-09,
+    "price_per_1k_input": 1.88e-08,
     "price_per_1k_output": 1.28e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -1020,8 +1029,8 @@
     "id": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "moonshotai",
-    "price_per_1k_input": 2.7e-06,
-    "price_per_1k_output": 1.35e-05,
+    "price_per_1k_input": 9.9e-07,
+    "price_per_1k_output": 1.3e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1569,7 +1578,7 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 1.34e-06,
+    "price_per_1k_input": 9.895e-07,
     "price_per_1k_output": 1.3e-05,
     "context_length": 1048576,
     "updated_at": ""
@@ -1749,8 +1758,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 4.3415e-07,
-    "price_per_1k_output": 1.828e-06,
+    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_output": 4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1776,8 +1785,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 9.646e-07,
-    "price_per_1k_output": 3.0316e-06,
+    "price_per_1k_input": 1.4e-06,
+    "price_per_1k_output": 4.4e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -1785,8 +1794,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 6.75e-08,
+    "price_per_1k_output": 2.25e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2883,7 +2892,7 @@
     "id": "deepseek/deepseek-v3.1-terminus",
     "name": "DeepSeek: DeepSeek V3.1 Terminus",
     "provider": "deepseek",
-    "price_per_1k_input": 3e-07,
+    "price_per_1k_input": 2.7e-07,
     "price_per_1k_output": 1e-06,
     "context_length": 163840,
     "updated_at": ""
