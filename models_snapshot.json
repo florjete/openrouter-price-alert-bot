@@ -1,5 +1,14 @@
 [
   {
+    "id": "google/gemini-nano-banana-2.1",
+    "name": "Google: Nano Banana 2.1",
+    "provider": "google",
+    "price_per_1k_input": 1.5e-06,
+    "price_per_1k_output": 7.5e-06,
+    "context_length": 65536,
+    "updated_at": ""
+  },
+  {
     "id": "mistralai/mistral-large-4-0",
     "name": "Mistral: Mistral Large 4",
     "provider": "mistralai",
@@ -327,7 +336,7 @@
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 2.428e-07,
+    "price_per_1k_input": 2.917e-07,
     "price_per_1k_output": 4.2e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -336,8 +345,8 @@
     "id": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 3.95e-08,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 6e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -426,8 +435,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 4.345e-08,
-    "price_per_1k_output": 1.32e-06,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 6e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -588,8 +597,8 @@
     "id": "tencent/hy4-preview",
     "name": "Tencent: Hy4 preview",
     "provider": "tencent",
-    "price_per_1k_input": 8.34e-07,
-    "price_per_1k_output": 2.501e-06,
+    "price_per_1k_input": 7.506e-07,
+    "price_per_1k_output": 2.2509e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -606,7 +615,7 @@
     "id": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 2.14e-08,
+    "price_per_1k_input": 2.44e-08,
     "price_per_1k_output": 5e-07,
     "context_length": 1048576,
     "updated_at": ""
@@ -678,8 +687,8 @@
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 3e-08,
-    "price_per_1k_output": 1.2e-05,
+    "price_per_1k_input": 6.3e-08,
+    "price_per_1k_output": 6.3e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -804,8 +813,8 @@
     "id": "nvidia/nemotron-3.5-lightning",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "provider": "nvidia",
-    "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 1.6e-07,
+    "price_per_1k_input": 4.9e-08,
+    "price_per_1k_output": 1.4e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -858,7 +867,7 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 7.9e-09,
+    "price_per_1k_input": 1.8e-08,
     "price_per_1k_output": 1.28e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -867,7 +876,7 @@
     "id": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "deepseek",
-    "price_per_1k_input": 7.9e-09,
+    "price_per_1k_input": 1.8e-08,
     "price_per_1k_output": 1.28e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -993,7 +1002,7 @@
     "id": "thinkingmachines/inkling",
     "name": "Thinking Machines: Inkling",
     "provider": "thinkingmachines",
-    "price_per_1k_input": 9.5e-07,
+    "price_per_1k_input": 1e-06,
     "price_per_1k_output": 4.05e-06,
     "context_length": 524288,
     "updated_at": ""
@@ -1020,8 +1029,8 @@
     "id": "moonshotai/kimi-k3",
     "name": "MoonshotAI: Kimi K3",
     "provider": "moonshotai",
-    "price_per_1k_input": 8.3e-07,
-    "price_per_1k_output": 1.4e-05,
+    "price_per_1k_input": 6.2e-07,
+    "price_per_1k_output": 1.5e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1041,15 +1050,6 @@
     "price_per_1k_input": 1.25e-06,
     "price_per_1k_output": 4.25e-06,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "kwaipilot/kat-coder-pro-v2.5",
-    "name": "Kwaipilot: KAT-Coder-Pro V2.5",
-    "provider": "kwaipilot",
-    "price_per_1k_input": 7.4e-07,
-    "price_per_1k_output": 2.96e-06,
-    "context_length": 262144,
     "updated_at": ""
   },
   {
@@ -1200,8 +1200,8 @@
     "id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "provider": "tencent",
-    "price_per_1k_input": 1.32e-07,
-    "price_per_1k_output": 5.28e-07,
+    "price_per_1k_input": 8.25e-08,
+    "price_per_1k_output": 3.3e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1290,8 +1290,8 @@
     "id": "z-ai/glm-5.2",
     "name": "Z.ai: GLM 5.2",
     "provider": "z-ai",
-    "price_per_1k_input": 1.52e-07,
-    "price_per_1k_output": 1.2e-05,
+    "price_per_1k_input": 1.71e-07,
+    "price_per_1k_output": 7.2e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1569,7 +1569,7 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 8.2e-07,
+    "price_per_1k_input": 6.1e-07,
     "price_per_1k_output": 1.3e-05,
     "context_length": 1048576,
     "updated_at": ""
@@ -1632,8 +1632,8 @@
     "id": "qwen/qwen3.6-27b",
     "name": "Qwen: Qwen3.6 27B",
     "provider": "qwen",
-    "price_per_1k_input": 3.2e-07,
-    "price_per_1k_output": 3.25e-06,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1686,7 +1686,7 @@
     "id": "deepseek/deepseek-v4-flash",
     "name": "DeepSeek: DeepSeek V4 Flash 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 2.7e-09,
+    "price_per_1k_input": 3e-08,
     "price_per_1k_output": 1.28e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -1749,8 +1749,8 @@
     "id": "moonshotai/kimi-k2.6",
     "name": "MoonshotAI: Kimi K2.6",
     "provider": "moonshotai",
-    "price_per_1k_input": 9.5e-07,
-    "price_per_1k_output": 4e-06,
+    "price_per_1k_input": 4.65e-07,
+    "price_per_1k_output": 2.45e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1776,8 +1776,8 @@
     "id": "z-ai/glm-5.1",
     "name": "Z.ai: GLM 5.1",
     "provider": "z-ai",
-    "price_per_1k_input": 1.4e-06,
-    "price_per_1k_output": 4.4e-06,
+    "price_per_1k_input": 9.66e-07,
+    "price_per_1k_output": 3.036e-06,
     "context_length": 204800,
     "updated_at": ""
   },
@@ -2073,8 +2073,8 @@
     "id": "qwen/qwen3.5-35b-a3b",
     "name": "Qwen: Qwen3.5-35B-A3B",
     "provider": "qwen",
-    "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 7.5e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -3126,8 +3126,8 @@
     "id": "qwen/qwen3-30b-a3b-instruct-2507",
     "name": "Qwen: Qwen3 30B A3B Instruct 2507",
     "provider": "qwen",
-    "price_per_1k_input": 1e-07,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 4.815e-08,
+    "price_per_1k_output": 1.9305e-07,
     "context_length": 262144,
     "updated_at": ""
   },
