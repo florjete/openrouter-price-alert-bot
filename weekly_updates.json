@@ -225,5 +225,84 @@
       "Undi95": [],
       "Gryphe": []
     }
+  },
+  {
+    "date": "2026-10-16",
+    "changes": {
+      "Moondream": [
+        "\ud83c\udd95 [Moondream 3 Preview](<https://openrouter.ai/chat?models=moondream/moondream3-preview&noembed=1>) added",
+        "\ud83c\udd95 [Moondream 3.1](<https://openrouter.ai/chat?models=moondream/moondream3.1-9b-a2b&noembed=1>) added"
+      ],
+      "Meta": [
+        "\ud83c\udd95 [Muse Spark Open](<https://openrouter.ai/chat?models=meta/muse-spark-open&noembed=1>) added"
+      ],
+      "Nvidia": [
+        "\ud83c\udd95 [Nemotron 3.5 Super VL](<https://openrouter.ai/chat?models=nvidia/nemotron-3.5-super-vl&noembed=1>) added",
+        "\ud83c\udd95 [Nemotron 3.5 Super VL (free)](<https://openrouter.ai/chat?models=nvidia/nemotron-3.5-super-vl:free&noembed=1>) added"
+      ],
+      "~unbiased": [],
+      "Unbiased": [],
+      "Liquid": [],
+      "Google": [],
+      "Scaledown": [],
+      "Stepfun": [],
+      "Anthropic": [],
+      "Mistralai": [],
+      "Inclusionai": [],
+      "Openai": [],
+      "Typesafe": [],
+      "Perceptron": [],
+      "Fireworks": [],
+      "Z-ai": [],
+      "Qwen": [],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Cohere": [],
+      "Xiaomi": [],
+      "X-ai": [],
+      "Prism-ml": [],
+      "~deepseek": [],
+      "Inference-net": [],
+      "~openai": [],
+      "Sakana": [],
+      "Deepseek": [],
+      "Inception": [],
+      "Nex-agi": [],
+      "Ibm-granite": [],
+      "Tencent": [],
+      "~z-ai": [],
+      "Dots-studio": [],
+      "Bytedance-seed": [],
+      "Thinkingmachines": [],
+      "Poolside": [],
+      "Meituan": [],
+      "Openrouter": [],
+      "Moonshotai": [
+        "\ud83d\udcb8 [Kimi K3](<https://openrouter.ai/chat?models=moonshotai/kimi-k3&noembed=1>) price dropped ($0.000015 \u2192 $0.000013)"
+      ],
+      "~x-ai": [],
+      "~anthropic": [],
+      "Minimax": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Arcee-ai": [],
+      "Rekaai": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Sao10k": [],
+      "Anthracite-org": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": []
+    }
   }
 ]
