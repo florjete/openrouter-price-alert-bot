@@ -1,10 +1,19 @@
 [
   {
-    "id": "minimax/minimax-m3.1-flash:free",
-    "name": "MiniMax: MiniMax M3.1 Flash (free)",
-    "provider": "minimax",
+    "id": "recursive/flint-v1.0:free",
+    "name": "Recursive: Flint (free)",
+    "provider": "recursive",
     "price_per_1k_input": 0.0,
     "price_per_1k_output": 0.0,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
+    "id": "minimax/minimax-m3.1-flash",
+    "name": "MiniMax: MiniMax M3.1 Flash",
+    "provider": "minimax",
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 6e-07,
     "context_length": 1000000,
     "updated_at": ""
   },
@@ -39,7 +48,7 @@
     "id": "reflection/beam-1.0-501b-a23b",
     "name": "Reflection: Beam 1.0 501B A23B",
     "provider": "reflection",
-    "price_per_1k_input": 3e-07,
+    "price_per_1k_input": 2.5e-07,
     "price_per_1k_output": 1e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -534,7 +543,7 @@
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 1.461e-07,
+    "price_per_1k_input": 1.627e-07,
     "price_per_1k_output": 8e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -543,8 +552,8 @@
     "id": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 4.9e-08,
-    "price_per_1k_output": 3.75e-07,
+    "price_per_1k_input": 7e-08,
+    "price_per_1k_output": 5e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -633,8 +642,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 2.394e-08,
-    "price_per_1k_output": 3.75e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.2e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -795,8 +804,8 @@
     "id": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 4.1191e-08,
-    "price_per_1k_output": 1.2e-07,
+    "price_per_1k_input": 5.2e-09,
+    "price_per_1k_output": 1.985e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -813,8 +822,8 @@
     "id": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
     "provider": "z-ai",
-    "price_per_1k_input": 4.1191e-08,
-    "price_per_1k_output": 1.2e-07,
+    "price_per_1k_input": 5.2e-09,
+    "price_per_1k_output": 1.985e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1759,7 +1768,7 @@
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
     "price_per_1k_input": 2.38e-07,
-    "price_per_1k_output": 1.6e-05,
+    "price_per_1k_output": 2.4e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1857,8 +1866,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 4.36044e-07,
-    "price_per_1k_output": 8.72088e-07,
+    "price_per_1k_input": 4.42656e-07,
+    "price_per_1k_output": 8.85312e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2145,8 +2154,8 @@
     "id": "nvidia/nemotron-3-super-120b-a12b",
     "name": "NVIDIA: Nemotron 3 Super",
     "provider": "nvidia",
-    "price_per_1k_input": 8e-08,
-    "price_per_1k_output": 4.5e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 2.4e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2271,8 +2280,8 @@
     "id": "qwen/qwen3.5-122b-a10b",
     "name": "Qwen: Qwen3.5-122B-A10B",
     "provider": "qwen",
-    "price_per_1k_input": 2.6e-07,
-    "price_per_1k_output": 2.08e-06,
+    "price_per_1k_input": 4e-07,
+    "price_per_1k_output": 3.2e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2361,8 +2370,8 @@
     "id": "qwen/qwen3.5-397b-a17b",
     "name": "Qwen: Qwen3.5 397B A17B",
     "provider": "qwen",
-    "price_per_1k_input": 3.9e-07,
-    "price_per_1k_output": 2.34e-06,
+    "price_per_1k_input": 5e-07,
+    "price_per_1k_output": 3.6e-06,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -3290,15 +3299,6 @@
     "provider": "google",
     "price_per_1k_input": 1e-07,
     "price_per_1k_output": 4e-07,
-    "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "google/gemini-2.5-flash-lite:batch",
-    "name": "Google: Gemini 2.5 Flash Lite (batch)",
-    "provider": "google",
-    "price_per_1k_input": 5e-08,
-    "price_per_1k_output": 2e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
