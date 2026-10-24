@@ -1,5 +1,14 @@
 [
   {
+    "id": "moonshotai/kimi-k3.1-pro",
+    "name": "MoonshotAI: Kimi K3.1 Pro",
+    "provider": "moonshotai",
+    "price_per_1k_input": 2e-06,
+    "price_per_1k_output": 1e-05,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
     "id": "recursive/flint-v1.0:free",
     "name": "Recursive: Flint (free)",
     "provider": "recursive",
@@ -543,7 +552,7 @@
     "id": "~deepseek/deepseek-pro-latest",
     "name": "DeepSeek: DeepSeek Pro Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 1.663e-07,
+    "price_per_1k_input": 1.188e-07,
     "price_per_1k_output": 8e-06,
     "context_length": 1048576,
     "updated_at": ""
@@ -552,8 +561,8 @@
     "id": "~deepseek/deepseek-flash-latest",
     "name": "DeepSeek: DeepSeek Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 3.4e-08,
-    "price_per_1k_output": 6e-07,
+    "price_per_1k_input": 2e-08,
+    "price_per_1k_output": 1e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -642,8 +651,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2e-08,
+    "price_per_1k_output": 1e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -804,8 +813,8 @@
     "id": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 5.2e-09,
-    "price_per_1k_output": 1.985e-07,
+    "price_per_1k_input": 5.02e-08,
+    "price_per_1k_output": 7.09e-08,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -822,8 +831,8 @@
     "id": "z-ai/glm-5.3-flash",
     "name": "Z.ai: GLM 5.3 Flash",
     "provider": "z-ai",
-    "price_per_1k_input": 5.2e-09,
-    "price_per_1k_output": 1.985e-07,
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 5e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -876,8 +885,8 @@
     "id": "~z-ai/glm-latest",
     "name": "Z.ai: GLM Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 7.9e-08,
-    "price_per_1k_output": 1.4e-06,
+    "price_per_1k_input": 7.5e-08,
+    "price_per_1k_output": 4.295e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1057,7 +1066,7 @@
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
     "price_per_1k_input": 4.22e-08,
-    "price_per_1k_output": 1.637e-07,
+    "price_per_1k_output": 1.694e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1219,7 +1228,7 @@
     "name": "MoonshotAI: Kimi K3",
     "provider": "moonshotai",
     "price_per_1k_input": 2.39e-07,
-    "price_per_1k_output": 1.1936e-05,
+    "price_per_1k_output": 1.08e-05,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1767,8 +1776,8 @@
     "id": "~moonshotai/kimi-latest",
     "name": "MoonshotAI: Kimi Latest",
     "provider": "~moonshotai",
-    "price_per_1k_input": 2.38e-07,
-    "price_per_1k_output": 1.6e-05,
+    "price_per_1k_input": 1.9e-07,
+    "price_per_1k_output": 8.94e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1866,8 +1875,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 8.85312e-07,
-    "price_per_1k_output": 1.770624e-06,
+    "price_per_1k_input": 2.46558e-07,
+    "price_per_1k_output": 4.93116e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1974,8 +1983,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 6.75e-08,
+    "price_per_1k_output": 2.25e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2379,8 +2388,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 9.5e-07,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.2e-06,
     "context_length": 204800,
     "updated_at": ""
   },
