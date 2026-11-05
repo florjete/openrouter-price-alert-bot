@@ -80,5 +80,87 @@
       "Typesafe": [],
       "Openrouter": []
     }
+  },
+  {
+    "date": "2026-11-05",
+    "changes": {
+      "Ricursiveai": [
+        "\ud83c\udd95 [ricursiveAI/Ripple-65B-Preview](<https://openrouter.ai/chat?models=ricursiveai/ripple-65b-preview&noembed=1>) added"
+      ],
+      "Tencent": [],
+      "Stealth": [],
+      "Z-ai": [
+        "\ud83d\udcb8 [GLM 5.3](<https://openrouter.ai/chat?models=z-ai/glm-5.3&noembed=1>) price dropped ($0.000004 \u2192 $0.000001)"
+      ],
+      "Particle-ai": [],
+      "Openai": [],
+      "Moonshotai": [],
+      "Recursive": [],
+      "Minimax": [],
+      "Deepseek": [],
+      "Elorian": [],
+      "Xingchen-agi": [],
+      "Reflection": [],
+      "Inception": [],
+      "Prism-ml": [],
+      "Moondream": [],
+      "Meta": [],
+      "Nvidia": [],
+      "Unbiased": [],
+      "~unbiased": [],
+      "Liquid": [],
+      "Google": [],
+      "Scaledown": [],
+      "Stepfun": [],
+      "Anthropic": [],
+      "Mistralai": [],
+      "Inclusionai": [
+        "\ud83c\udd95 [Ling 3.0 Tiny](<https://openrouter.ai/chat?models=inclusionai/ling-3.0-tiny&noembed=1>) added"
+      ],
+      "Perceptron": [],
+      "Fireworks": [],
+      "Qwen": [],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Cohere": [],
+      "Xiaomi": [],
+      "X-ai": [],
+      "~deepseek": [],
+      "Inference-net": [],
+      "~openai": [],
+      "Sakana": [],
+      "Nex-agi": [],
+      "Ibm-granite": [],
+      "~z-ai": [],
+      "Dots-studio": [],
+      "Bytedance-seed": [],
+      "Thinkingmachines": [],
+      "Meituan": [],
+      "~x-ai": [],
+      "~anthropic": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Rekaai": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Anthracite-org": [],
+      "Sao10k": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": [],
+      "Openrouter": [
+        "\ud83c\udd95 [Auto Code](<https://openrouter.ai/chat?models=openrouter/auto-code&noembed=1>) added"
+      ],
+      "Typesafe": []
+    }
   }
 ]
