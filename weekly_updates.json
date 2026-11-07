@@ -243,5 +243,92 @@
       "Openrouter": [],
       "Typesafe": []
     }
+  },
+  {
+    "date": "2026-11-07",
+    "changes": {
+      "Liquid": [
+        "\ud83c\udd95 [LFM3-1.7B](<https://openrouter.ai/chat?models=liquid/lfm-3-1.7b&noembed=1>) added",
+        "\ud83c\udd95 [LFM3-1.7B (free)](<https://openrouter.ai/chat?models=liquid/lfm-3-1.7b:free&noembed=1>) added"
+      ],
+      "Google": [],
+      "Ricursiveai": [],
+      "Tencent": [],
+      "Stealth": [],
+      "Z-ai": [],
+      "Particle-ai": [],
+      "Openai": [],
+      "Moonshotai": [],
+      "Recursive": [],
+      "Minimax": [
+        "\ud83c\udd95 [MiniMax M3 (batch)](<https://openrouter.ai/chat?models=minimax/minimax-m3:batch&noembed=1>) added"
+      ],
+      "Deepseek": [
+        "\ud83c\udd95 [DeepSeek V4 Flash 0731 (batch)](<https://openrouter.ai/chat?models=deepseek/deepseek-v4-flash-0731:batch&noembed=1>) added"
+      ],
+      "Elorian": [],
+      "Xingchen-agi": [],
+      "Reflection": [],
+      "Inception": [],
+      "Prism-ml": [],
+      "Moondream": [],
+      "Meta": [
+        "\ud83c\udd95 [Muse Glimmer 30B (batch)](<https://openrouter.ai/chat?models=meta/muse-glimmer-30b:batch&noembed=1>) added"
+      ],
+      "Nvidia": [],
+      "Unbiased": [],
+      "~unbiased": [],
+      "Scaledown": [],
+      "Stepfun": [],
+      "Anthropic": [],
+      "Mistralai": [],
+      "Inclusionai": [],
+      "Perceptron": [],
+      "Fireworks": [],
+      "Qwen": [
+        "\ud83c\udd95 [Qwen3.8 27B (batch)](<https://openrouter.ai/chat?models=qwen/qwen3.8-27b:batch&noembed=1>) added"
+      ],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Cohere": [],
+      "Xiaomi": [],
+      "X-ai": [],
+      "~deepseek": [],
+      "Inference-net": [],
+      "~openai": [],
+      "Sakana": [],
+      "Nex-agi": [],
+      "Ibm-granite": [],
+      "~z-ai": [],
+      "Dots-studio": [],
+      "Bytedance-seed": [],
+      "Thinkingmachines": [
+        "\ud83c\udd95 [Inkling Small (batch)](<https://openrouter.ai/chat?models=thinkingmachines/inkling-small:batch&noembed=1>) added"
+      ],
+      "Meituan": [],
+      "~x-ai": [],
+      "~anthropic": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Rekaai": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Anthracite-org": [],
+      "Sao10k": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": [],
+      "Openrouter": [],
+      "Typesafe": []
+    }
   }
 ]
