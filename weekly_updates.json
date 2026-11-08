@@ -330,5 +330,88 @@
       "Openrouter": [],
       "Typesafe": []
     }
+  },
+  {
+    "date": "2026-11-08",
+    "changes": {
+      "Liquid": [],
+      "Google": [],
+      "Ricursiveai": [],
+      "Tencent": [],
+      "Stealth": [],
+      "Z-ai": [
+        "\ud83c\udd95 [GLM 5.2 (batch)](<https://openrouter.ai/chat?models=z-ai/glm-5.2:batch&noembed=1>) added"
+      ],
+      "Particle-ai": [],
+      "Openai": [],
+      "Moonshotai": [
+        "\ud83d\udcb8 [Kimi K3 (batch)](<https://openrouter.ai/chat?models=moonshotai/kimi-k3:batch&noembed=1>) price dropped ($0.000014 \u2192 $0.000007)"
+      ],
+      "Recursive": [],
+      "Minimax": [],
+      "Deepseek": [
+        "\ud83c\udd95 [DeepSeek V4.1 Flash 1017 (batch)](<https://openrouter.ai/chat?models=deepseek/deepseek-v4.1-flash-1017:batch&noembed=1>) added",
+        "\ud83d\udcb8 [DeepSeek V4 Pro 0423](<https://openrouter.ai/chat?models=deepseek/deepseek-v4-pro&noembed=1>) price dropped ($0.000002 \u2192 $0.000001)"
+      ],
+      "Elorian": [],
+      "Xingchen-agi": [],
+      "Reflection": [],
+      "Prism-ml": [],
+      "Moondream": [],
+      "Meta": [],
+      "Nvidia": [],
+      "Unbiased": [],
+      "~unbiased": [],
+      "Scaledown": [],
+      "Stepfun": [],
+      "Anthropic": [],
+      "Mistralai": [],
+      "Inclusionai": [],
+      "Perceptron": [],
+      "Fireworks": [],
+      "Qwen": [],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Cohere": [],
+      "Xiaomi": [],
+      "X-ai": [],
+      "~deepseek": [],
+      "Inference-net": [],
+      "~openai": [],
+      "Sakana": [],
+      "Nex-agi": [],
+      "Ibm-granite": [],
+      "~z-ai": [],
+      "Dots-studio": [],
+      "Bytedance-seed": [],
+      "Thinkingmachines": [],
+      "Meituan": [],
+      "~x-ai": [],
+      "~anthropic": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Rekaai": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [
+        "\ud83c\udd95 [Morph V3 Large (batch)](<https://openrouter.ai/chat?models=morph/morph-v3-large:batch&noembed=1>) added",
+        "\ud83c\udd95 [Morph V3 Fast (batch)](<https://openrouter.ai/chat?models=morph/morph-v3-fast:batch&noembed=1>) added"
+      ],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Anthracite-org": [],
+      "Sao10k": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": [],
+      "Openrouter": [],
+      "Typesafe": []
+    }
   }
 ]
