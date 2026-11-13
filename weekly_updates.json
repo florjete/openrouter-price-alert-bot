@@ -81,5 +81,97 @@
       "Openrouter": [],
       "Typesafe": []
     }
+  },
+  {
+    "date": "2026-11-13",
+    "changes": {
+      "Google": [
+        "\ud83c\udd95 [Gemini 4 Hydrogen](<https://openrouter.ai/chat?models=google/gemini-4-hydrogen&noembed=1>) added",
+        "\ud83c\udd95 [Gemini 4 Hydrogen (batch)](<https://openrouter.ai/chat?models=google/gemini-4-hydrogen:batch&noembed=1>) added"
+      ],
+      "Baidu": [
+        "\ud83c\udd95 [ERNIE-5.5-Flash-Preview (free)](<https://openrouter.ai/chat?models=baidu/ernie-5.5-flash-preview:free&noembed=1>) added",
+        "\ud83c\udd95 [ERNIE-Light-DT-1.0](<https://openrouter.ai/chat?models=baidu/ernie-light-dt-1.0-intl&noembed=1>) added"
+      ],
+      "Nex-agi": [],
+      "Thinkingmachines": [
+        "\ud83c\udd95 [Inkling 2 Small](<https://openrouter.ai/chat?models=thinkingmachines/inkling-2-small&noembed=1>) added"
+      ],
+      "Anthropic": [],
+      "Meta": [],
+      "Liquid": [],
+      "Kt": [
+        "\ud83c\udd95 [Mi:dm K 3.0 Pro](<https://openrouter.ai/chat?models=kt/midm-k-3.0-pro&noembed=1>) added"
+      ],
+      "Ricursiveai": [],
+      "Tencent": [],
+      "Motif-technologies": [
+        "\ud83c\udd95 [Motif 3](<https://openrouter.ai/chat?models=motif-technologies/motif-3&noembed=1>) added"
+      ],
+      "Z-ai": [],
+      "Particle-ai": [
+        "\ud83c\udd95 [Particle-1 (free)](<https://openrouter.ai/chat?models=particle-ai/particle-1:free&noembed=1>) added"
+      ],
+      "Openai": [],
+      "Moonshotai": [
+        "\ud83c\udd95 [Kimi K3.1 Pro (batch)](<https://openrouter.ai/chat?models=moonshotai/kimi-k3.1-pro:batch&noembed=1>) added"
+      ],
+      "Recursive": [],
+      "Minimax": [],
+      "Deepseek": [],
+      "Elorian": [],
+      "Reflection": [],
+      "Prism-ml": [],
+      "Moondream": [],
+      "Nvidia": [],
+      "Unbiased": [
+        "\ud83c\udd95 [Pareto 26.10 Preview](<https://openrouter.ai/chat?models=unbiased/pareto-26.10-preview&noembed=1>) added"
+      ],
+      "~unbiased": [],
+      "Scaledown": [],
+      "Stepfun": [],
+      "Mistralai": [],
+      "Inclusionai": [],
+      "Perceptron": [],
+      "Fireworks": [],
+      "Qwen": [],
+      "Aion-labs": [],
+      "Upstage": [],
+      "Cohere": [],
+      "Xiaomi": [],
+      "X-ai": [],
+      "~deepseek": [],
+      "Inference-net": [],
+      "~openai": [],
+      "Sakana": [],
+      "Ibm-granite": [],
+      "~z-ai": [],
+      "Dots-studio": [],
+      "Bytedance-seed": [],
+      "Meituan": [],
+      "~x-ai": [],
+      "~anthropic": [],
+      "~google": [],
+      "~moonshotai": [],
+      "Rekaai": [],
+      "Writer": [],
+      "Relace": [],
+      "Amazon": [],
+      "Perplexity": [],
+      "Thedrummer": [],
+      "Nousresearch": [],
+      "Bytedance": [],
+      "Cognitivecomputations": [],
+      "Morph": [],
+      "Meta-llama": [],
+      "Microsoft": [],
+      "Anthracite-org": [],
+      "Sao10k": [],
+      "Mancer": [],
+      "Undi95": [],
+      "Gryphe": [],
+      "Openrouter": [],
+      "Typesafe": []
+    }
   }
 ]
