@@ -1,5 +1,23 @@
 [
   {
+    "id": "thinkingmachines/inkling-2-mini",
+    "name": "Thinking Machines: Inkling 2 Mini",
+    "provider": "thinkingmachines",
+    "price_per_1k_input": 1e-07,
+    "price_per_1k_output": 4e-07,
+    "context_length": 1048576,
+    "updated_at": ""
+  },
+  {
+    "id": "radixark/daisyrose-27b",
+    "name": "RadixArk: DaisyRose 27B",
+    "provider": "radixark",
+    "price_per_1k_input": 1.5e-07,
+    "price_per_1k_output": 1.875e-06,
+    "context_length": 262144,
+    "updated_at": ""
+  },
+  {
     "id": "mistralai/pixtral-large-2502",
     "name": "Mistral: Pixtral Large 2502",
     "provider": "mistralai",
@@ -472,7 +490,7 @@
     "name": "NVIDIA: Nemotron 3.5 Super VL",
     "provider": "nvidia",
     "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 5e-07,
+    "price_per_1k_output": 4.7e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -860,7 +878,7 @@
     "provider": "xiaomi",
     "price_per_1k_input": 1.4e-07,
     "price_per_1k_output": 2.8e-07,
-    "context_length": 1050000,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -869,7 +887,7 @@
     "provider": "xiaomi",
     "price_per_1k_input": 4.35e-07,
     "price_per_1k_output": 8.7e-07,
-    "context_length": 1050000,
+    "context_length": 1048576,
     "updated_at": ""
   },
   {
@@ -1020,8 +1038,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 4.98e-08,
+    "price_per_1k_output": 1.992e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1227,8 +1245,8 @@
     "id": "deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "provider": "deepseek",
-    "price_per_1k_input": 4.4e-07,
-    "price_per_1k_output": 1.32e-06,
+    "price_per_1k_input": 2.156e-07,
+    "price_per_1k_output": 6.468e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1302,15 +1320,6 @@
     "price_per_1k_input": 1.6e-07,
     "price_per_1k_output": 2e-06,
     "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "dots-studio/dots-3-note-preview:free",
-    "name": "Dots Studio: Dots3-Note Preview (free)",
-    "provider": "dots-studio",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 512000,
     "updated_at": ""
   },
   {
@@ -1563,15 +1572,6 @@
     "price_per_1k_input": 1.5e-07,
     "price_per_1k_output": 1.25e-06,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "meituan/longcat-2.0",
-    "name": "Meituan: LongCat 2.0",
-    "provider": "meituan",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
-    "context_length": 1048756,
     "updated_at": ""
   },
   {
@@ -2214,15 +2214,6 @@
     "updated_at": ""
   },
   {
-    "id": "tencent/hy3-preview",
-    "name": "Tencent: Hy3 preview",
-    "provider": "tencent",
-    "price_per_1k_input": 1.8e-07,
-    "price_per_1k_output": 6e-07,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
     "id": "xiaomi/mimo-v2.5-pro",
     "name": "Xiaomi: MiMo-V2.5-Pro",
     "provider": "xiaomi",
@@ -2298,8 +2289,8 @@
     "id": "google/gemma-4-26b-a4b-it",
     "name": "Google: Gemma 4 26B A4B ",
     "provider": "google",
-    "price_per_1k_input": 9e-08,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 6.75e-08,
+    "price_per_1k_output": 2.25e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -2397,8 +2388,8 @@
     "id": "minimax/minimax-m2.7",
     "name": "MiniMax: MiniMax M2.7",
     "provider": "minimax",
-    "price_per_1k_input": 2.1e-07,
-    "price_per_1k_output": 8.4e-07,
+    "price_per_1k_input": 6e-07,
+    "price_per_1k_output": 1.8e-06,
     "context_length": 196608,
     "updated_at": ""
   },
@@ -2667,8 +2658,8 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 2.95e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 2.7e-07,
+    "price_per_1k_output": 9.5e-07,
     "context_length": 198000,
     "updated_at": ""
   },
@@ -3333,8 +3324,8 @@
     "id": "openai/gpt-oss-20b",
     "name": "OpenAI: gpt-oss-20b",
     "provider": "openai",
-    "price_per_1k_input": 1.8e-08,
-    "price_per_1k_output": 9e-08,
+    "price_per_1k_input": 1.7e-08,
+    "price_per_1k_output": 8.5e-08,
     "context_length": 131072,
     "updated_at": ""
   },
@@ -3378,8 +3369,8 @@
     "id": "qwen/qwen3-coder-30b-a3b-instruct",
     "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
     "provider": "qwen",
-    "price_per_1k_input": 1.5e-07,
-    "price_per_1k_output": 6e-07,
+    "price_per_1k_input": 7e-08,
+    "price_per_1k_output": 2.8e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -3711,8 +3702,8 @@
     "id": "deepseek/deepseek-chat-v3-0324",
     "name": "DeepSeek: DeepSeek V3 0324",
     "provider": "deepseek",
-    "price_per_1k_input": 2.9e-07,
-    "price_per_1k_output": 1.14e-06,
+    "price_per_1k_input": 2.5e-07,
+    "price_per_1k_output": 1e-06,
     "context_length": 163840,
     "updated_at": ""
   },
