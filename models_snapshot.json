@@ -633,8 +633,8 @@
     "id": "inclusionai/ling-3.1-flash",
     "name": "inclusionAI: Ling 3.1 Flash",
     "provider": "inclusionai",
-    "price_per_1k_input": 6e-08,
-    "price_per_1k_output": 1.8e-07,
+    "price_per_1k_input": 7.5e-08,
+    "price_per_1k_output": 2.25e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1038,8 +1038,8 @@
     "id": "deepseek/deepseek-v4.1-flash",
     "name": "DeepSeek: DeepSeek V4.1 Flash",
     "provider": "deepseek",
-    "price_per_1k_input": 3e-07,
-    "price_per_1k_output": 1.2e-06,
+    "price_per_1k_input": 5.07e-08,
+    "price_per_1k_output": 2.028e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1200,8 +1200,8 @@
     "id": "~z-ai/glm-flash-latest",
     "name": "Z.ai: GLM Flash Latest",
     "provider": "~z-ai",
-    "price_per_1k_input": 4.75e-08,
-    "price_per_1k_output": 7.29e-08,
+    "price_per_1k_input": 3.56e-08,
+    "price_per_1k_output": 8.15e-08,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1245,8 +1245,8 @@
     "id": "deepseek/deepseek-v4-flash-vision-exp",
     "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
     "provider": "deepseek",
-    "price_per_1k_input": 2.156e-07,
-    "price_per_1k_output": 6.468e-07,
+    "price_per_1k_input": 4.4e-07,
+    "price_per_1k_output": 1.32e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1308,8 +1308,8 @@
     "id": "qwen/qwen3.8-27b",
     "name": "Qwen: Qwen3.8 27B",
     "provider": "qwen",
-    "price_per_1k_input": 3.5e-08,
-    "price_per_1k_output": 1.5e-06,
+    "price_per_1k_input": 6e-08,
+    "price_per_1k_output": 1.96e-06,
     "context_length": 1024000,
     "updated_at": ""
   },
@@ -1320,15 +1320,6 @@
     "price_per_1k_input": 1.6e-07,
     "price_per_1k_output": 2e-06,
     "context_length": 262144,
-    "updated_at": ""
-  },
-  {
-    "id": "dots-studio/dots-3-note-preview:free",
-    "name": "Dots Studio: Dots3-Note Preview (free)",
-    "provider": "dots-studio",
-    "price_per_1k_input": 0.0,
-    "price_per_1k_output": 0.0,
-    "context_length": 512000,
     "updated_at": ""
   },
   {
@@ -1398,7 +1389,7 @@
     "id": "nvidia/nemotron-3.5-lightning",
     "name": "NVIDIA: Nemotron 3.5 Lightning",
     "provider": "nvidia",
-    "price_per_1k_input": 7e-08,
+    "price_per_1k_input": 5e-08,
     "price_per_1k_output": 2e-07,
     "context_length": 1048576,
     "updated_at": ""
@@ -1470,8 +1461,8 @@
     "id": "~deepseek/deepseek-v4-flash-latest",
     "name": "DeepSeek: DeepSeek V4 Flash Latest",
     "provider": "~deepseek",
-    "price_per_1k_input": 4.34e-08,
-    "price_per_1k_output": 3e-07,
+    "price_per_1k_input": 4.532e-08,
+    "price_per_1k_output": 1.3596e-07,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -1479,7 +1470,7 @@
     "id": "deepseek/deepseek-v4-flash-0731",
     "name": "DeepSeek: DeepSeek V4 Flash 0731",
     "provider": "deepseek",
-    "price_per_1k_input": 4.34e-08,
+    "price_per_1k_input": 4.56e-08,
     "price_per_1k_output": 3e-07,
     "context_length": 1048576,
     "updated_at": ""
@@ -1767,8 +1758,8 @@
     "id": "tencent/hy3",
     "name": "Tencent: Hy3",
     "provider": "tencent",
-    "price_per_1k_input": 1.4e-07,
-    "price_per_1k_output": 5.8e-07,
+    "price_per_1k_input": 8.25e-08,
+    "price_per_1k_output": 3.3e-07,
     "context_length": 262144,
     "updated_at": ""
   },
@@ -1949,7 +1940,7 @@
     "provider": "stepfun",
     "price_per_1k_input": 2e-07,
     "price_per_1k_output": 1.15e-06,
-    "context_length": 262144,
+    "context_length": 256000,
     "updated_at": ""
   },
   {
@@ -2208,8 +2199,8 @@
     "id": "deepseek/deepseek-v4-pro",
     "name": "DeepSeek: DeepSeek V4 Pro 0423",
     "provider": "deepseek",
-    "price_per_1k_input": 9e-07,
-    "price_per_1k_output": 1.5e-06,
+    "price_per_1k_input": 1.28e-06,
+    "price_per_1k_output": 2.56e-06,
     "context_length": 1048576,
     "updated_at": ""
   },
@@ -2220,15 +2211,6 @@
     "price_per_1k_input": 9e-08,
     "price_per_1k_output": 1.8e-07,
     "context_length": 1048576,
-    "updated_at": ""
-  },
-  {
-    "id": "xiaomi/mimo-v2.5",
-    "name": "Xiaomi: MiMo-V2.5",
-    "provider": "xiaomi",
-    "price_per_1k_input": 4e-07,
-    "price_per_1k_output": 2e-06,
-    "context_length": 1000000,
     "updated_at": ""
   },
   {
@@ -2658,9 +2640,9 @@
     "id": "minimax/minimax-m2.5",
     "name": "MiniMax: MiniMax M2.5",
     "provider": "minimax",
-    "price_per_1k_input": 2.7e-07,
-    "price_per_1k_output": 9.5e-07,
-    "context_length": 198000,
+    "price_per_1k_input": 3e-07,
+    "price_per_1k_output": 1.2e-06,
+    "context_length": 65536,
     "updated_at": ""
   },
   {
@@ -2988,15 +2970,6 @@
     "updated_at": ""
   },
   {
-    "id": "moonshotai/kimi-k2-thinking",
-    "name": "MoonshotAI: Kimi K2 Thinking",
-    "provider": "moonshotai",
-    "price_per_1k_input": 6e-07,
-    "price_per_1k_output": 2.5e-06,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
     "id": "amazon/nova-premier-v1",
     "name": "Amazon: Nova Premier 1.0",
     "provider": "amazon",
@@ -3204,15 +3177,6 @@
     "updated_at": ""
   },
   {
-    "id": "moonshotai/kimi-k2-0905",
-    "name": "MoonshotAI: Kimi K2 0905",
-    "provider": "moonshotai",
-    "price_per_1k_input": 6e-07,
-    "price_per_1k_output": 2.5e-06,
-    "context_length": 262144,
-    "updated_at": ""
-  },
-  {
     "id": "nousresearch/hermes-4-405b",
     "name": "Nous: Hermes 4 405B",
     "provider": "nousresearch",
@@ -3228,15 +3192,6 @@
     "price_per_1k_input": 2.5e-07,
     "price_per_1k_output": 9.5e-07,
     "context_length": 163840,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/mistral-medium-3.1",
-    "name": "Mistral: Mistral Medium 3.1",
-    "provider": "mistralai",
-    "price_per_1k_input": 4.4e-07,
-    "price_per_1k_output": 2.2e-06,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -3447,15 +3402,6 @@
     "updated_at": ""
   },
   {
-    "id": "moonshotai/kimi-k2",
-    "name": "MoonshotAI: Kimi K2 0711",
-    "provider": "moonshotai",
-    "price_per_1k_input": 5.7e-07,
-    "price_per_1k_output": 2.3e-06,
-    "context_length": 131072,
-    "updated_at": ""
-  },
-  {
     "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
     "name": "Venice: Uncensored",
     "provider": "cognitivecomputations",
@@ -3552,15 +3498,6 @@
     "price_per_1k_input": 5.71e-07,
     "price_per_1k_output": 2.286e-06,
     "context_length": 163840,
-    "updated_at": ""
-  },
-  {
-    "id": "mistralai/mistral-medium-3",
-    "name": "Mistral: Mistral Medium 3",
-    "provider": "mistralai",
-    "price_per_1k_input": 4.4e-07,
-    "price_per_1k_output": 2.2e-06,
-    "context_length": 131072,
     "updated_at": ""
   },
   {
@@ -4044,8 +3981,8 @@
     "id": "meta-llama/llama-3.1-8b-instruct",
     "name": "Meta: Llama 3.1 8B Instruct",
     "provider": "meta-llama",
-    "price_per_1k_input": 2e-08,
-    "price_per_1k_output": 4e-08,
+    "price_per_1k_input": 5e-08,
+    "price_per_1k_output": 8e-08,
     "context_length": 131072,
     "updated_at": ""
   },
